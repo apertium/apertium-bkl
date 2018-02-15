@@ -4,10 +4,16 @@ Multichar_Symbols
 
 ! Part of speech categories
 %<n%>   ! Noun
+%<neg%> ! Negation
 
 ! Number morphology
 %<pl%>  ! Plural
 %<sg%>  ! Singular
+
+! Cases
+%<subj%>
+%<ins%>
+%<pos%>
 
 ! Other symbols
 %>      ! Morpheme boundary
@@ -24,9 +30,12 @@ NounRoot ;
 
 LEXICON RegNounInfl
 
-%<n%>%<sg%>: # ;
-%<n%>%<pl%>:%>s # ;
+0:0 # ;
 
+!%<n%>%<subj%>:na # ;
+!%<n%>yan%<neg%>:yan # ;
+!%<n%>%<ins%>:em # ;
+!%<n%>%<pos%>:mana # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
