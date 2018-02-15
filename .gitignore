@@ -1,1 +1,12 @@
 .deps
+bkl.autogen.att.gz
+bkl.autogen.bin
+bkl.autogen.hfst
+bkl.automorf.att.gz
+bkl.automorf.bin
+bkl.automorf.hfst
+bkl.autopgen.bin
+bkl.prob
+bkl.rlx.bin
+modes/
+autom4te.cache/requests
