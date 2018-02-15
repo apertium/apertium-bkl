@@ -34,7 +34,11 @@ LEXICON RegNounInfl
 
 LEXICON NounRoot
 
-house:house RegNounInfl ; ! A noun
+o:o RegNounInfl ; ! "earth, soil"
+son:son RegNounInfl ; ! "dust, ashes"
+betik:betik RegNounInfl ; ! "mud"
+dwis:dwis RegNounInfl ; ! "sand"
+ton:ton RegNounInfl ; ! "stone"
 
 
 
