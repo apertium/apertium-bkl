@@ -12,7 +12,7 @@ Vowel = A E I O U
 Rules 
 
 !"Remove suffix vowel with vowel-ending stem"
-!i:0 <=> Vow %{VSUF%}:0 _ [ m | n ] ;
+i:0 <=> Vow %{VSUF%}:0 _ [ m | n ] ;
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol

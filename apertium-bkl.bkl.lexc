@@ -30,9 +30,9 @@ NounRoot ;
 
 LEXICON RegNounInfl
 
-0:0 # ;
+! # ;
 
-!%<n%>%<subj%>:na # ;
+%<n%>%<subj%>:na # ;
 !%<n%>yan%<neg%>:yan # ;
 !%<n%>%<ins%>:em # ;
 !%<n%>%<pos%>:mana # ;
