@@ -30,12 +30,10 @@ NounRoot ;
 
 LEXICON RegNounInfl
 
-! # ;
-
 %<n%>%<subj%>:na # ;
-!%<n%>yan%<neg%>:yan # ;
-!%<n%>%<ins%>:em # ;
-!%<n%>%<pos%>:mana # ;
+%<n%>yan%<neg%>:yan # ;
+%<n%>%<ins%>:em # ;
+%<n%>%<pos%>:mana # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
