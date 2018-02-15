@@ -1,0 +1,8 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+srcdir=@datarootdir@/apertium/apertium-bkl
+
+Name: apertium-bkl
+Description: Finite-state morphological transducer and constraint grammar for bkl 
+Version: @VERSION@
+
