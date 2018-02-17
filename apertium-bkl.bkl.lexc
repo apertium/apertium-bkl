@@ -5,6 +5,16 @@ Multichar_Symbols
 ! Part of speech categories
 %<n%>   ! Noun
 %<neg%> ! Negation
+%<resp%> ! Response
+%<psimp%> ! Pseudo-Imperatives
+%<ij%> ! Interjection
+%<itg%> ! Interogative
+%<num%> ! Numeral
+%<adv%> ! Adverb
+%<man%> ! Manner (subclass of Adverb)
+%<temp%> ! Temporal
+%<locl%> ! Locational
+%<conj%> ! Conjunction
 
 ! Number morphology
 %<pl%>  ! Plural
@@ -26,6 +36,7 @@ Multichar_Symbols
 LEXICON Root
 
 NounRoot ;
+ClosedClass ;
 
 
 LEXICON RegNounInfl
@@ -46,6 +57,53 @@ son:son RegNounInfl ; ! "dust, ashes"
 betik:betik RegNounInfl ; ! "mud"
 dwis:dwis RegNounInfl ; ! "sand"
 ton:ton RegNounInfl ; ! "stone"
+
+LEXICON ClosedClass
+
+ngga%<resp%>:ngga # ; ! "yes"
+sia%<resp%>:sia # ; ! "yes"
+wowo%<resp%>:wowo # ; ! "no"
+fas%<resp%>:fas # ; ! "none"
+bar%<resp%>:bar # ; ! "finished"
+bai%<resp%>:bai # ; ! "don't want"
+au%<psimp%>:au # ; ! "come"
+aiyai%<psimp%>:aiyai # ; ! "watch out"
+jesbaf%<psimp%>:jesbaf # ; ! "don't"
+wa%<ij%>:wa # ; ! "(amazement)"
+nesik%<ij%>:nesik # ; ! "(pity)"
+basa%<itg%>:basa # ; ! "what"
+nasa%<itg%>:nasa # ; ! "who"
+bafa%<itg%>:bafa # ; ! "why"
+fomera%<itg%>:fomera # ; ! "how many"
+fwera%<itg%>:fwera # ; ! "where"
+fonggalabar%<itg%>:fonggalabar # ; ! "when"
+daamfena%<num%>:daamfena # ; ! "one"
+naura%<num%>:naura # ; ! "two"
+nawerningna%<num%>:nawerningna # ; ! "three"
+nawernaura%<num%>:nawernaura # ; ! "four"
+mese%<adv%>%<man%>:mese # ; ! "also"
+gamjon%<adv%>%<man%>:gamjon # ; ! "again"
+enggam%<adv%>%<man%>:enggam # ; ! "like this"
+maa%<adv%>%<man%>:maa # ; ! "already"
+gamerje%<adv%>%<man%>:gamerje # ; ! "not yet"
+galap%<adv%>%<man%>:galap # ; ! "later"
+namwer%<temp%>:namwer # ; ! "today, now"
+gwirmir%<temp%>:gwirmir # ; ! "tomorrow"
+ir%<temp%>:ir # ; ! "yesterday"
+jem%<temp%>:jem # ; ! "day before or day after"
+gwerem%<temp%>:gwerem # ; ! "noon"
+dafef%<temp%>:dafef # ; ! "afternoon"
+afunup%<locl%>:afunup # ; ! "middle of"
+safap%<locl%>:safap # ; ! "on"
+burawer%<locl%>:burawer # ; ! "behind"
+yo%<conj%>:yo # ; ! "and"
+afa%<conj%>:afa # ; ! "or"
+ane%<conj%>:ane # ; ! "and"
+ga%<conj%>:ga # ; ! "and"
+jeuga%<conj%>:jeuga # ; ! "but"
+jebas%<conj%>:jebas # ; ! "because"
+jengga%<conj%>:jengga # ; ! "then"
+jamer%<conj%>:jamer # ; ! "until"
 
 
 
