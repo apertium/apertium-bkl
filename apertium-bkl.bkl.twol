@@ -1,7 +1,10 @@
 Alphabet
  A B D E F G I J K L M N O P R S T U W Y
  a b d e f g i j k l m n o p r s t u w y
- %{A%}:a %>:0  ;
+ %{F%}:f %{F%}:b
+ %{S%}:s %{S%}:m
+ %{I%}:i %{I%}:0
+ %>:0  ;
 
 Sets
 

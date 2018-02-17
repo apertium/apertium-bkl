@@ -3,18 +3,18 @@
 Multichar_Symbols
 
 ! Part of speech categories
-%<n%>   ! Noun
-%<neg%> ! Negation
-%<resp%> ! Response
+%<n%>     ! Noun
+%<neg%>   ! Negation
+%<resp%>  ! Response
 %<psimp%> ! Pseudo-Imperatives
-%<ij%> ! Interjection
-%<itg%> ! Interogative
-%<num%> ! Numeral
-%<adv%> ! Adverb
-%<man%> ! Manner (subclass of Adverb)
-%<temp%> ! Temporal
-%<locl%> ! Locational
-%<conj%> ! Conjunction
+%<ij%>    ! Interjection
+%<itg%>   ! Interogative
+%<num%>   ! Numeral
+%<adv%>   ! Adverb
+%<man%>   ! Manner (subclass of Adverb)
+%<temp%>  ! Temporal
+%<locl%>  ! Locational
+%<conj%>  ! Conjunction
 
 ! Number morphology
 %<pl%>  ! Plural
@@ -24,9 +24,15 @@ Multichar_Symbols
 %<subj%>
 %<ins%>
 %<pos%>
+%<com%>
+%<dat%>
+%<acc%>
 
 ! Other symbols
 %>      ! Morpheme boundary
+%{F%}   ! for commitative
+%{S%}   ! for pronoun accusative
+%{I%}   ! for variation in 1S pronoun
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -37,6 +43,7 @@ LEXICON Root
 
 NounRoot ;
 ClosedClass ;
+PronounRoot ;
 
 
 LEXICON RegNounInfl
@@ -45,6 +52,14 @@ LEXICON RegNounInfl
 %<n%>yan%<neg%>:yan # ;
 %<n%>%<ins%>:em # ;
 %<n%>%<pos%>:mana # ;
+%<n%>%<com%>:%{F%}ar # ;
+%<n%>%<dat%>:f # ;
+%<n%>:0 # ; ! grammar sketch says "However, not all nouns as Subject take this inflection.", assuming this means they take nothing
+
+LEXICON PronounInfl
+
+%<prn%>%<acc%>:%{S%} # ;
+%<prn%>%<dat%>:p # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
@@ -105,6 +120,12 @@ jebas%<conj%>:jebas # ; ! "because"
 jengga%<conj%>:jengga # ; ! "then"
 jamer%<conj%>:jamer # ; ! "until"
 
+LEXICON PronounRoot
+
+ai:a%{I%} PronounInfl ; ! "I"
+ne:ne PronounInfl ; ! "we"
+i:i PronounInfl ; ! "you (SG)"
+je:je PronounInfl ; ! "he, she, it"
 
 
 ! Resources:
