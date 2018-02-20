@@ -1,0 +1,177 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../bkl.autogen.hfst
+    Morph: ../bkl.automorf.hfst
+Tests:
+  !!python/unicode 'Classes': {}
+  !!python/unicode 'Distance':
+    !!python/unicode 'disultena<v><tv><dst>':
+    - !!python/unicode 'disultetna'
+    !!python/unicode 'gwerana<v><tv><dst>':
+    - !!python/unicode 'gwerantetna'
+  !!python/unicode 'Gender':
+    !!python/unicode 'damtana<v><tv><f>':
+    - !!python/unicode 'domola'
+    !!python/unicode 'eyebana<v><tv><f>':
+    - !!python/unicode 'eyebili'
+    !!python/unicode 'gerbana<v><tv><f>':
+    - !!python/unicode 'golbili'
+    !!python/unicode 'gwebana<v><tv><f>':
+    - !!python/unicode 'gwebili'
+    !!python/unicode 'saftana<v><tv><f>':
+    - !!python/unicode 'sofola'
+    !!python/unicode 'sarbana<v><tv><f>':
+    - !!python/unicode 'sarbili'
+  !!python/unicode 'Give':
+    !!python/unicode 'gobali<v><tv><fut><du><dark>':
+    - !!python/unicode 'terbifi'
+    !!python/unicode 'gobali<v><tv><fut><du><sun>':
+    - !!python/unicode 'terbifi'
+    !!python/unicode 'gobali<v><tv><fut><pl><dark>':
+    - !!python/unicode 'kitulbifi'
+    !!python/unicode 'gobali<v><tv><fut><pl><sun>':
+    - !!python/unicode 'kitulbifi'
+    !!python/unicode 'gobali<v><tv><fut><sg><dark>':
+    - !!python/unicode 'golbifi'
+    !!python/unicode 'gobali<v><tv><fut><sg><sun>':
+    - !!python/unicode 'golbifi'
+    !!python/unicode 'gobali<v><tv><prs><du><dark>':
+    - !!python/unicode 'terbese'
+    !!python/unicode 'gobali<v><tv><prs><du><sun>':
+    - !!python/unicode 'terbili'
+    !!python/unicode 'gobali<v><tv><prs><pl><dark>':
+    - !!python/unicode 'kitobisi'
+    !!python/unicode 'gobali<v><tv><prs><pl><sun>':
+    - !!python/unicode 'kitobili'
+    !!python/unicode 'gobali<v><tv><prs><sg><dark>':
+    - !!python/unicode 'gobisi'
+    !!python/unicode 'gobali<v><tv><prs><sg><sun>':
+    - !!python/unicode 'gobili'
+    !!python/unicode 'gobali<v><tv><pst><du><dark>':
+    - !!python/unicode 'terbefint'
+    !!python/unicode 'gobali<v><tv><pst><du><sun>':
+    - !!python/unicode 'terbilint'
+    !!python/unicode 'gobali<v><tv><pst><pl><dark>':
+    - !!python/unicode 'kitulbifint'
+    !!python/unicode 'gobali<v><tv><pst><pl><sun>':
+    - !!python/unicode 'kitulbilint'
+    !!python/unicode 'gobali<v><tv><pst><sg><dark>':
+    - !!python/unicode 'golbifint'
+    !!python/unicode 'gobali<v><tv><pst><sg><sun>':
+    - !!python/unicode 'golbilint'
+    !!python/unicode 'gubana<v><tv><fut><du><dark>':
+    - !!python/unicode 'terbefe'
+    !!python/unicode 'gubana<v><tv><fut><du><sun>':
+    - !!python/unicode 'terbefe'
+    !!python/unicode 'gubana<v><tv><fut><pl><dark>':
+    - !!python/unicode 'kitobafo'
+    !!python/unicode 'gubana<v><tv><fut><pl><sun>':
+    - !!python/unicode 'kitobafo'
+    !!python/unicode 'gubana<v><tv><fut><sg><dark>':
+    - !!python/unicode 'gubafa'
+    !!python/unicode 'gubana<v><tv><fut><sg><sun>':
+    - !!python/unicode 'gulbafa'
+    !!python/unicode 'gubana<v><tv><prs><du><dark>':
+    - !!python/unicode 'terbese'
+    !!python/unicode 'gubana<v><tv><prs><du><sun>':
+    - !!python/unicode 'terbene'
+    !!python/unicode 'gubana<v><tv><prs><pl><dark>':
+    - !!python/unicode 'kitobasa'
+    !!python/unicode 'gubana<v><tv><prs><pl><sun>':
+    - !!python/unicode 'kitobana'
+    !!python/unicode 'gubana<v><tv><prs><sg><dark>':
+    - !!python/unicode 'gulbasa'
+    !!python/unicode 'gubana<v><tv><prs><sg><sun>':
+    - !!python/unicode 'gulbana'
+    !!python/unicode 'gubana<v><tv><pst><du><dark>':
+    - !!python/unicode 'terbefent'
+    !!python/unicode 'gubana<v><tv><pst><du><sun>':
+    - !!python/unicode 'terbenent'
+    !!python/unicode 'gubana<v><tv><pst><pl><dark>':
+    - !!python/unicode 'kitulbafant'
+    !!python/unicode 'gubana<v><tv><pst><pl><sun>':
+    - !!python/unicode 'kitulbanant'
+    !!python/unicode 'gubana<v><tv><pst><sg><dark>':
+    - !!python/unicode 'gulbafant'
+    !!python/unicode 'gubana<v><tv><pst><sg><sun>':
+    - !!python/unicode 'gulbanant'
+  !!python/unicode 'Nouns':
+    !!python/unicode 'Korano<n>+em<pos>':
+    - !!python/unicode 'Korano''''''em'''''''
+    !!python/unicode 'Korano<n>+far<com>':
+    - !!python/unicode 'Korano''''''far'''''''
+    !!python/unicode 'Korano<n>+mana<pos>':
+    - !!python/unicode 'Korano''''''mana'''''''
+    !!python/unicode 'at<n>+em<ins>':
+    - !!python/unicode 'at''''''em'''''''
+    !!python/unicode 'bangge<n><subj>':
+    - !!python/unicode 'bangge''''''na'''''''
+    !!python/unicode 'bwernabar<n>+yan<neg>':
+    - !!python/unicode 'bwernabar''''''yan'''''''
+    !!python/unicode 'domol<n>+yan<neg>':
+    - !!python/unicode 'domol''''''yan'''''''
+    !!python/unicode 'gin<n>+em<ins>':
+    - !!python/unicode 'gin''''''em'''''''
+    !!python/unicode 'gin<n>+em<post>':
+    - !!python/unicode 'ginem'
+    !!python/unicode 'gin<n><ins>':
+    - !!python/unicode 'ginem'
+    !!python/unicode 'gwora<n>+bara<relational>':
+    - !!python/unicode 'gwora''''''bara'''''''
+    !!python/unicode 'je<n>+bar<com>':
+    - !!python/unicode 'je''''''bar'''''''
+    !!python/unicode 'jina<n>+ap<post>':
+    - !!python/unicode 'jin''''''ap'''''''
+    !!python/unicode 'jina<n>+wer<post>':
+    - !!python/unicode 'jina''''''wer'''''''
+    !!python/unicode 'sita<n>+ap<post>':
+    - !!python/unicode 'sit''''''ap'''''''
+    !!python/unicode 'sita<n>+wer<post>':
+    - !!python/unicode 'sita''''''wer'''''''
+    !!python/unicode 'tane<n>+yan<neg>':
+    - !!python/unicode 'tane''''''yan'''''''
+    !!python/unicode 'uwa<n>+far<com>':
+    - !!python/unicode 'uwa''''''far'''''''
+    !!python/unicode 'uwa<n>+mana<pos>':
+    - !!python/unicode 'uwa''''''mana'''''''
+    !!python/unicode 'yafontoi<n>+bara<relational>':
+    - !!python/unicode 'yafontoi''''''bara'''''''
+  !!python/unicode 'Number':
+    !!python/unicode 'damtana<v><tv><du>':
+    - !!python/unicode 'domsona'
+    !!python/unicode 'damtana<v><tv><pl>':
+    - !!python/unicode 'damtabili'
+    !!python/unicode 'fina<v><iv><du>':
+    - !!python/unicode 'ge fina'
+    !!python/unicode 'fina<v><iv><pl>':
+    - !!python/unicode 'ge fibili'
+    !!python/unicode 'jila<v><iv><du>':
+    - !!python/unicode 'ge jila'
+    !!python/unicode 'jila<v><iv><pl>':
+    - !!python/unicode 'ge jalbili'
+    !!python/unicode 'nasbana<v><tv><du>':
+    - !!python/unicode 'nasona'
+    !!python/unicode 'nasbana<v><tv><pl>':
+    - !!python/unicode 'nasbabili'
+    !!python/unicode 'nasona<v><iv><du>':
+    - !!python/unicode 'ge nasona'
+    !!python/unicode 'nasona<v><iv><pl>':
+    - !!python/unicode 'ge nasbawena'
+    !!python/unicode 'saftana<v><tv><du>':
+    - !!python/unicode 'sofsona'
+    !!python/unicode 'saftana<v><tv><pl>':
+    - !!python/unicode 'saftabana'
+    !!python/unicode 'sofwa<v><iv><du>':
+    - !!python/unicode 'ge sofwa'
+    !!python/unicode 'sofwa<v><iv><pl>':
+    - !!python/unicode 'ge sofwabili'
+    !!python/unicode 'telbese<v><tv><du>':
+    - !!python/unicode 'telmisi'
+    !!python/unicode 'telbese<v><tv><pl>':
+    - !!python/unicode 'telbebesi'
+    !!python/unicode 'wirusu<v><tv><du>':
+    - !!python/unicode 'wirsosa'
+    !!python/unicode 'wirusu<v><tv><pl>':
+    - !!python/unicode 'wirtababisi'
+  !!python/unicode 'Verbs': {}
