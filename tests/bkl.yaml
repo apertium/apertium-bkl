@@ -23,7 +23,113 @@ Tests:
     - sofola
     sarbana<v><tv><f>:
     - sarbili
-  Give:
+  Modifiers:
+    ane<adj><int>:
+    - anesus
+    baabeta<adj><int>:
+    - baabetasus
+    bastantoi<adv>:
+    - bastantoifer
+    berbere<adj><int>:
+    - berberesus
+    bijua<adj><int>:
+    - bijuasus
+    bijua<adv>:
+    - bijuaber
+    bukona<adj><int>:
+    - bukonasus
+    kekelna<adj><int>:
+    - kekelnasus
+    samem<adj>+yan<neg>:
+    - samemyan
+    unggwandusa<adj>+yan<neg>:
+    - unggwandusayan
+    waaken<adv>:
+    - waakenfer
+  Nouns:
+    Korano<n><com>:
+    - Koranofar
+    Korano<n><pos>:
+    - Koranoem
+    at<n><ins>:
+    - atem
+    bangge<n><subj>:
+    - banggena
+    bwernabar<n>+yan<neg>:
+    - bwernabaryan
+    gin<n>+em<post>:
+    - ginem
+    gin<n><ins>:
+    - ginem
+    gwora<n><relational>:
+    - gworabara
+    jina<n>+ap<post>:
+    - jinap
+    jina<n>+wer<post>:
+    - jinawer
+    sita<n>+ap<post>:
+    - sitap
+    sita<n>+wer<post>:
+    - sitawer
+    tane<n>+yan<neg>:
+    - taneyan
+    uwa<n><com>:
+    - uwafar
+    uwa<n><pos>:
+    - uwamana
+    yafontoi<n><relational>:
+    - yafontoibara
+  Number:
+    damtana<v><tv><du>:
+    - domsona
+    damtana<v><tv><pl>:
+    - damtabili
+    fina<v><iv><du>:
+    - ge fina
+    fina<v><iv><pl>:
+    - ge fibili
+    jila<v><iv><du>:
+    - ge jila
+    jila<v><iv><pl>:
+    - ge jalbili
+    nasbana<v><tv><du>:
+    - nasona
+    nasbana<v><tv><pl>:
+    - nasbabili
+    nasona<v><iv><du>:
+    - ge nasona
+    nasona<v><iv><pl>:
+    - ge nasbawena
+    saftana<v><tv><du>:
+    - sofsona
+    saftana<v><tv><pl>:
+    - saftabana
+    sofwa<v><iv><du>:
+    - ge sofwa
+    sofwa<v><iv><pl>:
+    - ge sofwabili
+    telbese<v><tv><du>:
+    - telmisi
+    telbese<v><tv><pl>:
+    - telbebesi
+    wirusu<v><tv><du>:
+    - wirsosa
+    wirusu<v><tv><pl>:
+    - wirtababisi
+  Pronouns:
+    ai<prn>+yan<neg>:
+    - aiyan
+    ai<prn><acc>:
+    - am
+    ai<prn><acc><refl>:
+    - anan
+    ai<prn><dat>:
+    - ap
+    ai<prn><dem><part>:
+    - aiserem
+    je<prn><com>:
+    - jebar
+  To Give:
     gobali<v><tv><fut><du><dark>:
     - terbifi
     gobali<v><tv><fut><du><sun>:
@@ -96,74 +202,66 @@ Tests:
     - gulbafant
     gubana<v><tv><pst><sg><sun>:
     - gulbanant
-  Nouns:
-    Korano<n><com>:
-    - Koranofar
-    Korano<n><pos>:
-    - Koranoem
-    at<n><ins>:
-    - atem
-    bangge<n><subj>:
-    - banggena
-    bwernabar<n>+yan<neg>:
-    - bwernabaryan
-    gin<n><ins>:
-    - ginem
-    gwora<n><relational>:
-    - gworabara
-    je<prn><com>:
-    - jebar
-    jina<n>+ap<post>:
-    - jinap
-    jina<n>+wer<post>:
-    - jinawer
-    sita<n>+ap<post>:
-    - sitap
-    sita<n>+wer<post>:
-    - sitawer
-    tane<n>+yan<neg>:
-    - taneyan
-    uwa<n><com>:
-    - uwafar
-    uwa<n><pos>:
-    - uwamana
-    yafontoi<n><relational>:
-    - yafontoibara
-  Number:
-    damtana<v><tv><du>:
-    - domsona
-    damtana<v><tv><pl>:
-    - damtabili
-    fina<v><iv><du>:
-    - ge fina
-    fina<v><iv><pl>:
-    - ge fibili
-    jila<v><iv><du>:
-    - ge jila
-    jila<v><iv><pl>:
-    - ge jalbili
-    nasbana<v><tv><du>:
-    - nasona
-    nasbana<v><tv><pl>:
-    - nasbabili
-    nasona<v><iv><du>:
-    - ge nasona
-    nasona<v><iv><pl>:
-    - ge nasbawena
-    saftana<v><tv><du>:
-    - sofsona
-    saftana<v><tv><pl>:
-    - saftabana
-    sofwa<v><iv><du>:
-    - ge sofwa
-    sofwa<v><iv><pl>:
-    - ge sofwabili
-    telbese<v><tv><du>:
-    - telmisi
-    telbese<v><tv><pl>:
-    - telbebesi
-    wirusu<v><tv><du>:
-    - wirsosa
-    wirusu<v><tv><pl>:
-    - wirtababisi
+  To Place:
+    gwarantena<v><tv><prs><dst><du><high>:
+    - tosonswetna
+    gwarantena<v><tv><prs><dst><du><low>:
+    - tosontetfa
+    gwarantena<v><tv><prs><dst><pl><high>:
+    - bununswetna
+    gwarantena<v><tv><prs><dst><pl><low>:
+    - bununtetfa
+    gwarantena<v><tv><prs><dst><sg><high>:
+    - gweranswetna
+    gwarantena<v><tv><prs><dst><sg><low>:
+    - gwerantetfa
+    gwarantena<v><tv><prs><du><high>:
+    - tosonsona
+    gwarantena<v><tv><prs><du><low>:
+    - tosontona
+    gwarantena<v><tv><prs><pl><high>:
+    - bununsona
+    gwarantena<v><tv><prs><pl><low>:
+    - bununtona
+    gwarantena<v><tv><prs><sg><high>:
+    - gweransona
+    gwarantena<v><tv><prs><sg><low>:
+    - gwerantena
+  To Tie:
+    fwirna<v><tv><fut><du><dark>:
+    - faaresa
+    fwirna<v><tv><fut><du><sun>:
+    - faarefa
+    fwirna<v><tv><fut><pl><dark>:
+    - taferebisi
+    fwirna<v><tv><fut><pl><sun>:
+    - taferebifi
+    fwirna<v><tv><fut><sg><dark>:
+    - fwiresa
+    fwirna<v><tv><fut><sg><sun>:
+    - fwirena
+    fwirna<v><tv><prs><du><dark>:
+    - faaresa
+    fwirna<v><tv><prs><du><sun>:
+    - faarena
+    fwirna<v><tv><prs><pl><dark>:
+    - taferebisi
+    fwirna<v><tv><prs><pl><sun>:
+    - taferebili
+    fwirna<v><tv><prs><sg><dark>:
+    - fwiresa
+    fwirna<v><tv><prs><sg><sun>:
+    - fwirena
+    fwirna<v><tv><pst><du><dark>:
+    - faarenant
+    fwirna<v><tv><pst><du><sun>:
+    - faarefant
+    fwirna<v><tv><pst><pl><dark>:
+    - taferebifint
+    fwirna<v><tv><pst><pl><sun>:
+    - taferebilint
+    fwirna<v><tv><pst><sg><dark>:
+    - fwirenant
+    fwirna<v><tv><pst><sg><sun>:
+    - fwirenant
   Verbs: {}
