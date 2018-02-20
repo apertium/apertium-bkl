@@ -79,12 +79,13 @@ LEXICON RegNounInfl
 
 LEXICON PronounInfl
 
-%<prn%>%<acc%>:%{S%} # ;
-%<prn%>%<dat%>:p # ;
-%<prn%>%<com%>:bar # ;
-%<prn%>%<acc%>%<ref%>:nan # ;
-%<prn%>yan%<neg%>:yan # ;
-%<prn%>%<dem%>%<part%>:serem # ;
+%<acc%>:%{S%} # ;
+%<dat%>:p # ;
+%<com%>:bar # ;
+%<acc%>%<ref%>:nan # ;
+yan%<neg%>:yan # ;
+%<dem%>%<part%>:serem # ;
+# ;
 
 ! -mena/-rem unclear (TODO)
 
@@ -96,11 +97,11 @@ LEXICON ModifierInfl
 %<adj%>%<neg%>:yan # ;
 %<adj%>:tena VerbInfl ;
 
+! it's not explicit, but these suffixes probably apply to both adverbs and adjectives (TODO)
+
 LEXICON VerbInfl
 
 %<v%>:0 # ;
-
-! it's not explicit, but these suffixes probably apply to both adverbs and adjectives (TODO)
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
@@ -163,10 +164,24 @@ jamer%<conj%>:jamer # ; ! "until"
 
 LEXICON PronounRoot
 
-ai:a%{I%} PronounInfl ; ! "I"
-ne:ne PronounInfl ; ! "we"
-i:i PronounInfl ; ! "you (SG)"
-je:je PronounInfl ; ! "he, she, it"
+! pronouns
+ai%<prn%>:a%{I%} PronounInfl ; ! "I"
+ne%<prn%>:ne PronounInfl ; ! "we"
+i%<prn%>:i PronounInfl ; ! "you (SG)"
+je%<prn%>:je PronounInfl ; ! "he, she, it"
+
+! subject 1
+ai%<prn%>%<subj%>:ai PronounInfl ; ! "I (subj)"
+i%<prn%>%<subj%>:aame PronounInfl ; ! "you (SG, subj)"
+je%<prn%>%<subj%>:je PronounInfl ; ! "he, she, it (subj)"
+ne%<prn%>%<subj%>:ne PronounInfl ; ! "we (subj)"
+
+! subject 2
+ai%<prn%>%<subj%>:ajam PronounInfl ; ! "I (subj)"
+i%<prn%>%<subj%>:ijam PronounInfl ; ! "you (SG, subj)"
+jam%<prn%>%<subj%>:je PronounInfl ; ! "he, she, it (subj)"
+ne%<prn%>%<subj%>:nejam PronounInfl ; ! "we (subj)"
+! it might actually be "ne jam" (TODO)
 
 LEXICON ModifierRoot
 
