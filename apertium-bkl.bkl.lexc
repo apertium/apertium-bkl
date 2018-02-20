@@ -10,6 +10,7 @@ Multichar_Symbols
 %<ij%>    ! Interjection
 %<itg%>   ! Interogative
 %<num%>   ! Numeral
+%<adj%>   ! Adjective
 %<adv%>   ! Adverb
 %<man%>   ! Manner (subclass of Adverb)
 %<temp%>  ! Temporal
@@ -30,6 +31,14 @@ Multichar_Symbols
 %<acc%>
 %<relational%>
 
+! Pronouns
+%<ref%>  ! Reflexive
+%<dem%>  ! Demonstrative
+%<part%> ! Particular
+
+! Modifiers
+%<int%>  ! Intensifier
+
 ! Other symbols
 %>      ! Morpheme boundary
 %{F%}   ! for commitative
@@ -48,6 +57,7 @@ LEXICON Root
 NounRoot ;
 ClosedClass ;
 PronounRoot ;
+ModifierRoot ;
 
 
 LEXICON RegNounInfl
@@ -71,6 +81,26 @@ LEXICON PronounInfl
 
 %<prn%>%<acc%>:%{S%} # ;
 %<prn%>%<dat%>:p # ;
+%<prn%>%<com%>:bar # ;
+%<prn%>%<acc%>%<ref%>:nan # ;
+%<prn%>yan%<neg%>:yan # ;
+%<prn%>%<dem%>%<part%>:serem # ;
+
+! -mena/-rem unclear (TODO)
+
+LEXICON ModifierInfl
+
+%<adj%>:0 # ;
+%<adj%>%<int%>:sus # ;
+%<adv%>:%{F%}er # ;
+%<adj%>%<neg%>:yan # ;
+%<adj%>:tena VerbInfl ;
+
+LEXICON VerbInfl
+
+%<v%>:0 # ;
+
+! it's not explicit, but these suffixes probably apply to both adverbs and adjectives (TODO)
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
@@ -137,6 +167,41 @@ ai:a%{I%} PronounInfl ; ! "I"
 ne:ne PronounInfl ; ! "we"
 i:i PronounInfl ; ! "you (SG)"
 je:je PronounInfl ; ! "he, she, it"
+
+LEXICON ModifierRoot
+
+ane:ane ModifierInfl ; ! "many"
+seyafter:seyafter ModifierInfl ; ! "all"
+fas:fas ModifierInfl ; ! "none"
+waakena:waakena ModifierInfl ; ! "good"
+sasara:sasara ModifierInfl ; ! "happy"
+baabeta:baabeta ModifierInfl ; ! "strong"
+bunar:bunar ModifierInfl ; ! "true"
+samem:samem ModifierInfl ; ! "slow"
+taban:taban ModifierInfl ; ! "finished"
+giri:giri ModifierInfl ; ! "deep, tall"
+gwetmana:gwetmana ModifierInfl ; ! "near"
+bijua:bijua ModifierInfl ; ! "far"
+teten:teten ModifierInfl ; ! "empty"
+enbisini:enbisini ModifierInfl ; ! "full"
+kakala:kakala ModifierInfl ; ! "hot"
+wisimi:wisimi ModifierInfl ; ! "cold"
+kekelna:kekelna ModifierInfl ; ! "hard"
+nonona:nonona ModifierInfl ; ! "soft"
+titini:titini ModifierInfl ; ! "wet"
+setera:setera ModifierInfl ; ! "dry"
+unggwandusa:unggwandusa ModifierInfl ; ! "large"
+bastantoiya:bastantoiya ModifierInfl ; ! "small"
+bukona:bukona ModifierInfl ; ! "round"
+ferfera:ferfera ModifierInfl ; ! "flat"
+bubwalna:bubwalna ModifierInfl ; ! "long"
+tofora:tofora ModifierInfl ; ! "short"
+sinsini:sinsini ModifierInfl ; ! "white"
+seseye:seseye ModifierInfl ; ! "black"
+berbere:berbere ModifierInfl ; ! "red"
+ikikini:ikikini ModifierInfl ; ! "green"
+bwelkat-bwelkata:bwelkat-bwelkata ModifierInfl ; ! "yellow"
+ibam-ibama:ibam-ibama ModifierInfl ; ! "blue"
 
 
 ! Resources:
