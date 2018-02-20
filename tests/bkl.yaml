@@ -4,174 +4,170 @@ Config:
     Gen: ../bkl.autogen.hfst
     Morph: ../bkl.automorf.hfst
 Tests:
-  !!python/unicode 'Classes': {}
-  !!python/unicode 'Distance':
-    !!python/unicode 'disultena<v><tv><dst>':
-    - !!python/unicode 'disultetna'
-    !!python/unicode 'gwerana<v><tv><dst>':
-    - !!python/unicode 'gwerantetna'
-  !!python/unicode 'Gender':
-    !!python/unicode 'damtana<v><tv><f>':
-    - !!python/unicode 'domola'
-    !!python/unicode 'eyebana<v><tv><f>':
-    - !!python/unicode 'eyebili'
-    !!python/unicode 'gerbana<v><tv><f>':
-    - !!python/unicode 'golbili'
-    !!python/unicode 'gwebana<v><tv><f>':
-    - !!python/unicode 'gwebili'
-    !!python/unicode 'saftana<v><tv><f>':
-    - !!python/unicode 'sofola'
-    !!python/unicode 'sarbana<v><tv><f>':
-    - !!python/unicode 'sarbili'
-  !!python/unicode 'Give':
-    !!python/unicode 'gobali<v><tv><fut><du><dark>':
-    - !!python/unicode 'terbifi'
-    !!python/unicode 'gobali<v><tv><fut><du><sun>':
-    - !!python/unicode 'terbifi'
-    !!python/unicode 'gobali<v><tv><fut><pl><dark>':
-    - !!python/unicode 'kitulbifi'
-    !!python/unicode 'gobali<v><tv><fut><pl><sun>':
-    - !!python/unicode 'kitulbifi'
-    !!python/unicode 'gobali<v><tv><fut><sg><dark>':
-    - !!python/unicode 'golbifi'
-    !!python/unicode 'gobali<v><tv><fut><sg><sun>':
-    - !!python/unicode 'golbifi'
-    !!python/unicode 'gobali<v><tv><prs><du><dark>':
-    - !!python/unicode 'terbese'
-    !!python/unicode 'gobali<v><tv><prs><du><sun>':
-    - !!python/unicode 'terbili'
-    !!python/unicode 'gobali<v><tv><prs><pl><dark>':
-    - !!python/unicode 'kitobisi'
-    !!python/unicode 'gobali<v><tv><prs><pl><sun>':
-    - !!python/unicode 'kitobili'
-    !!python/unicode 'gobali<v><tv><prs><sg><dark>':
-    - !!python/unicode 'gobisi'
-    !!python/unicode 'gobali<v><tv><prs><sg><sun>':
-    - !!python/unicode 'gobili'
-    !!python/unicode 'gobali<v><tv><pst><du><dark>':
-    - !!python/unicode 'terbefint'
-    !!python/unicode 'gobali<v><tv><pst><du><sun>':
-    - !!python/unicode 'terbilint'
-    !!python/unicode 'gobali<v><tv><pst><pl><dark>':
-    - !!python/unicode 'kitulbifint'
-    !!python/unicode 'gobali<v><tv><pst><pl><sun>':
-    - !!python/unicode 'kitulbilint'
-    !!python/unicode 'gobali<v><tv><pst><sg><dark>':
-    - !!python/unicode 'golbifint'
-    !!python/unicode 'gobali<v><tv><pst><sg><sun>':
-    - !!python/unicode 'golbilint'
-    !!python/unicode 'gubana<v><tv><fut><du><dark>':
-    - !!python/unicode 'terbefe'
-    !!python/unicode 'gubana<v><tv><fut><du><sun>':
-    - !!python/unicode 'terbefe'
-    !!python/unicode 'gubana<v><tv><fut><pl><dark>':
-    - !!python/unicode 'kitobafo'
-    !!python/unicode 'gubana<v><tv><fut><pl><sun>':
-    - !!python/unicode 'kitobafo'
-    !!python/unicode 'gubana<v><tv><fut><sg><dark>':
-    - !!python/unicode 'gubafa'
-    !!python/unicode 'gubana<v><tv><fut><sg><sun>':
-    - !!python/unicode 'gulbafa'
-    !!python/unicode 'gubana<v><tv><prs><du><dark>':
-    - !!python/unicode 'terbese'
-    !!python/unicode 'gubana<v><tv><prs><du><sun>':
-    - !!python/unicode 'terbene'
-    !!python/unicode 'gubana<v><tv><prs><pl><dark>':
-    - !!python/unicode 'kitobasa'
-    !!python/unicode 'gubana<v><tv><prs><pl><sun>':
-    - !!python/unicode 'kitobana'
-    !!python/unicode 'gubana<v><tv><prs><sg><dark>':
-    - !!python/unicode 'gulbasa'
-    !!python/unicode 'gubana<v><tv><prs><sg><sun>':
-    - !!python/unicode 'gulbana'
-    !!python/unicode 'gubana<v><tv><pst><du><dark>':
-    - !!python/unicode 'terbefent'
-    !!python/unicode 'gubana<v><tv><pst><du><sun>':
-    - !!python/unicode 'terbenent'
-    !!python/unicode 'gubana<v><tv><pst><pl><dark>':
-    - !!python/unicode 'kitulbafant'
-    !!python/unicode 'gubana<v><tv><pst><pl><sun>':
-    - !!python/unicode 'kitulbanant'
-    !!python/unicode 'gubana<v><tv><pst><sg><dark>':
-    - !!python/unicode 'gulbafant'
-    !!python/unicode 'gubana<v><tv><pst><sg><sun>':
-    - !!python/unicode 'gulbanant'
-  !!python/unicode 'Nouns':
-    !!python/unicode 'Korano<n>+em<pos>':
-    - !!python/unicode 'Korano''''''em'''''''
-    !!python/unicode 'Korano<n>+far<com>':
-    - !!python/unicode 'Korano''''''far'''''''
-    !!python/unicode 'Korano<n>+mana<pos>':
-    - !!python/unicode 'Korano''''''mana'''''''
-    !!python/unicode 'at<n>+em<ins>':
-    - !!python/unicode 'at''''''em'''''''
-    !!python/unicode 'bangge<n><subj>':
-    - !!python/unicode 'bangge''''''na'''''''
-    !!python/unicode 'bwernabar<n>+yan<neg>':
-    - !!python/unicode 'bwernabar''''''yan'''''''
-    !!python/unicode 'domol<n>+yan<neg>':
-    - !!python/unicode 'domol''''''yan'''''''
-    !!python/unicode 'gin<n>+em<ins>':
-    - !!python/unicode 'gin''''''em'''''''
-    !!python/unicode 'gin<n>+em<post>':
-    - !!python/unicode 'ginem'
-    !!python/unicode 'gin<n><ins>':
-    - !!python/unicode 'ginem'
-    !!python/unicode 'gwora<n>+bara<relational>':
-    - !!python/unicode 'gwora''''''bara'''''''
-    !!python/unicode 'je<n>+bar<com>':
-    - !!python/unicode 'je''''''bar'''''''
-    !!python/unicode 'jina<n>+ap<post>':
-    - !!python/unicode 'jin''''''ap'''''''
-    !!python/unicode 'jina<n>+wer<post>':
-    - !!python/unicode 'jina''''''wer'''''''
-    !!python/unicode 'sita<n>+ap<post>':
-    - !!python/unicode 'sit''''''ap'''''''
-    !!python/unicode 'sita<n>+wer<post>':
-    - !!python/unicode 'sita''''''wer'''''''
-    !!python/unicode 'tane<n>+yan<neg>':
-    - !!python/unicode 'tane''''''yan'''''''
-    !!python/unicode 'uwa<n>+far<com>':
-    - !!python/unicode 'uwa''''''far'''''''
-    !!python/unicode 'uwa<n>+mana<pos>':
-    - !!python/unicode 'uwa''''''mana'''''''
-    !!python/unicode 'yafontoi<n>+bara<relational>':
-    - !!python/unicode 'yafontoi''''''bara'''''''
-  !!python/unicode 'Number':
-    !!python/unicode 'damtana<v><tv><du>':
-    - !!python/unicode 'domsona'
-    !!python/unicode 'damtana<v><tv><pl>':
-    - !!python/unicode 'damtabili'
-    !!python/unicode 'fina<v><iv><du>':
-    - !!python/unicode 'ge fina'
-    !!python/unicode 'fina<v><iv><pl>':
-    - !!python/unicode 'ge fibili'
-    !!python/unicode 'jila<v><iv><du>':
-    - !!python/unicode 'ge jila'
-    !!python/unicode 'jila<v><iv><pl>':
-    - !!python/unicode 'ge jalbili'
-    !!python/unicode 'nasbana<v><tv><du>':
-    - !!python/unicode 'nasona'
-    !!python/unicode 'nasbana<v><tv><pl>':
-    - !!python/unicode 'nasbabili'
-    !!python/unicode 'nasona<v><iv><du>':
-    - !!python/unicode 'ge nasona'
-    !!python/unicode 'nasona<v><iv><pl>':
-    - !!python/unicode 'ge nasbawena'
-    !!python/unicode 'saftana<v><tv><du>':
-    - !!python/unicode 'sofsona'
-    !!python/unicode 'saftana<v><tv><pl>':
-    - !!python/unicode 'saftabana'
-    !!python/unicode 'sofwa<v><iv><du>':
-    - !!python/unicode 'ge sofwa'
-    !!python/unicode 'sofwa<v><iv><pl>':
-    - !!python/unicode 'ge sofwabili'
-    !!python/unicode 'telbese<v><tv><du>':
-    - !!python/unicode 'telmisi'
-    !!python/unicode 'telbese<v><tv><pl>':
-    - !!python/unicode 'telbebesi'
-    !!python/unicode 'wirusu<v><tv><du>':
-    - !!python/unicode 'wirsosa'
-    !!python/unicode 'wirusu<v><tv><pl>':
-    - !!python/unicode 'wirtababisi'
-  !!python/unicode 'Verbs': {}
+  Classes: {}
+  Distance:
+    disultena<v><tv><dst>:
+    - disultetna
+    gwerana<v><tv><dst>:
+    - gwerantetna
+  Gender:
+    damtana<v><tv><f>:
+    - domola
+    eyebana<v><tv><f>:
+    - eyebili
+    gerbana<v><tv><f>:
+    - golbili
+    gwebana<v><tv><f>:
+    - gwebili
+    saftana<v><tv><f>:
+    - sofola
+    sarbana<v><tv><f>:
+    - sarbili
+  Give:
+    gobali<v><tv><fut><du><dark>:
+    - terbifi
+    gobali<v><tv><fut><du><sun>:
+    - terbifi
+    gobali<v><tv><fut><pl><dark>:
+    - kitulbifi
+    gobali<v><tv><fut><pl><sun>:
+    - kitulbifi
+    gobali<v><tv><fut><sg><dark>:
+    - golbifi
+    gobali<v><tv><fut><sg><sun>:
+    - golbifi
+    gobali<v><tv><prs><du><dark>:
+    - terbese
+    gobali<v><tv><prs><du><sun>:
+    - terbili
+    gobali<v><tv><prs><pl><dark>:
+    - kitobisi
+    gobali<v><tv><prs><pl><sun>:
+    - kitobili
+    gobali<v><tv><prs><sg><dark>:
+    - gobisi
+    gobali<v><tv><prs><sg><sun>:
+    - gobili
+    gobali<v><tv><pst><du><dark>:
+    - terbefint
+    gobali<v><tv><pst><du><sun>:
+    - terbilint
+    gobali<v><tv><pst><pl><dark>:
+    - kitulbifint
+    gobali<v><tv><pst><pl><sun>:
+    - kitulbilint
+    gobali<v><tv><pst><sg><dark>:
+    - golbifint
+    gobali<v><tv><pst><sg><sun>:
+    - golbilint
+    gubana<v><tv><fut><du><dark>:
+    - terbefe
+    gubana<v><tv><fut><du><sun>:
+    - terbefe
+    gubana<v><tv><fut><pl><dark>:
+    - kitobafo
+    gubana<v><tv><fut><pl><sun>:
+    - kitobafo
+    gubana<v><tv><fut><sg><dark>:
+    - gubafa
+    gubana<v><tv><fut><sg><sun>:
+    - gulbafa
+    gubana<v><tv><prs><du><dark>:
+    - terbese
+    gubana<v><tv><prs><du><sun>:
+    - terbene
+    gubana<v><tv><prs><pl><dark>:
+    - kitobasa
+    gubana<v><tv><prs><pl><sun>:
+    - kitobana
+    gubana<v><tv><prs><sg><dark>:
+    - gulbasa
+    gubana<v><tv><prs><sg><sun>:
+    - gulbana
+    gubana<v><tv><pst><du><dark>:
+    - terbefent
+    gubana<v><tv><pst><du><sun>:
+    - terbenent
+    gubana<v><tv><pst><pl><dark>:
+    - kitulbafant
+    gubana<v><tv><pst><pl><sun>:
+    - kitulbanant
+    gubana<v><tv><pst><sg><dark>:
+    - gulbafant
+    gubana<v><tv><pst><sg><sun>:
+    - gulbanant
+  Nouns:
+    Korano<n><com>:
+    - Korano'''far'''
+    Korano<n><pos>:
+    - Korano'''em'''
+    at<n><ins>:
+    - at'''em'''
+    bangge<n><subj>:
+    - bangge'''na'''
+    bwernabar<n>+yan<neg>:
+    - bwernabar'''yan'''
+    domol<n>+yan<neg>:
+    - domol'''yan'''
+    gin<n>+em<post>:
+    - ginem
+    gin<n><ins>:
+    - ginem
+    gwora<n><relational>:
+    - gwora'''bara'''
+    je<n><com>:
+    - je'''bar'''
+    jina<n>+ap<post>:
+    - jin'''ap'''
+    jina<n>+wer<post>:
+    - jina'''wer'''
+    sita<n>+ap<post>:
+    - sit'''ap'''
+    sita<n>+wer<post>:
+    - sita'''wer'''
+    tane<n>+yan<neg>:
+    - tane'''yan'''
+    uwa<n><com>:
+    - uwa'''far'''
+    uwa<n><pos>:
+    - uwa'''mana'''
+    yafontoi<n><relational>:
+    - yafontoi'''bara'''
+  Number:
+    damtana<v><tv><du>:
+    - domsona
+    damtana<v><tv><pl>:
+    - damtabili
+    fina<v><iv><du>:
+    - ge fina
+    fina<v><iv><pl>:
+    - ge fibili
+    jila<v><iv><du>:
+    - ge jila
+    jila<v><iv><pl>:
+    - ge jalbili
+    nasbana<v><tv><du>:
+    - nasona
+    nasbana<v><tv><pl>:
+    - nasbabili
+    nasona<v><iv><du>:
+    - ge nasona
+    nasona<v><iv><pl>:
+    - ge nasbawena
+    saftana<v><tv><du>:
+    - sofsona
+    saftana<v><tv><pl>:
+    - saftabana
+    sofwa<v><iv><du>:
+    - ge sofwa
+    sofwa<v><iv><pl>:
+    - ge sofwabili
+    telbese<v><tv><du>:
+    - telmisi
+    telbese<v><tv><pl>:
+    - telbebesi
+    wirusu<v><tv><du>:
+    - wirsosa
+    wirusu<v><tv><pl>:
+    - wirtababisi
+  Verbs: {}
