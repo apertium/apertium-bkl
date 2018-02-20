@@ -98,41 +98,37 @@ Tests:
     - gulbanant
   Nouns:
     Korano<n><com>:
-    - Korano'''far'''
+    - Koranofar
     Korano<n><pos>:
-    - Korano'''em'''
+    - Koranoem
     at<n><ins>:
-    - at'''em'''
+    - atem
     bangge<n><subj>:
-    - bangge'''na'''
+    - banggena
     bwernabar<n>+yan<neg>:
-    - bwernabar'''yan'''
-    domol<n>+yan<neg>:
-    - domol'''yan'''
-    gin<n>+em<post>:
-    - ginem
+    - bwernabaryan
     gin<n><ins>:
     - ginem
     gwora<n><relational>:
-    - gwora'''bara'''
-    je<n><com>:
-    - je'''bar'''
+    - gworabara
+    je<prn><com>:
+    - jebar
     jina<n>+ap<post>:
-    - jin'''ap'''
+    - jinap
     jina<n>+wer<post>:
-    - jina'''wer'''
+    - jinawer
     sita<n>+ap<post>:
-    - sit'''ap'''
+    - sitap
     sita<n>+wer<post>:
-    - sita'''wer'''
+    - sitawer
     tane<n>+yan<neg>:
-    - tane'''yan'''
+    - taneyan
     uwa<n><com>:
-    - uwa'''far'''
+    - uwafar
     uwa<n><pos>:
-    - uwa'''mana'''
+    - uwamana
     yafontoi<n><relational>:
-    - yafontoi'''bara'''
+    - yafontoibara
   Number:
     damtana<v><tv><du>:
     - domsona
