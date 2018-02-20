@@ -36,6 +36,7 @@ Multichar_Symbols
 %{S%}   ! for pronoun accusative
 %{I%}   ! for variation in 1S pronoun
 %{A%}   ! for postpositions
+%{W%}   ! for postposition -wer (w deleted after nasals)
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -51,6 +52,8 @@ PronounRoot ;
 
 LEXICON RegNounInfl
 
+! noun ends in vowel -> drop initial vowel of suffix (TODO)
+
 %<n%>%<subj%>:na # ;
 %<n%>yan%<neg%>:yan # ;
 %<n%>%<ins%>:em # ;
@@ -60,7 +63,8 @@ LEXICON RegNounInfl
 %<n%>%<com%>:%{F%}ar # ;
 %<n%>%<dat%>:f # ;
 %<n%>ap%<post%>:%{A%}p # ;
-%<n%>wer%<post%>:wer # ;
+%<n%>wer%<post%>:%{W%}er # ;
+%<n%>%<acc%>:s # ;
 %<n%>:0 # ; ! grammar sketch says "However, not all nouns as Subject take this inflection.", assuming this means they take nothing
 
 LEXICON PronounInfl
