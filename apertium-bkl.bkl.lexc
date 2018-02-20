@@ -83,7 +83,7 @@ LEXICON PronounInfl
 %<dat%>:p # ;
 %<com%>:bar # ;
 %<acc%>%<ref%>:nan # ;
-yan%<neg%>:yan # ;
++yan%<neg%>:yan # ;
 %<dem%>%<part%>:serem # ;
 # ;
 

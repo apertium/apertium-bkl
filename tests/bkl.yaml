@@ -57,8 +57,6 @@ Tests:
     - banggena
     bwernabar<n>+yan<neg>:
     - bwernabaryan
-    gin<n>+em<post>:
-    - ginem
     gin<n><ins>:
     - ginem
     gwora<n><relational>:
@@ -121,7 +119,7 @@ Tests:
     - aiyan
     ai<prn><acc>:
     - am
-    ai<prn><acc><refl>:
+    ai<prn><acc><ref>:
     - anan
     ai<prn><dat>:
     - ap
