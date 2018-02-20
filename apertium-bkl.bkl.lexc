@@ -98,6 +98,7 @@ LEXICON ModifierInfl
 %<adj%>:tena VerbInfl ;
 
 ! it's not explicit, but these suffixes probably apply to both adverbs and adjectives (TODO)
+! double intensification is marked with full reduplication (waaken -> waaken-waakensus) (TODO)
 
 LEXICON VerbInfl
 
