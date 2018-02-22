@@ -9,8 +9,8 @@ Alphabet
  %{O%}:o %{O%}:u
  %{l%}:l %{l%}:0
  %{E%}:e %{E%}:a
- %{N%}:n %{N%}:l
- %{V%}:a %{V%}:e %{V%}:i %{V%}:o
+ %{N%}:n ! %{N%}:l
+ %{V%}:a %{V%}:e %{V%}:i ! %{V%}:o
  %>:0  ;
 
 Sets
@@ -22,6 +22,12 @@ Rules
 
 "Remove suffix vowel with vowel-ending stem"
 i:0 <=> Vow %{VSUF%}:0 _ [ m | n ] ;
+
+"n becomes l in i_i in 'give'"
+%{N%}:l <=> :i _ :i ;
+
+"in 'give', o only shows up at the end"
+%{V%}:o <=> :f _ .#. ;
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
