@@ -17,10 +17,14 @@ Multichar_Symbols
 %<locl%>  ! Locational
 %<conj%>  ! Conjunction
 %<post%>  ! Postposition
+%<v%>     ! Verb
+%<tv%>    ! Transitive Verb
+%<iv%>    ! Intransitive Verb
 
 ! Number morphology
 %<pl%>  ! Plural
 %<sg%>  ! Singular
+%<du%>  ! Dual
 
 ! Cases
 %<subj%>
@@ -40,6 +44,16 @@ Multichar_Symbols
 %<int%>  ! Intensifier
 %<advl%> ! Adverbial
 
+! Verb Morphology
+%<pst%>
+%<prs%>
+%<fut%>
+%<dark%>
+%<light%>
+%<lg%>
+%<m%>
+%<f%>
+
 ! Other symbols
 %>      ! Morpheme boundary
 %{F%}   ! for commitative
@@ -47,6 +61,11 @@ Multichar_Symbols
 %{I%}   ! for variation in 1S pronoun
 %{A%}   ! for postpositions
 %{W%}   ! for postposition -wer (w deleted after nasals)
+%{O%}
+%{l%}
+%{E%}
+%{N%}
+%{V%}
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -59,6 +78,7 @@ NounRoot ;
 ClosedClass ;
 PronounRoot ;
 ModifierRoot ;
+GiveInflNum ;
 
 
 LEXICON RegNounInfl
@@ -104,6 +124,31 @@ LEXICON ModifierInfl
 LEXICON VerbInfl
 
 %<v%>:0 # ;
+
+LEXICON GiveInflNum
+! currently only works for give, and only for the forms listed in the table in the grammar sketch
+! could maybe be generalized (TODO)
+
+gubana%<v%>%<tv%>%<sg%>:g%{O%}%{l%} GiveInflSize ;
+gubana%<v%>%<tv%>%<du%>:ter GiveInflSize ;
+gubana%<v%>%<tv%>%<pl%>:kit%{O%}%{l%} GiveInflSize ;
+
+LEXICON GiveInflSize
+
+%<lg%>:b GiveInflGender ;
+
+LEXICON GiveInflGender
+
+%<m%>:%{E%} GiveInflTense ;
+%<f%>:i GiveInflTense ;
+
+LEXICON GiveInflTense
+
+%<pst%>%<dark%>:f%{V%}nt # ;
+%<pst%>%<light%>:%{N%}%{V%}nt # ;
+%<prs%>%<dark%>:s%{V%} # ;
+%<prs%>%<light%>:%{N%}%{V%} # ;
+%<fut%>:f%{V%} # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!

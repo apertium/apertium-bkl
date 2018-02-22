@@ -164,41 +164,35 @@ Tests:
     - golbifint
     gobali<v><tv><pst><sg><sun>:
     - golbilint
-    gubana<v><tv><fut><du><dark>:
+    gubana<v><tv><du><lg><m><fut>:
     - terbefe
-    gubana<v><tv><fut><du><sun>:
-    - terbefe
-    gubana<v><tv><fut><pl><dark>:
-    - kitobafo
-    gubana<v><tv><fut><pl><sun>:
-    - kitobafo
-    gubana<v><tv><fut><sg><dark>:
-    - gubafa
-    gubana<v><tv><fut><sg><sun>:
-    - gulbafa
-    gubana<v><tv><prs><du><dark>:
+    gubana<v><tv><du><lg><m><prs><dark>:
     - terbese
-    gubana<v><tv><prs><du><sun>:
+    gubana<v><tv><du><lg><m><prs><light>:
     - terbene
-    gubana<v><tv><prs><pl><dark>:
-    - kitobasa
-    gubana<v><tv><prs><pl><sun>:
-    - kitobana
-    gubana<v><tv><prs><sg><dark>:
-    - gulbasa
-    gubana<v><tv><prs><sg><sun>:
-    - gulbana
-    gubana<v><tv><pst><du><dark>:
+    gubana<v><tv><du><lg><m><pst><dark>:
     - terbefent
-    gubana<v><tv><pst><du><sun>:
+    gubana<v><tv><du><lg><m><pst><light>:
     - terbenent
-    gubana<v><tv><pst><pl><dark>:
+    gubana<v><tv><pl><lg><m><fut>:
+    - kitobafo
+    gubana<v><tv><pl><lg><m><prs><dark>:
+    - kitobasa
+    gubana<v><tv><pl><lg><m><prs><light>:
+    - kitobana
+    gubana<v><tv><pl><lg><m><pst><dark>:
     - kitulbafant
-    gubana<v><tv><pst><pl><sun>:
+    gubana<v><tv><pl><lg><m><pst><light>:
     - kitulbanant
-    gubana<v><tv><pst><sg><dark>:
+    gubana<v><tv><sg><lg><m><fut>:
+    - gubafa
+    gubana<v><tv><sg><lg><m><prs><dark>:
+    - gulbasa
+    gubana<v><tv><sg><lg><m><prs><light>:
+    - gulbana
+    gubana<v><tv><sg><lg><m><pst><dark>:
     - gulbafant
-    gubana<v><tv><pst><sg><sun>:
+    gubana<v><tv><sg><lg><m><pst><light>:
     - gulbanant
   To Place:
     gwarantena<v><tv><prs><dst><du><high>:
