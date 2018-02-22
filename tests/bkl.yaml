@@ -28,11 +28,11 @@ Tests:
     - anesus
     baabeta<adj><int>:
     - baabetasus
-    bastantoiya<adj><adv>:
+    bastantoiya<adj><advl>:
     - bastantoifer
     berbere<adj><int>:
     - berberesus
-    bijua<adj><adv>:
+    bijua<adj><advl>:
     - bijuaber
     bijua<adj><int>:
     - bijuasus
@@ -44,7 +44,7 @@ Tests:
     - samemyan
     unggwandusa<adj>+yan<neg>:
     - unggwandusayan
-    waakena<adj><adv>:
+    waakena<adj><advl>:
     - waakenfer
   Nouns:
     Korano<n><com>:

@@ -38,6 +38,7 @@ Multichar_Symbols
 
 ! Modifiers
 %<int%>  ! Intensifier
+%<advl%> ! Adverbial
 
 ! Other symbols
 %>      ! Morpheme boundary
@@ -93,7 +94,7 @@ LEXICON ModifierInfl
 
 %<adj%>:0 # ;
 %<adj%>%<int%>:sus # ;
-%<adj%>%<adv%>:%{F%}er # ;
+%<adj%>%<advl%>:%{F%}er # ;
 %<adj%>+yan%<neg%>:yan # ;
 %<adj%>:tena VerbInfl ;
 
@@ -222,7 +223,8 @@ nonona:nonona ModifierInfl ; ! "soft"
 titini:titini ModifierInfl ; ! "wet"
 setera:setera ModifierInfl ; ! "dry"
 unggwandusa:unggwandusa ModifierInfl ; ! "large"
-bastantoiya:bastantoiya ModifierInfl ; ! "small"
+bastantoiya:bastantoiya ModifierInfl ; ! "small" has irregular <advl> form, generates regular also (TODO)
+bastantoiya%<adj%>%<advl%>:bastantoifer # ; ! "a little (adv)"
 bukona:bukona ModifierInfl ; ! "round"
 ferfera:ferfera ModifierInfl ; ! "flat"
 bubwalna:bubwalna ModifierInfl ; ! "long"
