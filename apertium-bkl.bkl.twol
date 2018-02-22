@@ -3,7 +3,7 @@ Alphabet
  a b c d e f g h i j k l m n o p q r s t u v w x y z
  %{F%}:f %{F%}:b
  %{S%}:s %{S%}:m
- %{I%}:i %{I%}:0
+ %{I%}:0 ! %{I%}:i
  %{A%}:a %{A%}:0
  %{W%}:w %{W%}:0
  %{O%}:o %{O%}:u
@@ -27,7 +27,12 @@ i:0 <=> Vow %{VSUF%}:0 _ [ m | n ] ;
 %{N%}:l <=> :i _ :i ;
 
 "in 'give', o only shows up at the end"
-%{V%}:o <=> :f _ .#. ;
+%{V%}:o <=> :o :0 :b :a :f _ .#. ;
+
+"1st person pronoun only has i with no suffixes"
+%{I%}:i <=> _ .#. ;
+            _ y ;
+            _ s ;
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
