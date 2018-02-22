@@ -93,8 +93,8 @@ LEXICON ModifierInfl
 
 %<adj%>:0 # ;
 %<adj%>%<int%>:sus # ;
-%<adv%>:%{F%}er # ;
-%<adj%>%<neg%>:yan # ;
+%<adj%>%<adv%>:%{F%}er # ;
+%<adj%>+yan%<neg%>:yan # ;
 %<adj%>:tena VerbInfl ;
 
 ! it's not explicit, but these suffixes probably apply to both adverbs and adjectives (TODO)
@@ -204,7 +204,7 @@ LEXICON ModifierRoot
 ane:ane ModifierInfl ; ! "many"
 seyafter:seyafter ModifierInfl ; ! "all"
 fas:fas ModifierInfl ; ! "none"
-waakena:waakena ModifierInfl ; ! "good"
+waakena:waaken%{A%} ModifierInfl ; ! "good"
 sasara:sasara ModifierInfl ; ! "happy"
 baabeta:baabeta ModifierInfl ; ! "strong"
 bunar:bunar ModifierInfl ; ! "true"
