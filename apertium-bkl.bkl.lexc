@@ -47,35 +47,18 @@ Multichar_Symbols
 %<part%>  ! Particular
 
 ! Modifiers
-%<int%>   ! Intensifier
+%<int%>  ! Intensifier
+%<advl%> ! Adverbial
 
-! TODO: Categorize
+! Verb Morphology
+%<lg%>
+%<m%>
+%<f%>
 %<light%>   ! Action during the day (verbs)
 %<dark%>  ! Action at night
 %<low%>   ! Action down low
 %<high%>  ! Action up high
 %<dst%>   ! Action far away
-
-! Other symbols
-%>       ! Morpheme boundary
-%{F%}    ! for commitative
-%{S%}    ! for pronoun accusative
-%{I%}    ! for variation in 1S pronoun
-%{A%}    ! for postpositions
-%{W%}    ! for postposition -wer (w deleted after nasals)
-=======
-%<int%>  ! Intensifier
-%<advl%> ! Adverbial
-
-! Verb Morphology
-%<pst%>
-%<prs%>
-%<fut%>
-%<dark%>
-%<light%>
-%<lg%>
-%<m%>
-%<f%>
 
 ! Other symbols
 %>      ! Morpheme boundary
