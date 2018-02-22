@@ -17,10 +17,12 @@ Multichar_Symbols
 %<locl%>  ! Locational
 %<conj%>  ! Conjunction
 %<post%>  ! Postposition
+%<v%>     ! Verb
 
 ! Number morphology
-%<pl%>  ! Plural
-%<sg%>  ! Singular
+%<pl%>    ! Plural
+%<du%>    ! Dual
+%<sg%>    ! Singular
 
 ! Cases
 %<subj%>
@@ -30,22 +32,35 @@ Multichar_Symbols
 %<dat%>
 %<acc%>
 %<relational%>
+%<tv%>
+
+! Tense
+%<prs%>
+%<pst%>
+%<fut%>
 
 ! Pronouns
-%<ref%>  ! Reflexive
-%<dem%>  ! Demonstrative
-%<part%> ! Particular
+%<ref%>   ! Reflexive
+%<dem%>   ! Demonstrative
+%<part%>  ! Particular
 
 ! Modifiers
-%<int%>  ! Intensifier
+%<int%>   ! Intensifier
+
+! TODO: Categorize
+%<sun%>   ! Action during the day (verbs)
+%<dark%>  ! Action at night
+%<low%>   ! Action down low
+%<high%>  ! Action up high
+%<dst%>   ! Action far away
 
 ! Other symbols
-%>      ! Morpheme boundary
-%{F%}   ! for commitative
-%{S%}   ! for pronoun accusative
-%{I%}   ! for variation in 1S pronoun
-%{A%}   ! for postpositions
-%{W%}   ! for postposition -wer (w deleted after nasals)
+%>       ! Morpheme boundary
+%{F%}    ! for commitative
+%{S%}    ! for pronoun accusative
+%{I%}    ! for variation in 1S pronoun
+%{A%}    ! for postpositions
+%{W%}    ! for postposition -wer (w deleted after nasals)
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -58,7 +73,7 @@ NounRoot ;
 ClosedClass ;
 PronounRoot ;
 ModifierRoot ;
-
+VerbRoot ;
 
 LEXICON RegNounInfl
 
@@ -102,7 +117,8 @@ LEXICON ModifierInfl
 
 LEXICON VerbInfl
 
-%<v%>:0 # ;
+# ;
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
@@ -233,6 +249,78 @@ berbere:berbere ModifierInfl ; ! "red"
 ikikini:ikikini ModifierInfl ; ! "green"
 bwelkat-bwelkata:bwelkat-bwelkata ModifierInfl ; ! "yellow"
 ibam-ibama:ibam-ibama ModifierInfl ; ! "blue"
+
+LEXICON VerbRoot
+
+gubana%<v%>%<tv%>%<prs%>%<sg%>%<sun%>:gulbana VerbInfl ;
+gubana%<v%>%<tv%>%<pst%>%<sg%>%<sun%>:gulbanant VerbInfl ;
+gubana%<v%>%<tv%>%<fut%>%<sg%>%<sun%>:gulbafa VerbInfl ;
+gubana%<v%>%<tv%>%<prs%>%<sg%>%<dark%>:gulbasa VerbInfl ;
+gubana%<v%>%<tv%>%<pst%>%<sg%>%<dark%>:gulbafant VerbInfl ;
+gubana%<v%>%<tv%>%<fut%>%<sg%>%<dark%>:gubafa VerbInfl ;
+gubana%<v%>%<tv%>%<prs%>%<du%>%<sun%>:terbene VerbInfl ;
+gubana%<v%>%<tv%>%<pst%>%<du%>%<sun%>:terbenent VerbInfl ;
+gubana%<v%>%<tv%>%<fut%>%<du%>%<sun%>:terbefe VerbInfl ;
+gubana%<v%>%<tv%>%<prs%>%<du%>%<dark%>:terbese VerbInfl ;
+gubana%<v%>%<tv%>%<pst%>%<du%>%<dark%>:terbefent VerbInfl ;
+gubana%<v%>%<tv%>%<fut%>%<du%>%<dark%>:terbefe VerbInfl ;
+gubana%<v%>%<tv%>%<prs%>%<pl%>%<sun%>:kitobana VerbInfl ;
+gubana%<v%>%<tv%>%<pst%>%<pl%>%<sun%>:kitulbanant VerbInfl ;
+gubana%<v%>%<tv%>%<fut%>%<pl%>%<sun%>:kitobafo VerbInfl ;
+gubana%<v%>%<tv%>%<prs%>%<pl%>%<dark%>:kitobasa VerbInfl ;
+gubana%<v%>%<tv%>%<pst%>%<pl%>%<dark%>:kitulbafant VerbInfl ;
+gubana%<v%>%<tv%>%<fut%>%<pl%>%<dark%>:kitobafo VerbInfl ;
+
+gobali%<v%>%<tv%>%<prs%>%<sg%>%<sun%>:gobili VerbInfl ;
+gobali%<v%>%<tv%>%<pst%>%<sg%>%<sun%>:golbilint VerbInfl ;
+gobali%<v%>%<tv%>%<fut%>%<sg%>%<sun%>:golbifi VerbInfl ;
+gobali%<v%>%<tv%>%<prs%>%<sg%>%<dark%>:gobisi VerbInfl ;
+gobali%<v%>%<tv%>%<pst%>%<sg%>%<dark%>:golbifint VerbInfl ;
+gobali%<v%>%<tv%>%<fut%>%<sg%>%<dark%>:golbifi VerbInfl ;
+gobali%<v%>%<tv%>%<prs%>%<du%>%<sun%>:terbili VerbInfl ;
+gobali%<v%>%<tv%>%<pst%>%<du%>%<sun%>:terbilint VerbInfl ;
+gobali%<v%>%<tv%>%<fut%>%<du%>%<sun%>:terbifi VerbInfl ;
+gobali%<v%>%<tv%>%<prs%>%<du%>%<dark%>:terbese VerbInfl ;
+gobali%<v%>%<tv%>%<pst%>%<du%>%<dark%>:terbefint VerbInfl ;
+gobali%<v%>%<tv%>%<fut%>%<du%>%<dark%>:terbifi VerbInfl ;
+gobali%<v%>%<tv%>%<prs%>%<pl%>%<sun%>:kitobili VerbInfl ;
+gobali%<v%>%<tv%>%<pst%>%<pl%>%<sun%>:kitulbilint VerbInfl ;
+gobali%<v%>%<tv%>%<fut%>%<pl%>%<sun%>:kitulbifi VerbInfl ;
+gobali%<v%>%<tv%>%<prs%>%<pl%>%<dark%>:kitobisi VerbInfl ;
+gobali%<v%>%<tv%>%<pst%>%<pl%>%<dark%>:kitulbifint VerbInfl ;
+gobali%<v%>%<tv%>%<fut%>%<pl%>%<dark%>:kitulbifi VerbInfl ;
+
+fwirna%<v%>%<tv%>%<prs%>%<sg%>%<sun%>:fwirena VerbInfl ;
+fwirna%<v%>%<tv%>%<prs%>%<sg%>%<dark%>:fwiresa VerbInfl ;
+fwirna%<v%>%<tv%>%<prs%>%<du%>%<sun%>:faarena VerbInfl ;
+fwirna%<v%>%<tv%>%<prs%>%<du%>%<dark%>:faaresa VerbInfl ;
+fwirna%<v%>%<tv%>%<prs%>%<pl%>%<sun%>:taferebili VerbInfl ;
+fwirna%<v%>%<tv%>%<prs%>%<pl%>%<dark%>:taferebisi VerbInfl ;
+fwirna%<v%>%<tv%>%<pst%>%<sg%>%<sun%>:fwirenant VerbInfl ;
+fwirna%<v%>%<tv%>%<pst%>%<sg%>%<dark%>:fwirenant VerbInfl ;
+fwirna%<v%>%<tv%>%<pst%>%<du%>%<sun%>:faarefant VerbInfl ;
+fwirna%<v%>%<tv%>%<pst%>%<du%>%<dark%>:faarenant VerbInfl ;
+fwirna%<v%>%<tv%>%<pst%>%<pl%>%<sun%>:taferebilint VerbInfl ;
+fwirna%<v%>%<tv%>%<pst%>%<pl%>%<dark%>:taferebifint VerbInfl ;
+fwirna%<v%>%<tv%>%<fut%>%<sg%>%<sun%>:fwirena VerbInfl ;
+fwirna%<v%>%<tv%>%<fut%>%<sg%>%<dark%>:fwiresa VerbInfl ;
+fwirna%<v%>%<tv%>%<fut%>%<du%>%<sun%>:faarefa VerbInfl ;
+fwirna%<v%>%<tv%>%<fut%>%<du%>%<dark%>:faaresa VerbInfl ;
+fwirna%<v%>%<tv%>%<fut%>%<pl%>%<sun%>:taferebifi VerbInfl ;
+fwirna%<v%>%<tv%>%<fut%>%<pl%>%<dark%>:taferebisi VerbInfl ;
+
+gwarantena%<v%>%<tv%>%<prs%>%<sg%>%<low%>:gwerantena VerbInfl ;
+gwarantena%<v%>%<tv%>%<prs%>%<sg%>%<high%>:gweransona VerbInfl ;
+gwarantena%<v%>%<tv%>%<prs%>%<du%>%<low%>:tosontona VerbInfl ;
+gwarantena%<v%>%<tv%>%<prs%>%<du%>%<high%>:tosonsona VerbInfl ;
+gwarantena%<v%>%<tv%>%<prs%>%<pl%>%<low%>:bununtona VerbInfl ;
+gwarantena%<v%>%<tv%>%<prs%>%<pl%>%<high%>:bununsona VerbInfl ;
+gwarantena%<v%>%<tv%>%<prs%>%<dst%>%<sg%>%<low%>:gwerantetfa VerbInfl ;
+gwarantena%<v%>%<tv%>%<prs%>%<dst%>%<sg%>%<high%>:gweranswetna VerbInfl ;
+gwarantena%<v%>%<tv%>%<prs%>%<dst%>%<du%>%<low%>:tosontetfa VerbInfl ;
+gwarantena%<v%>%<tv%>%<prs%>%<dst%>%<du%>%<high%>:tosonswetna VerbInfl ;
+gwarantena%<v%>%<tv%>%<prs%>%<dst%>%<pl%>%<low%>:bununtetfa VerbInfl ;
+gwarantena%<v%>%<tv%>%<prs%>%<dst%>%<pl%>%<high%>:bununswetna VerbInfl ;
 
 
 ! Resources:
