@@ -72,6 +72,8 @@ Multichar_Symbols
 %{E%}
 %{N%}
 %{V%}
+%{e%}
+%{a%}
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                       M O R P H O T A C T I C S                         !!!
@@ -92,13 +94,13 @@ LEXICON RegNounInfl
 
 %<n%>%<subj%>:na # ;
 %<n%>+yan%<neg%>:yan # ;
-%<n%>%<ins%>:em # ;
+%<n%>%<ins%>:%{e%}m # ;
 %<n%>%<relational%>:bara # ;
 %<n%>%<pos%>:em # ;
 %<n%>%<pos%>:mana # ;
 %<n%>%<com%>:%{F%}ar # ;
 %<n%>%<dat%>:f # ;
-%<n%>+ap%<post%>:%{A%}p # ;
+%<n%>+ap%<post%>:%{a%}p # ;
 %<n%>+wer%<post%>:%{W%}er # ;
 %<n%>%<acc%>:s # ;
 %<n%>:0 # ; ! grammar sketch says "However, not all nouns as Subject take this inflection.", assuming this means they take nothing
@@ -116,10 +118,13 @@ LEXICON PronounInfl
 ! -mena/-rem unclear (TODO)
 
 LEXICON ModifierInfl
+ModifierInfl-not-advl ;
+%<adj%>%<advl%>:%{F%}er # ;
+
+LEXICON ModifierInfl-not-advl
 
 %<adj%>:0 # ;
 %<adj%>%<int%>:sus # ;
-%<adj%>%<advl%>:%{F%}er # ;
 %<adj%>+yan%<neg%>:yan # ;
 %<adj%>:tena VerbInfl ;
 
@@ -135,9 +140,16 @@ LEXICON GiveInflNum
 ! currently only works for give, and only for the forms listed in the table in the grammar sketch
 ! could maybe be generalized (TODO)
 
-gubana%<v%>%<tv%>%<sg%>:g%{O%}%{l%} GiveInflSize ;
-gubana%<v%>%<tv%>%<du%>:ter GiveInflSize ;
-gubana%<v%>%<tv%>%<pl%>:kit%{O%}%{l%} GiveInflSize ;
+gubana:g%{O%}%{l%} GiveInflNumSG ;
+gubana:ter GiveInflNumDU ;
+gubana:kit%{O%}%{l%} GiveInflNumPL ;
+
+LEXICON GiveInflNumSG
+%<v%>%<tv%>%<sg%>: GiveInflSize ;
+LEXICON GiveInflNumDU
+%<v%>%<tv%>%<du%>: GiveInflSize ;
+LEXICON GiveInflNumPL
+%<v%>%<tv%>%<pl%>: GiveInflSize ;
 
 LEXICON GiveInflSize
 
@@ -274,7 +286,7 @@ nonona:nonona ModifierInfl ; ! "soft"
 titini:titini ModifierInfl ; ! "wet"
 setera:setera ModifierInfl ; ! "dry"
 unggwandusa:unggwandusa ModifierInfl ; ! "large"
-bastantoiya:bastantoiya ModifierInfl ; ! "small" has irregular <advl> form, generates regular also (TODO)
+bastantoiya:bastantoiya ModifierInfl-not-advl ; ! "small" has irregular <advl> form, generates regular also (TODO)
 bastantoiya%<adj%>%<advl%>:bastantoifer # ; ! "a little (adv)"
 bukona:bukona ModifierInfl ; ! "round"
 ferfera:ferfera ModifierInfl ; ! "flat"

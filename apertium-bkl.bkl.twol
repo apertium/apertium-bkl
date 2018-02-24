@@ -5,12 +5,14 @@ Alphabet
  %{S%}:s %{S%}:m
  %{I%}:0 ! %{I%}:i
  %{A%}:a %{A%}:0
- %{W%}:w %{W%}:0
+ %{W%}:w ! %{W%}:0
  %{O%}:o %{O%}:u
  %{l%}:l %{l%}:0
  %{E%}:e %{E%}:a
  %{N%}:n ! %{N%}:l
  %{V%}:e ! %{V%}:i %{V%}:a %{V%}:o
+ %{e%}:e ! %{e%}:0
+ %{a%}:a ! %{a%}:0
  %>:0  ;
 
 Sets
@@ -38,6 +40,15 @@ Rules
 %{I%}:i <=> _ .#. ;
             _ y ;
             _ s ;
+
+"e in disappears in nouns suffixes after vowels"
+%{e%}:0 <=> :Vowel _ ;
+"a in disappears in nouns suffixes after vowels"
+%{a%}:0 <=> :Vowel _ ;
+"w in disappears in nouns suffixes after nasals"
+%{W%}:0 <=> :m _ ;
+            :n _ ;
+            :n :g _ ;
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Enter_twol
