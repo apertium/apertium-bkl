@@ -7,6 +7,7 @@ Multichar_Symbols
 %<neg%>   ! Negation
 %<resp%>  ! Response
 %<psimp%> ! Pseudo-Imperatives
+%<imp%>   ! Imperative marker
 %<ij%>    ! Interjection
 %<itg%>   ! Interogative
 %<num%>   ! Numeral
@@ -98,7 +99,7 @@ LEXICON RegNounInfl
 %<n%>%<relational%>:bara # ;
 %<n%>%<pos%>:em # ;
 %<n%>%<pos%>:mana # ;
-%<n%>%<com%>:%{F%}ar # ;
+%<n%>%<com%>:far # ;
 %<n%>%<dat%>:f # ;
 %<n%>+ap%<post%>:%{a%}p # ;
 %<n%>+wer%<post%>:%{W%}er # ;
@@ -106,16 +107,19 @@ LEXICON RegNounInfl
 %<n%>:0 # ; ! grammar sketch says "However, not all nouns as Subject take this inflection.", assuming this means they take nothing
 
 LEXICON PronounInfl
-
+RegNounInfl ;
 %<acc%>:%{S%} # ;
 %<dat%>:p # ;
 %<com%>:bar # ;
 %<acc%>%<ref%>:nan # ;
 +yan%<neg%>:yan # ;
 %<dem%>%<part%>:serem # ;
+%<pos%>:mna # ; ! based on various example data
+%<pos%>:mena # ;
+%<pos%>:rem # ;
 # ;
 
-! -mena/-rem unclear (TODO)
+! the details of possesive pronouns are somewhat unclear (TODO)
 
 LEXICON ModifierInfl
 ModifierInfl-not-advl ;
@@ -194,45 +198,72 @@ gwora:gwora RegNounInfl ; ! "cover"
 Mina:Mina RegNounInfl ; ! "(name)"
 Suster:Suster RegNounInfl ; ! "Sister"
 nan:nan RegNounInfl ; ! "who"
+angtane:angtane RegNounInfl ; ! "person"
+raja:raja RegNounInfl ; ! "king"
+taman:taman RegNounInfl ; ! "village"
+
+! Proper Nouns
+Yesus:Yesus RegNounInfl ; ! "Jesus"
+Yusuf:Yusuf RegNounInfl ; ! "Joseph"
+Maria:Maria RegNounInfl ; ! "Mary"
+Daud:Daud RegNounInfl ; ! "David"
 
 LEXICON ClosedClass
 
+! response words
 ngga%<resp%>:ngga # ; ! "yes"
 sia%<resp%>:sia # ; ! "yes"
 wowo%<resp%>:wowo # ; ! "no"
 fas%<resp%>:fas # ; ! "none"
 bar%<resp%>:bar # ; ! "finished"
 bai%<resp%>:bai # ; ! "don't want"
+
+! pseudo-imperatives
 au%<psimp%>:au # ; ! "come"
 aiyai%<psimp%>:aiyai # ; ! "watch out"
 jesbaf%<psimp%>:jesbaf # ; ! "don't"
+
+! interjections
 wa%<ij%>:wa # ; ! "(amazement)"
 nesik%<ij%>:nesik # ; ! "(pity)"
+
+! interrogatives
 basa%<itg%>:basa # ; ! "what"
 nasa%<itg%>:nasa # ; ! "who"
 bafa%<itg%>:bafa # ; ! "why"
 fomera%<itg%>:fomera # ; ! "how many"
 fwera%<itg%>:fwera # ; ! "where"
 fonggalabar%<itg%>:fonggalabar # ; ! "when"
+
+! numerals
 daamfena%<num%>:daamfena # ; ! "one"
 naura%<num%>:naura # ; ! "two"
 nawerningna%<num%>:nawerningna # ; ! "three"
 nawernaura%<num%>:nawernaura # ; ! "four"
+
+! manner adverbs
 mese%<adv%>%<man%>:mese # ; ! "also"
 gamjon%<adv%>%<man%>:gamjon # ; ! "again"
 enggam%<adv%>%<man%>:enggam # ; ! "like this"
 maa%<adv%>%<man%>:maa # ; ! "already"
 gamerje%<adv%>%<man%>:gamerje # ; ! "not yet"
 galap%<adv%>%<man%>:galap # ; ! "later"
+
+! temporal markers
 namwer%<temp%>:namwer # ; ! "today, now"
 gwirmir%<temp%>:gwirmir # ; ! "tomorrow"
 ir%<temp%>:ir # ; ! "yesterday"
 jem%<temp%>:jem # ; ! "day before or day after"
 gwerem%<temp%>:gwerem # ; ! "noon"
 dafef%<temp%>:dafef # ; ! "afternoon"
+
+! locationals (possibly a conflation of locations and prepositions)
 afunup%<locl%>:afunup # ; ! "middle of"
 safap%<locl%>:safap # ; ! "on"
 burawer%<locl%>:burawer # ; ! "behind"
+jamere%<locl%>:jamere # ; ! "there"
+
+! conjunctions
 yo%<conj%>:yo # ; ! "and"
 afa%<conj%>:afa # ; ! "or"
 ane%<conj%>:ane # ; ! "and"
@@ -241,6 +272,12 @@ jeuga%<conj%>:jeuga # ; ! "but"
 jebas%<conj%>:jebas # ; ! "because"
 jengga%<conj%>:jengga # ; ! "then"
 jamer%<conj%>:jamer # ; ! "until"
+
+! imperative markers
+das%<imp%>:das # ;
+jas%<imp%>:jas # ;
+sa%<imp%>:sa # ;
+se%<imp%>:se # ;
 
 LEXICON PronounRoot
 
@@ -259,7 +296,7 @@ ne%<prn%>%<subj%>:ne PronounInfl ; ! "we (subj)"
 ! subject 2
 ai%<prn%>%<subj%>:ajam PronounInfl ; ! "I (subj)"
 i%<prn%>%<subj%>:ijam PronounInfl ; ! "you (SG, subj)"
-jam%<prn%>%<subj%>:je PronounInfl ; ! "he, she, it (subj)"
+je%<prn%>%<subj%>:jam PronounInfl ; ! "he, she, it (subj)"
 ne%<prn%>%<subj%>:nejam PronounInfl ; ! "we (subj)"
 ! it might actually be "ne jam" (TODO)
 
@@ -269,6 +306,7 @@ ane:ane ModifierInfl ; ! "many"
 seyafter:seyafter ModifierInfl ; ! "all"
 fas:fas ModifierInfl ; ! "none"
 waakena:waaken%{A%} ModifierInfl ; ! "good"
+kapka:kapka ModifierInfl ; ! "bad, damaged, mistake, erroneous, broken"
 sasara:sasara ModifierInfl ; ! "happy"
 baabeta:baabeta ModifierInfl ; ! "strong"
 bunar:bunar ModifierInfl ; ! "true"
@@ -286,7 +324,7 @@ nonona:nonona ModifierInfl ; ! "soft"
 titini:titini ModifierInfl ; ! "wet"
 setera:setera ModifierInfl ; ! "dry"
 unggwandusa:unggwandusa ModifierInfl ; ! "large"
-bastantoiya:bastantoiya ModifierInfl-not-advl ; ! "small" has irregular <advl> form, generates regular also (TODO)
+bastantoiya:bastantoiya ModifierInfl-not-advl ; ! "small"
 bastantoiya%<adj%>%<advl%>:bastantoifer # ; ! "a little (adv)"
 bukona:bukona ModifierInfl ; ! "round"
 ferfera:ferfera ModifierInfl ; ! "flat"
