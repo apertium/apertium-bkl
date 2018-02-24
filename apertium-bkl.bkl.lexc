@@ -21,6 +21,7 @@ Multichar_Symbols
 %<v%>     ! Verb
 %<tv%>    ! Transitive Verb
 %<iv%>    ! Intransitive Verb
+%<part%>  ! Particle
 
 ! Number morphology
 %<pl%>  ! Plural
@@ -107,7 +108,7 @@ LEXICON RegNounInfl
 %<n%>:0 # ; ! grammar sketch says "However, not all nouns as Subject take this inflection.", assuming this means they take nothing
 
 LEXICON PronounInfl
-RegNounInfl ;
+
 %<acc%>:%{S%} # ;
 %<dat%>:p # ;
 %<com%>:bar # ;
@@ -117,6 +118,8 @@ RegNounInfl ;
 %<pos%>:mna # ; ! based on various example data
 %<pos%>:mena # ;
 %<pos%>:rem # ;
++ap%<post%>:%{a%}p # ;
++wer%<post%>:%{W%}er # ;
 # ;
 
 ! the details of possesive pronouns are somewhat unclear (TODO)
@@ -278,6 +281,11 @@ das%<imp%>:das # ;
 jas%<imp%>:jas # ;
 sa%<imp%>:sa # ;
 se%<imp%>:se # ;
+
+! "ga" particles
+ga%<part%>:ga # ;
+gan%<part%>:gan # ;
+gam%<part%>:gam # ;
 
 LEXICON PronounRoot
 

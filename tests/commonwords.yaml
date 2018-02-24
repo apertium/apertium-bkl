@@ -40,13 +40,13 @@ Tests:
     - Jei
     ge<unk>:
     - ge
-    jam<unk>:
+    je<prn><subj>:
     - jam
     taterisi<unk>:
     - taterisi
     aane<unk>:
     - aane
-    jewer<unk>:
+    je<prn>+wer<post>:
     - jewer
     jebe<unk>:
     - jebe
@@ -68,7 +68,7 @@ Tests:
     - aaiserem
     Taterisi<unk>:
     - Taterisi
-    gam<unk>:
+    gam<part>:
     - gam
     enggame<unk>:
     - enggame
