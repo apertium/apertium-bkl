@@ -89,6 +89,7 @@ PronounRoot ;
 ModifierRoot ;
 VerbRoot ;
 GiveInflNum ;
+TieInflNum ;
 
 LEXICON RegNounInfl
 
@@ -150,6 +151,7 @@ LEXICON GiveInflNum
 gubana:g%{O%}%{l%} GiveInflNumSG ;
 gubana:ter GiveInflNumDU ;
 gubana:kit%{O%}%{l%} GiveInflNumPL ;
+gubana%<v%>%<tv%>%<pl%>%<lg%>%<m%>%<fut%>:kitobafo # ;
 
 LEXICON GiveInflNumSG
 %<v%>%<tv%>%<sg%>: GiveInflSize ;
@@ -168,12 +170,37 @@ LEXICON GiveInflGender
 %<f%>:i GiveInflTense ;
 
 LEXICON GiveInflTense
+OverlapTense ;
+%<fut%>:f%{V%} # ;
 
+LEXICON OverlapTense
 %<pst%>%<dark%>:f%{V%}nt # ;
 %<pst%>%<light%>:%{N%}%{V%}nt # ;
 %<prs%>%<dark%>:s%{V%} # ;
 %<prs%>%<light%>:%{N%}%{V%} # ;
-%<fut%>:f%{V%} # ;
+
+LEXICON TieInflNum
+! overlaps somewhat with the GiveInfl lexicons
+
+fwirna:fwi TieInflNumSG ;
+fwirna:faa TieInflNumDU ;
+fwirna:tafe TieInflNumPL ;
+
+LEXICON TieInflNumSG
+%<v%>%<tv%>%<sg%>:re TieInflTense ;
+LEXICON TieInflNumDU
+%<v%>%<tv%>%<du%>:re TieInflTense ;
+LEXICON TieInflNumPL
+%<v%>%<tv%>%<pl%>:rebi TieInflTense ;
+
+LEXICON TieInflTense
+OverlapTense ;
+%<fut%>%<dark%>:s%{V%} # ;
+%<fut%>%<light%>:f%{V%} # ;
+%<fut%>%<light%>:na # ;
+%<pst%>%<light%>:fant # ;
+%<pst%>%<dark%>:nant # ;
+%<pst%>%<light%>:nant # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
@@ -313,7 +340,8 @@ LEXICON ModifierRoot
 ane:ane ModifierInfl ; ! "many"
 seyafter:seyafter ModifierInfl ; ! "all"
 fas:fas ModifierInfl ; ! "none"
-waakena:waaken%{A%} ModifierInfl ; ! "good"
+waakena:waakena ModifierInfl-not-advl ; ! "good"
+waakena%<adj%>%<advl%>:waakenfer # ; ! "well"
 kapka:kapka ModifierInfl ; ! "bad, damaged, mistake, erroneous, broken"
 sasara:sasara ModifierInfl ; ! "happy"
 baabeta:baabeta ModifierInfl ; ! "strong"
@@ -346,63 +374,6 @@ bwelkat-bwelkata:bwelkat-bwelkata ModifierInfl ; ! "yellow"
 ibam-ibama:ibam-ibama ModifierInfl ; ! "blue"
 
 LEXICON VerbRoot
-
-gubana%<v%>%<tv%>%<prs%>%<sg%>%<light%>:gulbana VerbInfl ;
-gubana%<v%>%<tv%>%<pst%>%<sg%>%<light%>:gulbanant VerbInfl ;
-gubana%<v%>%<tv%>%<fut%>%<sg%>%<light%>:gulbafa VerbInfl ;
-gubana%<v%>%<tv%>%<prs%>%<sg%>%<dark%>:gulbasa VerbInfl ;
-gubana%<v%>%<tv%>%<pst%>%<sg%>%<dark%>:gulbafant VerbInfl ;
-gubana%<v%>%<tv%>%<fut%>%<sg%>%<dark%>:gubafa VerbInfl ;
-gubana%<v%>%<tv%>%<prs%>%<du%>%<light%>:terbene VerbInfl ;
-gubana%<v%>%<tv%>%<pst%>%<du%>%<light%>:terbenent VerbInfl ;
-gubana%<v%>%<tv%>%<fut%>%<du%>%<light%>:terbefe VerbInfl ;
-gubana%<v%>%<tv%>%<prs%>%<du%>%<dark%>:terbese VerbInfl ;
-gubana%<v%>%<tv%>%<pst%>%<du%>%<dark%>:terbefent VerbInfl ;
-gubana%<v%>%<tv%>%<fut%>%<du%>%<dark%>:terbefe VerbInfl ;
-gubana%<v%>%<tv%>%<prs%>%<pl%>%<light%>:kitobana VerbInfl ;
-gubana%<v%>%<tv%>%<pst%>%<pl%>%<light%>:kitulbanant VerbInfl ;
-gubana%<v%>%<tv%>%<fut%>%<pl%>%<light%>:kitobafo VerbInfl ;
-gubana%<v%>%<tv%>%<prs%>%<pl%>%<dark%>:kitobasa VerbInfl ;
-gubana%<v%>%<tv%>%<pst%>%<pl%>%<dark%>:kitulbafant VerbInfl ;
-gubana%<v%>%<tv%>%<fut%>%<pl%>%<dark%>:kitobafo VerbInfl ;
-
-gobali%<v%>%<tv%>%<prs%>%<sg%>%<light%>:gobili VerbInfl ;
-gobali%<v%>%<tv%>%<pst%>%<sg%>%<light%>:golbilint VerbInfl ;
-gobali%<v%>%<tv%>%<fut%>%<sg%>%<light%>:golbifi VerbInfl ;
-gobali%<v%>%<tv%>%<prs%>%<sg%>%<dark%>:gobisi VerbInfl ;
-gobali%<v%>%<tv%>%<pst%>%<sg%>%<dark%>:golbifint VerbInfl ;
-gobali%<v%>%<tv%>%<fut%>%<sg%>%<dark%>:golbifi VerbInfl ;
-gobali%<v%>%<tv%>%<prs%>%<du%>%<light%>:terbili VerbInfl ;
-gobali%<v%>%<tv%>%<pst%>%<du%>%<light%>:terbilint VerbInfl ;
-gobali%<v%>%<tv%>%<fut%>%<du%>%<light%>:terbifi VerbInfl ;
-gobali%<v%>%<tv%>%<prs%>%<du%>%<dark%>:terbese VerbInfl ;
-gobali%<v%>%<tv%>%<pst%>%<du%>%<dark%>:terbefint VerbInfl ;
-gobali%<v%>%<tv%>%<fut%>%<du%>%<dark%>:terbifi VerbInfl ;
-gobali%<v%>%<tv%>%<prs%>%<pl%>%<light%>:kitobili VerbInfl ;
-gobali%<v%>%<tv%>%<pst%>%<pl%>%<light%>:kitulbilint VerbInfl ;
-gobali%<v%>%<tv%>%<fut%>%<pl%>%<light%>:kitulbifi VerbInfl ;
-gobali%<v%>%<tv%>%<prs%>%<pl%>%<dark%>:kitobisi VerbInfl ;
-gobali%<v%>%<tv%>%<pst%>%<pl%>%<dark%>:kitulbifint VerbInfl ;
-gobali%<v%>%<tv%>%<fut%>%<pl%>%<dark%>:kitulbifi VerbInfl ;
-
-fwirna%<v%>%<tv%>%<prs%>%<sg%>%<light%>:fwirena VerbInfl ;
-fwirna%<v%>%<tv%>%<prs%>%<sg%>%<dark%>:fwiresa VerbInfl ;
-fwirna%<v%>%<tv%>%<prs%>%<du%>%<light%>:faarena VerbInfl ;
-fwirna%<v%>%<tv%>%<prs%>%<du%>%<dark%>:faaresa VerbInfl ;
-fwirna%<v%>%<tv%>%<prs%>%<pl%>%<light%>:taferebili VerbInfl ;
-fwirna%<v%>%<tv%>%<prs%>%<pl%>%<dark%>:taferebisi VerbInfl ;
-fwirna%<v%>%<tv%>%<pst%>%<sg%>%<light%>:fwirenant VerbInfl ;
-fwirna%<v%>%<tv%>%<pst%>%<sg%>%<dark%>:fwirenant VerbInfl ;
-fwirna%<v%>%<tv%>%<pst%>%<du%>%<light%>:faarefant VerbInfl ;
-fwirna%<v%>%<tv%>%<pst%>%<du%>%<dark%>:faarenant VerbInfl ;
-fwirna%<v%>%<tv%>%<pst%>%<pl%>%<light%>:taferebilint VerbInfl ;
-fwirna%<v%>%<tv%>%<pst%>%<pl%>%<dark%>:taferebifint VerbInfl ;
-fwirna%<v%>%<tv%>%<fut%>%<sg%>%<light%>:fwirena VerbInfl ;
-fwirna%<v%>%<tv%>%<fut%>%<sg%>%<dark%>:fwiresa VerbInfl ;
-fwirna%<v%>%<tv%>%<fut%>%<du%>%<light%>:faarefa VerbInfl ;
-fwirna%<v%>%<tv%>%<fut%>%<du%>%<dark%>:faaresa VerbInfl ;
-fwirna%<v%>%<tv%>%<fut%>%<pl%>%<light%>:taferebifi VerbInfl ;
-fwirna%<v%>%<tv%>%<fut%>%<pl%>%<dark%>:taferebisi VerbInfl ;
 
 gwarantena%<v%>%<tv%>%<prs%>%<sg%>%<low%>:gwerantena VerbInfl ;
 gwarantena%<v%>%<tv%>%<prs%>%<sg%>%<high%>:gweransona VerbInfl ;

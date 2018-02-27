@@ -214,40 +214,40 @@ Tests:
     gwarantena<v><tv><prs><sg><low>:
     - gwerantena
   To Tie:
-    fwirna<v><tv><fut><du><dark>:
+    fwirna<v><tv><du><fut><dark>:
     - faaresa
-    fwirna<v><tv><fut><du><light>:
+    fwirna<v><tv><du><fut><light>:
     - faarefa
-    fwirna<v><tv><fut><pl><dark>:
-    - taferebisi
-    fwirna<v><tv><fut><pl><light>:
-    - taferebifi
-    fwirna<v><tv><fut><sg><dark>:
-    - fwiresa
-    fwirna<v><tv><fut><sg><light>:
-    - fwirena
-    fwirna<v><tv><prs><du><dark>:
+    fwirna<v><tv><du><prs><dark>:
     - faaresa
-    fwirna<v><tv><prs><du><light>:
+    fwirna<v><tv><du><prs><light>:
     - faarena
-    fwirna<v><tv><prs><pl><dark>:
-    - taferebisi
-    fwirna<v><tv><prs><pl><light>:
-    - taferebili
-    fwirna<v><tv><prs><sg><dark>:
-    - fwiresa
-    fwirna<v><tv><prs><sg><light>:
-    - fwirena
-    fwirna<v><tv><pst><du><dark>:
+    fwirna<v><tv><du><pst><dark>:
     - faarenant
-    fwirna<v><tv><pst><du><light>:
+    fwirna<v><tv><du><pst><light>:
     - faarefant
-    fwirna<v><tv><pst><pl><dark>:
+    fwirna<v><tv><pl><fut><dark>:
+    - taferebisi
+    fwirna<v><tv><pl><fut><light>:
+    - taferebifi
+    fwirna<v><tv><pl><prs><dark>:
+    - taferebisi
+    fwirna<v><tv><pl><prs><light>:
+    - taferebili
+    fwirna<v><tv><pl><pst><dark>:
     - taferebifint
-    fwirna<v><tv><pst><pl><light>:
+    fwirna<v><tv><pl><pst><light>:
     - taferebilint
-    fwirna<v><tv><pst><sg><dark>:
+    fwirna<v><tv><sg><fut><dark>:
+    - fwiresa
+    fwirna<v><tv><sg><fut><light>:
+    - fwirena
+    fwirna<v><tv><sg><prs><dark>:
+    - fwiresa
+    fwirna<v><tv><sg><prs><light>:
+    - fwirena
+    fwirna<v><tv><sg><pst><dark>:
     - fwirenant
-    fwirna<v><tv><pst><sg><light>:
+    fwirna<v><tv><sg><pst><light>:
     - fwirenant
   Verbs: {}
