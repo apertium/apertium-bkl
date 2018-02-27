@@ -205,6 +205,7 @@ OverlapTense ;
 %<pst%>%<light%>:nant # ;
 
 LEXICON PlaceInflNum
+gwarantena%<v%>%<tv%>%<sg%>%<prs%>%<prx%>%<low%>:gwerantena # ;
 gwarantena:gweran PlaceInflNumSG ;
 gwarantena:toson PlaceInflNumDU ;
 gwarantena:bunun PlaceInflNumPL ;
@@ -219,7 +220,6 @@ LEXICON PlaceInflNumPL
 LEXICON PlaceInflLoc
 %<dst%>%<low%>:tetfa # ;
 %<dst%>%<high%>:swetna # ;
-%<prx%>%<low%>:tena # ;
 %<prx%>%<low%>:tona # ;
 %<prx%>%<high%>:sona # ;
 
