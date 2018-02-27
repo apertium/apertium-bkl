@@ -189,29 +189,29 @@ Tests:
     gubana<v><tv><sg><lg><m><pst><light>:
     - gulbanant
   To Place:
-    gwarantena<v><tv><prs><dst><du><high>:
+    gwarantena<v><tv><du><prs><dst><high>:
     - tosonswetna
-    gwarantena<v><tv><prs><dst><du><low>:
+    gwarantena<v><tv><du><prs><dst><low>:
     - tosontetfa
-    gwarantena<v><tv><prs><dst><pl><high>:
-    - bununswetna
-    gwarantena<v><tv><prs><dst><pl><low>:
-    - bununtetfa
-    gwarantena<v><tv><prs><dst><sg><high>:
-    - gweranswetna
-    gwarantena<v><tv><prs><dst><sg><low>:
-    - gwerantetfa
-    gwarantena<v><tv><prs><du><high>:
+    gwarantena<v><tv><du><prs><prx><high>:
     - tosonsona
-    gwarantena<v><tv><prs><du><low>:
+    gwarantena<v><tv><du><prs><prx><low>:
     - tosontona
-    gwarantena<v><tv><prs><pl><high>:
+    gwarantena<v><tv><pl><prs><dst><high>:
+    - bununswetna
+    gwarantena<v><tv><pl><prs><dst><low>:
+    - bununtetfa
+    gwarantena<v><tv><pl><prs><prx><high>:
     - bununsona
-    gwarantena<v><tv><prs><pl><low>:
+    gwarantena<v><tv><pl><prs><prx><low>:
     - bununtona
-    gwarantena<v><tv><prs><sg><high>:
+    gwarantena<v><tv><sg><prs><dst><high>:
+    - gweranswetna
+    gwarantena<v><tv><sg><prs><dst><low>:
+    - gwerantetfa
+    gwarantena<v><tv><sg><prs><prx><high>:
     - gweransona
-    gwarantena<v><tv><prs><sg><low>:
+    gwarantena<v><tv><sg><prs><prx><low>:
     - gwerantena
   To Tie:
     fwirna<v><tv><du><fut><dark>:

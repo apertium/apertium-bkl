@@ -61,6 +61,7 @@ Multichar_Symbols
 %<low%>   ! Action down low
 %<high%>  ! Action up high
 %<dst%>   ! Action far away
+%<prx%>   ! Action near
 
 ! Other symbols
 %>      ! Morpheme boundary
@@ -90,6 +91,7 @@ ModifierRoot ;
 VerbRoot ;
 GiveInflNum ;
 TieInflNum ;
+PlaceInflNum ;
 
 LEXICON RegNounInfl
 
@@ -201,6 +203,25 @@ OverlapTense ;
 %<pst%>%<light%>:fant # ;
 %<pst%>%<dark%>:nant # ;
 %<pst%>%<light%>:nant # ;
+
+LEXICON PlaceInflNum
+gwarantena:gweran PlaceInflNumSG ;
+gwarantena:toson PlaceInflNumDU ;
+gwarantena:bunun PlaceInflNumPL ;
+
+LEXICON PlaceInflNumSG
+%<v%>%<tv%>%<sg%>%<prs%>: PlaceInflLoc ;
+LEXICON PlaceInflNumDU
+%<v%>%<tv%>%<du%>%<prs%>: PlaceInflLoc ;
+LEXICON PlaceInflNumPL
+%<v%>%<tv%>%<pl%>%<prs%>: PlaceInflLoc ;
+
+LEXICON PlaceInflLoc
+%<dst%>%<low%>:tetfa # ;
+%<dst%>%<high%>:swetna # ;
+%<prx%>%<low%>:tena # ;
+%<prx%>%<low%>:tona # ;
+%<prx%>%<high%>:sona # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
@@ -373,20 +394,8 @@ ikikini:ikikini ModifierInfl ; ! "green"
 bwelkat-bwelkata:bwelkat-bwelkata ModifierInfl ; ! "yellow"
 ibam-ibama:ibam-ibama ModifierInfl ; ! "blue"
 
-LEXICON VerbRoot
+! LEXICON VerbRoot
 
-gwarantena%<v%>%<tv%>%<prs%>%<sg%>%<low%>:gwerantena VerbInfl ;
-gwarantena%<v%>%<tv%>%<prs%>%<sg%>%<high%>:gweransona VerbInfl ;
-gwarantena%<v%>%<tv%>%<prs%>%<du%>%<low%>:tosontona VerbInfl ;
-gwarantena%<v%>%<tv%>%<prs%>%<du%>%<high%>:tosonsona VerbInfl ;
-gwarantena%<v%>%<tv%>%<prs%>%<pl%>%<low%>:bununtona VerbInfl ;
-gwarantena%<v%>%<tv%>%<prs%>%<pl%>%<high%>:bununsona VerbInfl ;
-gwarantena%<v%>%<tv%>%<prs%>%<dst%>%<sg%>%<low%>:gwerantetfa VerbInfl ;
-gwarantena%<v%>%<tv%>%<prs%>%<dst%>%<sg%>%<high%>:gweranswetna VerbInfl ;
-gwarantena%<v%>%<tv%>%<prs%>%<dst%>%<du%>%<low%>:tosontetfa VerbInfl ;
-gwarantena%<v%>%<tv%>%<prs%>%<dst%>%<du%>%<high%>:tosonswetna VerbInfl ;
-gwarantena%<v%>%<tv%>%<prs%>%<dst%>%<pl%>%<low%>:bununtetfa VerbInfl ;
-gwarantena%<v%>%<tv%>%<prs%>%<dst%>%<pl%>%<high%>:bununswetna VerbInfl ;
 
 
 ! Resources:
