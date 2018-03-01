@@ -223,6 +223,9 @@ LEXICON PlaceInflLoc
 %<prx%>%<low%>:tona # ;
 %<prx%>%<high%>:sona # ;
 
+LEXICON CryInfl
+gwarenwena%<v%>%<tv%>%<sg%>%<prs%>:gwarenwena # ;
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -252,6 +255,7 @@ nan:nan RegNounInfl ; ! "who"
 angtane:angtane RegNounInfl ; ! "person"
 raja:raja RegNounInfl ; ! "king"
 taman:taman RegNounInfl ; ! "village"
+bwat:bwat RegNounInfl ; ! "spirit"
 
 ! Proper Nouns
 Yesus:Yesus RegNounInfl ; ! "Jesus"
