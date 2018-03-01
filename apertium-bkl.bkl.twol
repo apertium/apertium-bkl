@@ -8,9 +8,9 @@ Alphabet
  %{W%}:w ! %{W%}:0
  %{O%}:o %{O%}:u
  %{l%}:l %{l%}:0
- %{E%}:e %{E%}:a
+ %{E%}:a ! %{E%}:e
  %{N%}:n ! %{N%}:l
- %{V%}:e ! %{V%}:i %{V%}:a
+ %{V%}:e ! %{V%}:a %{V%}:i
  %{e%}:e ! %{e%}:0
  %{a%}:a ! %{a%}:0
  %>:0  ;
@@ -29,10 +29,13 @@ Rules
 
 "in 'give', a only shows up at the end if the previous vowel was a"
 %{V%}:a <=> :a :VerbSkipCons _ ;
-            :e :VerbSkipCons _ ; ! or after e in 'tie'
+            :r :e :VerbSkipCons _ ; ! or after re in 'tie'
 
 "in 'give', i only shows up at the end if the previous vowel was i"
 %{V%}:i <=> :i :VerbSkipCons _ ;
+            
+"masculine shows up as e in 'give' only after rb"
+%{E%}:e <=> :r :b _ ;
 
 "1st person pronoun only has i with no suffixes"
 %{I%}:i <=> _ .#. ;

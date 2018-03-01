@@ -28,15 +28,15 @@ Tests:
     je<prn><pos>:
     - jemna
   Not-Done:
-    jei<unk>:
+    je<prn>:
     - jei
     aa<unk>:
     - aa
     jeta<unk>:
     - jeta
-    jeiserem<unk>:
+    je<prn><dem><part>:
     - jeiserem
-    Jei<unk>:
+    Je<prn>:
     - Jei
     ge<unk>:
     - ge
