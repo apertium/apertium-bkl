@@ -154,6 +154,8 @@ gubana:g%{O%}%{l%} GiveInflNumSG ;
 gubana:ter GiveInflNumDU ;
 gubana:kit%{O%}%{l%} GiveInflNumPL ;
 gubana%<v%>%<tv%>%<pl%>%<lg%>%<m%>%<fut%>:kitobafo # ;
+gubana%<v%>%<tv%>%<du%>%<lg%>%<f%>%<prs%>%<dark%>:terbese # ;
+gubana%<v%>%<tv%>%<du%>%<lg%>%<f%>%<pst%>%<dark%>:terbefint # ;
 
 LEXICON GiveInflNumSG
 %<v%>%<tv%>%<sg%>: GiveInflSize ;
@@ -334,6 +336,9 @@ se%<imp%>:se # ;
 ga%<part%>:ga # ;
 gan%<part%>:gan # ;
 gam%<part%>:gam # ;
+
+! other particles
+ge%<part%>%<pl%>:ge # ;
 
 LEXICON PronounRoot
 
