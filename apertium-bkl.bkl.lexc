@@ -342,6 +342,7 @@ ai%<prn%>:a%{I%} PronounInfl ; ! "I"
 ne%<prn%>:ne PronounInfl ; ! "we"
 i%<prn%>:i PronounInfl ; ! "you (SG)"
 je%<prn%>:je PronounInfl ; ! "he, she, it"
+je%<prn%>:jei PronounInfl ; ! "he, she, it"
 
 ! subject 1
 ai%<prn%>%<subj%>:ai PronounInfl ; ! "I (subj)"
