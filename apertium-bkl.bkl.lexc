@@ -68,7 +68,6 @@ Multichar_Symbols
 %{F%}   ! for commitative
 %{S%}   ! for pronoun accusative
 %{I%}   ! for variation in 1S pronoun
-%{A%}   ! for postpositions
 %{W%}   ! for postposition -wer (w deleted after nasals)
 %{O%}
 %{l%}
