@@ -6,8 +6,8 @@ Alphabet
  %{I%}:0 ! %{I%}:i
  %{A%}:a %{A%}:0
  %{W%}:w ! %{W%}:0
- %{O%}:o %{O%}:u
- %{l%}:l %{l%}:0
+ %{O%}:o ! %{O%}:u
+ %{l%}:0 ! %{l%}:l
  %{E%}:a ! %{E%}:e
  %{N%}:n ! %{N%}:l
  %{V%}:e ! %{V%}:a %{V%}:i
@@ -23,6 +23,17 @@ Vowel = A E I O U
 VerbSkipCons = f l s n ;
 
 Rules
+
+"{l} always shows up after u and in o_bif"
+%{l%}:l <=> :u _ ;
+            :o _ :b :i :f ;
+            :o _ :b :i :l :i :n ;
+            
+"{O} is u in some places"
+%{O%}:u <=> :g _ %{l%}: b :a ;
+            :t _ %{l%}: b :a :VerbSkipCons :a :n ;
+            :t _ %{l%}: b :i :f ;
+            :t _ %{l%}: b :i :l :i :n ;
 
 "n becomes l in i_i in 'give'"
 %{N%}:l <=> :i _ :i ;
