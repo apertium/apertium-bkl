@@ -111,6 +111,11 @@ LEXICON RegNounInfl
 
 LEXICON PronounInfl
 
+%<prn%>: PronounInfl-Case ;
+%<prn%>%<subj%>: # ;
+
+LEXICON PronounInfl-Case
+
 %<acc%>:%{S%} # ;
 %<dat%>:p # ;
 %<com%>:bar # ;
@@ -122,7 +127,6 @@ LEXICON PronounInfl
 %<pos%>:rem # ;
 +ap%<post%>:%{a%}p # ;
 +wer%<post%>:%{W%}er # ;
-# ;
 
 ! the details of possesive pronouns are somewhat unclear (TODO)
 
@@ -346,23 +350,23 @@ ge%<part%>%<pl%>:ge # ;
 LEXICON PronounRoot
 
 ! pronouns
-ai%<prn%>:a%{I%} PronounInfl ; ! "I"
-ne%<prn%>:ne PronounInfl ; ! "we"
-i%<prn%>:i PronounInfl ; ! "you (SG)"
-je%<prn%>:je PronounInfl ; ! "he, she, it"
-je%<prn%>:jei PronounInfl ; ! "he, she, it"
+ai:a%{I%} PronounInfl ; ! "I"
+ne:ne PronounInfl ; ! "we"
+i:i PronounInfl ; ! "you (SG)"
+je:je PronounInfl ; ! "he, she, it"
+je:jei PronounInfl ; ! "he, she, it"
 
 ! subject 1
-ai%<prn%>%<subj%>:ai PronounInfl ; ! "I (subj)"
-i%<prn%>%<subj%>:aame PronounInfl ; ! "you (SG, subj)"
-je%<prn%>%<subj%>:je PronounInfl ; ! "he, she, it (subj)"
-ne%<prn%>%<subj%>:ne PronounInfl ; ! "we (subj)"
+! ai%<prn%>%<subj%>:ai PronounInfl ; ! "I (subj)"
+i:aame PronounInfl ; ! "you (SG, subj)"
+! je%<prn%>%<subj%>:je PronounInfl ; ! "he, she, it (subj)"
+! ne%<prn%>%<subj%>:ne PronounInfl ; ! "we (subj)"
 
 ! subject 2
-ai%<prn%>%<subj%>:ajam PronounInfl ; ! "I (subj)"
-i%<prn%>%<subj%>:ijam PronounInfl ; ! "you (SG, subj)"
-je%<prn%>%<subj%>:jam PronounInfl ; ! "he, she, it (subj)"
-ne%<prn%>%<subj%>:nejam PronounInfl ; ! "we (subj)"
+a:ajam PronounInfl ; ! "I (subj)"
+i:ijam PronounInfl ; ! "you (SG, subj)"
+je:jam PronounInfl ; ! "he, she, it (subj)"
+ne:nejam PronounInfl ; ! "we (subj)"
 ! it might actually be "ne jam" (TODO)
 
 LEXICON ModifierRoot
