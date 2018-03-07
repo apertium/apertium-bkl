@@ -63,6 +63,17 @@ Multichar_Symbols
 %<dst%>   ! Action far away
 %<prx%>   ! Action near
 
+! Punctuation
+
+%<sent%>
+%<guio%>
+%<cm%>
+%<apos%>
+%<lquot%>
+%<rquot%>
+%<lpar%>
+%<rpar%>
+
 ! Other symbols
 %>      ! Morpheme boundary
 %{F%}   ! for commitative
@@ -91,6 +102,7 @@ VerbRoot ;
 GiveInflNum ;
 TieInflNum ;
 PlaceInflNum ;
+Punctuation ;
 
 LEXICON RegNounInfl
 
@@ -261,12 +273,86 @@ angtane:angtane RegNounInfl ; ! "person"
 raja:raja RegNounInfl ; ! "king"
 taman:taman RegNounInfl ; ! "village"
 bwat:bwat RegNounInfl ; ! "spirit"
+abur:abur RegNounInfl ; ! "Orange-bellied Fruit Dove"
+al:al RegNounInfl ; ! "armband"
+anggwa:anggwa RegNounInfl ; ! "male, man, husband"
+anggwabura:anggwabura RegNounInfl ; ! "ethnic group, tribe"
+angtane:angtane RegNounInfl ; ! "person, people, passenger"
+ara:ara RegNounInfl ; ! "fig"
+at:at RegNounInfl ; ! "canoe"
+awas:awas RegNounInfl ; ! "snake"
+awelna:awelna RegNounInfl ; ! "work, task"
+ban:ban RegNounInfl ; ! "tire"
+bese:bese RegNounInfl ; ! "a kind of spinach"
+bis:bis RegNounInfl ; ! "bee, bus"
+bon:bon RegNounInfl ; ! "debt"
+bwa:bwa RegNounInfl ; ! "lime"
+bwana:bwana RegNounInfl ; ! "cool breeze"
+bwat:bwat RegNounInfl ; ! "spirit"
+dam:dam RegNounInfl ; ! "land leech"
+dum:dum RegNounInfl ; ! "sago spoon/spatula"
+dwis:dwis RegNounInfl ; ! "sand"
+ene:ene RegNounInfl ; ! "mother animal"
+far:far RegNounInfl ; ! "delta, swamp, marsh"
+fen:fen RegNounInfl ; ! "clothing"
+fo:fo RegNounInfl ; ! "lake, river, water"
+fon:fon RegNounInfl ; ! "string bag"
+gina:gina RegNounInfl ; ! "arrow"
+giri:giri RegNounInfl ; ! "male animal"
+gol:gol RegNounInfl ; ! "nest"
+gu:gu RegNounInfl ; ! "cassowary"
+guru:guru RegNounInfl ; ! "teacher"
+gwer:gwer RegNounInfl ; ! "sun"
 
 ! Proper Nouns
 Yesus:Yesus RegNounInfl ; ! "Jesus"
 Yusuf:Yusuf RegNounInfl ; ! "Joseph"
 Maria:Maria RegNounInfl ; ! "Mary"
 Daud:Daud RegNounInfl ; ! "David"
+Abihut:Abihut RegNounInfl ; ! ""
+Abraham:Abraham RegNounInfl ; ! "Abraham"
+Abya:Abya RegNounInfl ; ! ""
+Ahas:Ahas RegNounInfl ; ! ""
+Akim:Akim RegNounInfl ; ! ""
+Aminadab:Aminadab RegNounInfl ; ! ""
+Amon:Amon RegNounInfl ; ! ""
+Asa:Asa RegNounInfl ; ! "Asa"
+Asur:Asur RegNounInfl ; ! ""
+Babilon:Babilon RegNounInfl ; ! "Babylon"
+Boas:Boas RegNounInfl ; ! "Boaz"
+Eleyasar:Eleyasar RegNounInfl ; ! ""
+Elyakim:Elyakim RegNounInfl ; ! ""
+Elyut:Elyut RegNounInfl ; ! ""
+Ene:Ene RegNounInfl ; ! ""
+Hesron:Hesron RegNounInfl ; ! ""
+Hiskya:Hiskya RegNounInfl ; ! ""
+Isai:Isai RegNounInfl ; ! ""
+Isak:Isak RegNounInfl ; ! "Isaac"
+Israel:Israel RegNounInfl ; ! "Israel"
+Manasye:Manasye RegNounInfl ; ! ""
+Matan:Matan RegNounInfl ; ! ""
+Nahason:Nahason RegNounInfl ; ! ""
+Obet:Obet RegNounInfl ; ! "Obed"
+Peres:Peres RegNounInfl ; ! "Perez"
+Rahab:Rahab RegNounInfl ; ! "Rahab"
+Ram:Ram RegNounInfl ; ! "Ram"
+Rehabeyam:Rehabeyam RegNounInfl ; ! ""
+Rut:Rut RegNounInfl ; ! "Ruth"
+Sadok:Sadok RegNounInfl ; ! "Zadok"
+Salmon:Salmon RegNounInfl ; ! "Salmon"
+Salomo:Salomo RegNounInfl ; ! "Solomon"
+Sera:Sera RegNounInfl ; ! "Sarah"
+Serubabel:Serubabel RegNounInfl ; ! ""
+Seyaltyel:Seyaltyel RegNounInfl ; ! ""
+Tamar:Tamar RegNounInfl ; ! "Tamar"
+Usya:Usya RegNounInfl ; ! ""
+Yakub:Yakub RegNounInfl ; ! "Jacob"
+Yehuda:Yehuda RegNounInfl ; ! ""
+Yekonya:Yekonya RegNounInfl ; ! ""
+Yoram:Yoram RegNounInfl ; ! ""
+Yosafat:Yosafat RegNounInfl ; ! ""
+Yosya:Yosya RegNounInfl ; ! ""
+Yotam:Yotam RegNounInfl ; ! ""
 
 LEXICON ClosedClass
 
@@ -410,6 +496,30 @@ ibam-ibama:ibam-ibama ModifierInfl ; ! "blue"
 ! LEXICON VerbRoot
 
 
+LEXICON Punctuation
+
+.%<sent%>:. # ;
+..%<sent%>:.. # ;
+...%<sent%>:... # ;
+%;%<sent%>:%; # ;
+%:%<sent%>:%: # ;
+%!%<sent%>:%! # ;
+%-%<guio%>:%- # ;
+%—%<guio%>:%— # ;
+,%<cm%>:, # ;
+%?%<sent%>:%? # ;
+%'%<apos%>:%' # ;
+%"%<sent%>:%" # ;
+%«%<lquot%>:%« # ;
+%»%<rquot%>:%» # ;
+%”%<rquot%>:%” # ;
+%“%<lquot%>:%“ # ;
+%(%<lpar%>:%( # ;
+%]%<rpar%>:%] # ;
+%[%<lpar%>:%[ # ;
+%)%<rpar%>:%) # ;
+\%<sent%>:\ # ;
+/%<sent%>:/ # ;
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
