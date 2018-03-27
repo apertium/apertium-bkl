@@ -320,6 +320,7 @@ mir:mir RegNounInfl ; ! "forehead"
 miru:miru RegNounInfl ; ! "corn"
 mom:mom RegNounInfl ; ! "female breast"
 mwa:mwa RegNounInfl ; ! "hole"
+onap:onap RegNounInfl ; ! "jungle"
 
 ! Proper Nouns
 Yesus:Yesus RegNounInfl ; ! "Jesus"
