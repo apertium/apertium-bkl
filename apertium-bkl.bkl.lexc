@@ -4,6 +4,7 @@ Multichar_Symbols
 
 ! Part of speech categories
 %<n%>     ! Noun
+%<prn%>   ! Pronoun
 %<neg%>   ! Negation
 %<resp%>  ! Response
 %<psimp%> ! Pseudo-Imperatives
@@ -373,6 +374,7 @@ Usya:Usya RegNounInfl ; ! ""
 Yakub:Yakub RegNounInfl ; ! "Jacob"
 Yehuda:Yehuda RegNounInfl ; ! ""
 Yekonya:Yekonya RegNounInfl ; ! ""
+Yohanes:Yohanes RegNounInfl ; ! "John"
 Yoram:Yoram RegNounInfl ; ! ""
 Yosafat:Yosafat RegNounInfl ; ! ""
 Yosya:Yosya RegNounInfl ; ! ""
