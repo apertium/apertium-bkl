@@ -295,6 +295,7 @@ far:far RegNounInfl ; ! "delta, swamp, marsh"
 fen:fen RegNounInfl ; ! "clothing"
 fi:fi RegNounInfl ; ! "salt"
 fo:fo RegNounInfl ; ! "lake, river, water"
+fo:fon RegNounInfl ; ! "water?" CHEATING!
 fon:fon RegNounInfl ; ! "string bag"
 gina:gina RegNounInfl ; ! "arrow"
 giri:giri RegNounInfl ; ! "male animal"
@@ -533,6 +534,7 @@ setetina:setetina ModifierInfl ; ! "black"
 LEXICON UnknownVerbRoot
 
 sofwa%<v%>%<tv%>%<m%>%<sg%>%<prs%>%<light%>:sofwa # ; ! "go"
+tini%<v%>%<tv%>%<m%>%<sg%>%<prs%>%<light%>:tini # ; ! "go"
 damtafa%<v%>%<tv%>%<f%>%<sg%>%<fut%>%<light%>:damtafa # ; ! "see"
 damtabili%<v%>%<tv%>%<f%>%<prs%>%<light%>:damtabili # ; ! "see"
 twensar%<v%>%<iv%>%<prs%>%<light%>:twensar # ; ! "eat"

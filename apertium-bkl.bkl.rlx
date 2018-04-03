@@ -1,3 +1,5 @@
+SUBREADINGS = RTL ; # Alternate, left-to-right
+
 # Firstly, we need to define what tags should be considered sentence delimiters. For this example, only full stop is set as delimiter.
 DELIMITERS = "<.>" ;
 
@@ -8,6 +10,8 @@ LIST Conj = conj ;
 LIST Nominal = n prn ;
 LIST Verb = v ;
 LIST Particle = part ;
+LIST Post = post ;
+LIST NotPosted = "fon" ;
 
 SECTION
 # If there is a singular noun to the right, I cannot be a verb or noun.
@@ -19,6 +23,8 @@ SECTION
 #SELECT Conj IF (1 Nominal) (1 Verb) ;
 SELECT Conj IF (1 Nominal) ;
                #(1 (post)) ;
+
+REMOVE NotPosted IF (0/1 Post) ;
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
