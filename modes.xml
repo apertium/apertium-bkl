@@ -40,8 +40,7 @@
       <program name="lt-proc -w">
         <file name="bkl.automorf.bin"/>
       </program>
-      <program name="cg-conv -l"/>
-      <program name="cg-proc -w -f0">
+      <program name="cg-proc -w -1 -n">
         <file name="bkl.rlx.bin"/>
       </program>
     </pipeline>
