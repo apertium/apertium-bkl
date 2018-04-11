@@ -15,7 +15,6 @@ Multichar_Symbols
 %<adj%>   ! Adjective
 %<adv%>   ! Adverb
 %<man%>   ! Manner (subclass of Adverb)
-%<temp%>  ! Temporal
 %<locl%>  ! Locational
 %<conj%>  ! Conjunction
 %<post%>  ! Postposition
@@ -432,12 +431,12 @@ gamerje%<adv%>%<man%>:gamerje # ; ! "not yet"
 galap%<adv%>%<man%>:galap # ; ! "later"
 
 ! temporal markers
-namwer%<temp%>:namwer # ; ! "today, now"
-gwirmir%<temp%>:gwirmir # ; ! "tomorrow"
-ir%<temp%>:ir # ; ! "yesterday"
-jem%<temp%>:jem # ; ! "day before or day after"
-gwerem%<temp%>:gwerem # ; ! "noon"
-dafef%<temp%>:dafef # ; ! "afternoon"
+namwer%<adv%>:namwer # ; ! "today, now"
+gwirmir%<adv%>:gwirmir # ; ! "tomorrow"
+ir%<adv%>:ir # ; ! "yesterday"
+jem%<adv%>:jem # ; ! "day before or day after"
+gwerem%<adv%>:gwerem # ; ! "noon"
+dafef%<adv%>:dafef # ; ! "afternoon"
 
 ! locationals (possibly a conflation of locations and prepositions)
 afunup%<locl%>:afunup # ; ! "middle of"
