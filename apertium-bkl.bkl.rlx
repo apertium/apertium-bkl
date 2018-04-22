@@ -12,6 +12,7 @@ LIST Verb = v ;
 LIST Particle = part ;
 LIST Post = post ;
 LIST NotPosted = "fon" ;
+LIST Inst = (n ins) ;
 
 SECTION
 
@@ -22,6 +23,8 @@ SELECT Conj IF (1 Nominal) ;
 REMOVE NotPosted IF (0/1 Post) ;
 
 SELECT (prn) ;
+
+SELECT Inst IF ( NOT (1 Nominal) ) ;
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
