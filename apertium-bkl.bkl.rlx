@@ -9,9 +9,12 @@ SUBREADINGS = LTR ; # Alternate, left-to-right
 LIST Conj = conj ;
 LIST Nominal = n prn ;
 LIST Verb = v ;
+LIST Adjective = adj ;
 LIST Particle = part ;
 LIST Post = post ;
+LIST Separator = sent cm ;
 LIST NotPosted = "fon" ;
+LIST Response = resp ;
 
 SECTION
 
@@ -19,9 +22,23 @@ SECTION
 SELECT Conj IF (1 Nominal) ;
                #(1 (post)) ;
 
+SELECT Conj IF (-1 Adjective) ;
+SELECT Conj IF (-1 Separator) ;
+
+SELECT Nominal IF (0 Nominal) (0 Adjective) (1 Adjective) ;
+SELECT Adjective IF (0 Adjective) (0 Conj) (-1 Nominal) ;
+
+REMOVE Response IF (-1 (*)) ;
+REMOVE Response IF (1 (*)) ;
+
 REMOVE NotPosted IF (0/1 Post) ;
 
 SELECT (prn) ;
+
+# `ane` should be <conj> if it is at the beginning of a sentence or preceeded by a comma.
+# `ane` should be <adj> if it is preceeded by a nominal.
+# `fas` should be <adj> if it's surrounded by words on either side, otherwise <resp>
+# `giri ane` should be <n> <adj> respectively.
 
 # Resources:
 # http://visl.sdu.dk/cg3.html

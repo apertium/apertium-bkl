@@ -1,0 +1,76 @@
+"<Ane>"
+	"ane" conj SELECT:19
+;	"ane" adj SELECT:19
+"<angtane>"
+	"angtane" n
+"<seyafter>"
+	"seyafter" adj
+"<awelna>"
+	"awelna" n
+"<aa>"
+	"*aa"
+"<jei>"
+	"je" prn subj
+"<ne>"
+	"ne" prn subj
+"<gwebilirim>"
+	"*gwebilirim"
+"<jem>"
+	"je" prn acc SELECT:24
+;	"jem" n SELECT:24
+;	"jem" adv SELECT:24
+"<fwaina>"
+	"*fwaina"
+"<ga>"
+	"ga" conj SELECT:19
+;	"ga" part SELECT:19
+"<As>"
+	"ai" prn acc
+"<syenulmini>"
+	"*syenulmini"
+"<.>"
+	"." sent
+
+
+
+"<Ane>"
+	"ane" conj
+	"ane" adj
+"<nei>"
+	"*nei"
+"<ga>"
+	"ga" conj
+	"ga" part
+"<nesa>"
+	"*nesa"
+"<gutena>"
+	"*gutena"
+"<.>"
+	"." sent
+
+
+
+"<Nunu>"
+	"*Nunu"
+"<gamjon>"
+	"gamjon" adv man
+"<fas>"
+	"fas" resp
+	"fas" adj
+"<angtane>"
+	"angtane" n
+"<kapka>"
+	"kapka" adj
+"<gwela>"
+	"*gwela"
+"<jem>"
+	"je" prn acc SELECT:24
+;	"jem" n SELECT:24
+;	"jem" adv SELECT:24
+"<waakenulsife>"
+	"*waakenulsife"
+"<..>"
+	".." sent
+
+
+
