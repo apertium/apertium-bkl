@@ -15,6 +15,7 @@ LIST Post = post ;
 LIST Separator = sent cm ;
 LIST NotPosted = "fon" ;
 LIST Response = resp ;
+LIST Inst = (n ins) ;
 
 SECTION
 
@@ -39,6 +40,8 @@ SELECT (prn) ;
 # `ane` should be <adj> if it is preceeded by a nominal.
 # `fas` should be <adj> if it's surrounded by words on either side, otherwise <resp>
 # `giri ane` should be <n> <adj> respectively.
+
+SELECT Inst IF ( NOT (1 Nominal) ) ;
 
 # Resources:
 # http://visl.sdu.dk/cg3.html
