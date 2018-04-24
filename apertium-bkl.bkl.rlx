@@ -24,6 +24,7 @@ SELECT Conj IF (1 Nominal) ;
                #(1 (post)) ;
 
 SELECT Conj IF (-1 Separator) ;
+SELECT Adjective IF (-1 Nominal) ;
 
 SELECT Nominal IF (0 Nominal) (0 Adjective) (1 Adjective) ;
 SELECT Adjective IF (0 Adjective) (0 Conj) (-1 Nominal) ;
