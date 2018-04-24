@@ -1,0 +1,13 @@
+"<Petrus>"
+	"Petrus" n @nsubj #1->4
+"<je>"
+	"je" prn subj @appos #2->1
+"<onap>"
+	"onap" n @iobj #3->4
+"<sofwa>"
+	"sofwa" v tv m sg prs light @root #4->0
+"<.>"
+	"." sent @punct #5->4
+
+
+
