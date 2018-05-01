@@ -1,0 +1,473 @@
+"<Jina>"
+	"jina" n
+"<Koranomana>"
+	"Korano" n pos
+"<unggwandusa>"
+	"unggwandusa" adj
+"<.>"
+	"." sent
+
+"<Petrus>"
+	"Petrus" n
+"<je>"
+	"je" prn subj
+"<onap>"
+	"onap" n
+"<sofwa>"
+	"sofwa" v tv m sg prs light
+"<.>"
+	"." sent
+
+"<Gwirmir>"
+	"gwirmir" adv
+"<wini>"
+	"wini" n
+"<as>"
+	"ai" prn acc
+"<damtafa>"
+	"damtafa" v tv f sg fut light
+"<.>"
+	"." sent
+
+"<Niko>"
+	"Niko" n
+"<am>"
+	"ai" prn acc
+"<saftena>"
+	"saftena" v tv m pst light
+"<.>"
+	"." sent
+
+"<Fi>"
+	"fi" n
+"<ap>"
+	"ai" prn dat
+"<golbili>"
+	"gubana" v tv sg lg m imp light
+"<.>"
+	"." sent
+
+"<Ai>"
+	"ai" prn subj
+"<taneyan>"
+	"yan" neg
+		"tane" n
+"<.>"
+	"." sent
+
+"<Je>"
+	"je" prn subj
+"<namwer>"
+	"namwer" adv
+"<bwernabaryan>"
+	"yan" neg
+		"bwernabar" n
+"<.>"
+	"." sent
+
+"<Ai>"
+	"ai" prn subj
+"<,>"
+	"," cm
+"<Daud>"
+	"Daud" n
+"<,>"
+	"," cm
+"<Sekati>"
+	"Sekati" n
+"<,>"
+	"," cm
+"<Piterfar>"
+	"Piter" n com
+"<twensar>"
+	"twensar" v iv prs light
+"<.>"
+	"." sent
+
+"<Korano>"
+	"Korano" n
+"<atem>"
+	"at" n pos
+	"at" n ins
+"<difnant>"
+	"difna" v iv m pst light
+"<.>"
+	"." sent
+
+"<Je>"
+	"je" prn subj
+"<twena>"
+	"twin" n
+"<ginem>"
+	"gin" n pos
+	"gin" n ins
+"<tana>"
+	"tana" v tv m light pst
+"<.>"
+	"." sent
+
+"<Ai>"
+	"ai" prn subj
+"<twena>"
+	"twin" n
+"<anesus>"
+	"ane" adj int
+"<ai>"
+	"ai" prn subj
+"<damtabili>"
+	"damtabili" v tv f prs light
+"<unggunfena>"
+	"unggunfena" adj
+"<setetina>"
+	"setetina" adj
+"<.>"
+	"." sent
+
+"<Wa>"
+	"wa" ij
+"<fona>"
+	"fo" n subj
+"<jam>"
+	"ja" n ins
+	"jam" n
+	"je" prn subj
+"<orotona>"
+	"orotona" v iv sg lg m pres light
+"<.>"
+	"." sent
+
+"<Niko>"
+	"Niko" n
+"<uwafar>"
+	"uwa" n com
+"<fonap>"
+	"ap" post
+		"fon" n
+	"ap" post
+		"fo" n
+"<ge>"
+	"ge" part pl
+"<tini>"
+	"tini" v tv m sg prs light
+"<.>"
+	"." sent
+
+"<Twena>"
+	"twin" n
+"<jeserem>"
+	"je" prn dem part
+"<je>"
+	"je" prn subj
+"<unggwandusa>"
+	"unggwandusa" adj
+"<.>"
+	"." sent
+
+"<Korano>"
+	"Korano" n
+"<gwolafar>"
+	"gwola" n com
+"<aare>"
+	"aare" adv
+"<.>"
+	"." sent
+
+"<Gwili>"
+	"gwili" n
+"<jam>"
+	"ja" n ins
+	"jam" n
+	"je" prn subj
+"<bosoka>"
+	"bosoka" adj
+"<.>"
+	"." sent
+
+"<Je>"
+	"je" prn subj
+"<ke>"
+	"ke" qst
+"<gwola>"
+	"gwola" n
+"<imna>"
+	"i" prn pos
+"<.>"
+	"." sent
+
+"<Je>"
+	"je" prn subj
+"<ke>"
+	"ke" qst
+"<imna>"
+	"i" prn pos
+"<.>"
+	"." sent
+
+"<Ai>"
+	"ai" prn subj
+"<buku>"
+	"buku" n
+"<jep>"
+	"je" prn dat
+	"ap" post
+		"je" prn
+"<gubanant>"
+	"gubanant" v tv sg sm m pst light
+"<.>"
+	"." sent
+
+"<Ir>"
+	"ir" n
+	"ir" adv
+"<ai>"
+	"ai" prn subj
+"<buku>"
+	"buku" n
+"<jep>"
+	"je" prn dat
+	"ap" post
+		"je" prn
+"<gubanant>"
+	"gubanant" v tv sg sm m pst light
+"<jinap>"
+	"ap" post
+		"jina" n
+"<.>"
+	"." sent
+
+"<Paulus>"
+	"Paulus" n
+"<aame>"
+	"i" prn subj
+"<mamkaya>"
+	"mamkaya" adj
+"<.>"
+	"." sent
+
+"<Je>"
+	"je" prn subj
+"<bwernabar>"
+	"bwernabar" n
+"<namwer>"
+	"namwer" adv
+"<.>"
+	"." sent
+
+"<Sandal>"
+	"sandal" n
+"<amna>"
+	"ai" prn pos
+"<tikar>"
+	"tikar" n
+"<fensawer>"
+	"fensawer" post
+"<.>"
+	"." sent
+
+"<Ngga>"
+	"ngga" resp
+"<.>"
+	"." sent
+
+"<Titiki>"
+	"titiki" n
+"<aiserem>"
+	"ai" prn dem part
+"<je>"
+	"je" prn subj
+"<oltunabora>"
+	"oltunabora" adj
+"<.>"
+	"." sent
+
+"<Banggena>"
+	"bangge" n subj
+"<aiserem>"
+	"ai" prn dem part
+"<je>"
+	"je" prn subj
+"<tawefa>"
+	"tawefa" v iv m fut light
+"<tinibe>"
+	"tinibe" n
+"<.>"
+	"." sent
+
+"<Ai>"
+	"ai" prn subj
+"<fos>"
+	"fo" n acc
+"<telbili>"
+	"telbili" v tv m prs light
+"<.>"
+	"." sent
+
+"<Je>"
+	"je" prn subj
+"<jinap>"
+	"ap" post
+		"jina" n
+"<ila>"
+	"ila" v iv m prs light
+"<.>"
+	"." sent
+
+"<Je>"
+	"je" prn subj
+"<jinawer>"
+	"wer" post
+		"jina" n
+"<sofwena>"
+	"sofwena" v iv m prs light
+"<.>"
+	"." sent
+
+"<Jina>"
+	"jina" n
+"<mena>"
+	"mena" prn pos
+"<aure>"
+	"aure" adv
+"<.>"
+	"." sent
+
+"<Jina>"
+	"jina" n
+"<aiserem>"
+	"ai" prn dem part
+"<Gijonmana>"
+	"Gijon" n pos
+"<.>"
+	"." sent
+
+"<Ai>"
+	"ai" prn subj
+"<mirunus>"
+	"mirunu" n acc
+"<tonola>"
+	"tonola" v tv m prs light
+"<.>"
+	"." sent
+
+"<Ajam>"
+	"a" prn subj
+"<mirunus>"
+	"mirunu" n acc
+"<tonola>"
+	"tonola" v tv m prs light
+"<.>"
+	"." sent
+
+"<Ai>"
+	"ai" prn subj
+"<ajam>"
+	"a" prn subj
+"<mirunu>"
+	"mirunu" n
+"<tonola>"
+	"tonola" v tv m prs light
+"<.>"
+	"." sent
+
+"<Ai>"
+	"ai" prn subj
+"<mirunu>"
+	"mirunu" n
+"<ajam>"
+	"a" prn subj
+"<tonola>"
+	"tonola" v tv m prs light
+"<.>"
+	"." sent
+
+"<Ai>"
+	"ai" prn subj
+"<ajam>"
+	"a" prn subj
+"<tonola>"
+	"tonola" v tv m prs light
+"<.>"
+	"." sent
+
+"<Ai>"
+	"ai" prn subj
+"<mirunu>"
+	"mirunu" n
+"<ajam>"
+	"a" prn subj
+"<tonolyan>"
+  "yan" neg
+    "tonola" v tv m prs light
+"<.>"
+	"." sent
+
+"<Korano>"
+	"Korano" n
+"<je>"
+	"je" prn subj
+"<onap>"
+	"onap" n
+"<sofwa>"
+	"sofwa" v tv m sg prs light
+"<.>"
+	"." sent
+
+"<Ai>"
+	"ai" prn subj
+"<anan>"
+	"ai" prn acc ref
+"<safsafulu>"
+	"safsafulu" v tv m sg prs light
+"<.>"
+	"." sent
+
+"<Bular>"
+	"Bular" n
+"<jebar>"
+	"je" prn com
+"<fonap>"
+	"ap" post
+		"fon" n
+	"ap" post
+		"fo" n
+"<tini>"
+	"tini" v tv m sg prs light
+"<.>"
+	"." sent
+
+"<Susi>"
+	"Susi" n
+"<lampunu>"
+	"lampunu" n
+"<waakenfer>"
+	"waakena" adj advl
+"<gworansona>"
+	"gworansona" v tv f sg prs light
+"<.>"
+	"." sent
+
+"<Aame>"
+	"i" prn subj
+"<tumilgal>"
+	"tumilgal" n
+"<eyebabiyafefa>"
+	"eyebabi" v tv m sg prs light cont
+"<.>"
+	"." sent
+
+"<Ai>"
+	"ai" prn subj
+"<tane>"
+	"tane" n
+"<bastantantena>"
+	"bastantantena" adj
+"<gam>"
+	"gam" part
+"<sarbabili>"
+	"sarbabili" v tv m pl prs light
+"<Tenwermana>"
+	"Tenwer" n pos
+"<..>"
+	".." sent
+
+
