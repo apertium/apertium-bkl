@@ -1,0 +1,209 @@
+# sent_id = bkl:1:0
+# text = Oso imna sitap fitna.
+1	Oso	oso	_	n	_	5	nsubj	_	_
+2	imna	i	_	prn	pos	1	det	_	_
+3-4	sitap	_	_	_	_	_	_	_	_
+3	sitap	sita	_	n	_	5	obl	_	_
+4	p	ap	_	post	_	3	dep	_	_
+5	fitna	*fitna	_	_	_	0	root	_	_
+6	.	.	_	sent	_	5	punct	_	_
+
+# sent_id = bkl:2:11
+# text = 
+
+# sent_id = bkl:3:13
+# text = Tuna sitawer fara.
+1	Tuna	*Tuna	_	_	_	4	nsubj	_	_
+2-3	sitawer	_	_	_	_	_	_	_	_
+2	sitawer	sita	_	n	_	4	obl	_	_
+3	wer	wer	_	post	_	2	dep	_	_
+4	fara	*fara	_	_	_	0	root	_	_
+5	.	.	_	sent	_	4	punct	_	_
+
+# sent_id = bkl:4:23
+# text = 
+
+# sent_id = bkl:5:25
+# text = Niko jebar ge sofwa.
+1	Niko	Niko	_	n	_	4	nsubj	_	_
+2	jebar	je	_	prn	com	4	iobj	_	_
+3	ge	ge	_	part	pl	2	dep	_	_
+4	sofwa	sofwa	_	v	tv|m|sg|prs|light	0	root	_	_
+5	.	.	_	sent	_	4	punct	_	_
+
+# sent_id = bkl:6:36
+# text = Je Koranofar ge nasona.
+1	Je	je	_	prn	subj	4	nsubj	_	_
+2	Koranofar	Korano	_	n	com	4	iobj	_	_
+3	ge	ge	_	part	pl	2	dep	_	_
+4	nasona	*nasona	_	_	_	0	root	_	_
+5	.	.	_	sent	_	4	punct	_	_
+
+# sent_id = bkl:7:48
+# text = 
+
+# sent_id = bkl:8:50
+# text = Aame ke yafontoibara?
+1	Aame	i	_	prn	subj	3	nsubj	_	_
+2	ke	*ke	_	_	_	3	aux	_	_
+3	yafontoibara	yafontoi	_	n	relational	0	root	_	_
+4	?	?	_	sent	_	3	punct	_	_
+
+# sent_id = bkl:9:59
+# text = Gworabara fo tartarier orotona.
+1	Gworabara	gwora	_	n	relational	4	obl	_	_
+2	fo	fo	_	n	_	4	nsubj	_	_
+3	tartarier	*tartarier	_	_	_	4	advmod	_	_
+4	orotona	orotona	_	v	iv|sg|lg|m|pres|light	0	root	_	_
+5	.	.	_	sent	_	4	punct	_	_
+
+# sent_id = bkl:10:71
+# text = 
+
+# sent_id = bkl:11:73
+# text = Tane uwamana maa sofwa.
+1	Tane	tane	_	n	_	4	nsubj	_	_
+2	uwamana	uwa	_	n	pos	1	nmod	_	_
+3	maa	maa	_	adv	man	4	advmod	_	_
+4	sofwa	sofwa	_	v	tv|m|sg|prs|light	0	root	_	_
+5	.	.	_	sent	_	4	punct	_	_
+
+# sent_id = bkl:12:84
+# text = 
+
+# sent_id = bkl:13:86
+# text = Musa fenbit Minai golbitent.
+1	Musa	*Musa	_	_	_	4	nsubj	_	_
+2	fenbit	*fenbit	_	_	_	4	obj	_	_
+3	Minai	*Minai	_	_	_	4	iobj	_	_
+4	golbitent	*golbitent	_	_	_	0	root	_	_
+5	.	.	_	sent	_	4	punct	_	_
+
+# sent_id = bkl:14:97
+# text = Je bastantoifer sarbana.
+1	Je	je	_	prn	subj	3	nsubj	_	_
+2	bastantoifer	bastantoiya	_	adj	advl	3	advmod	_	_
+3	sarbana	*sarbana	_	_	_	0	root	_	_
+4	.	.	_	sent	_	3	punct	_	_
+
+# sent_id = bkl:15:107
+# text = 
+
+# sent_id = bkl:16:109
+# text = Ai fos distultena.
+1	Ai	ai	_	prn	subj	3	nsubj	_	_
+2	fos	fo	_	n	acc	3	obj	_	_
+3	distultena	*distultena	_	_	_	0	root	_	_
+4	.	.	_	sent	_	3	punct	_	_
+
+# sent_id = bkl:17:118
+# text = 
+
+# sent_id = bkl:18:120
+# text = Je fos distultetna aure.
+1	Je	je	_	prn	subj	3	nsubj	_	_
+2	fos	fo	_	n	acc	3	obj	_	_
+3	distultetna	*distultetna	_	_	_	0	root	_	_
+4	aure	*aure	_	_	_	3	advmod	_	_
+5	.	.	_	sent	_	3	punct	_	_
+
+# sent_id = bkl:19:131
+# text = 
+
+# sent_id = bkl:20:133
+# text = Ai twena ane damtabilint.
+1	Ai	ai	_	prn	subj	4	nsubj	_	_
+2	twena	twin	_	n	_	4	obj	_	_
+3	ane	ane	_	adj	SELECT	4	advmod	_	_
+4	damtabilint	*damtabilint	_	_	_	0	root	_	_
+5	.	.	_	sent	_	4	punct	_	_
+
+# sent_id = bkl:21:144
+# text = 
+
+# sent_id = bkl:22:146
+# text = Twena jeserem je unggwandusa.
+1	Twena	twin	_	n	_	3	appos	_	_
+2	jeserem	je	_	prn	dem|part	1	det	_	_
+3	je	je	_	prn	subj	4	nsubj	_	_
+4	unggwandusa	unggwandusa	_	adj	_	0	root	_	_
+5	.	.	_	sent	_	4	punct	_	_
+
+# sent_id = bkl:23:157
+# text = 
+
+# sent_id = bkl:24:159
+# text = Musa gwolarfar onap sofwa.
+1	Musa	*Musa	_	_	_	4	nsubj	_	_
+2	gwolarfar	*gwolarfar	_	_	_	4	obl	_	_
+3	onap	onap	_	n	_	4	iobj	_	_
+4	sofwa	sofwa	_	v	tv|m|sg|prs|light	0	root	_	_
+5	.	.	_	sent	_	4	punct	_	_
+
+# sent_id = bkl:25:170
+# text = Ai simaltwola.
+1	Ai	ai	_	prn	subj	2	nsubj	_	_
+2	simaltwola	*simaltwola	_	_	_	0	root	_	_
+3	.	.	_	sent	_	2	punct	_	_
+
+# sent_id = bkl:26:178
+# text = 
+
+# sent_id = bkl:27:180
+# text = Je jam aulyam Somanentewer.
+1	Je	je	_	prn	subj	3	nsubj	_	_
+2	jam	je	_	prn	subj|SELECT	1	appos	_	_
+3	aulyam	*aulyam	_	_	_	0	root	_	_
+4	Somanentewer	*Somanentewer	_	_	_	3	iobj	_	_
+5	.	.	_	sent	_	3	punct	_	_
+
+# sent_id = bkl:28:191
+# text = 
+
+# sent_id = bkl:29:193
+# text = Je tafna jam wirsoyan.
+1	Je	je	_	prn	subj	2	amod	_	_
+2	tafna	*tafna	_	_	_	4	obj	_	_
+3	jam	je	_	prn	subj|SELECT	4	nsubj	_	_
+4	wirsoyan	*wirsoyan	_	_	_	0	root	_	_
+5	.	.	_	sent	_	4	punct	_	_
+
+# sent_id = bkl:30:204
+# text = Matius je jam tainena.
+1	Matius	*Matius	_	_	_	4	vocative	_	_
+2	je	je	_	prn	subj	4	nsubj	_	_
+3	jam	je	_	prn	subj|SELECT	2	appos	_	_
+4	tainena	*tainena	_	_	_	0	root	_	_
+5	.	.	_	sent	_	4	punct	_	_
+
+# sent_id = bkl:31:216
+# text = 
+
+# sent_id = bkl:32:218
+# text = Je werem gwebili.
+1	Je	je	_	prn	subj	2	nsubj	_	_
+2	werem	*werem	_	_	_	0	root	_	_
+3	gwebili	*gwebili	_	_	_	2	advmod	_	_
+4	.	.	_	sent	_	2	punct	_	_
+
+# sent_id = bkl:33:227
+# text = 
+
+# sent_id = bkl:34:229
+# text = Ai naaremem gwebili.
+1	Ai	ai	_	prn	subj	2	nsubj	_	_
+2	naaremem	naarem	_	n	ins|SELECT	0	root	_	_
+3	gwebili	*gwebili	_	_	_	2	advmod	_	_
+4	.	.	_	sent	_	2	punct	_	_
+
+# sent_id = bkl:35:238
+# text = 
+
+# sent_id = bkl:36:240
+# text = Mina tumilgal eyebili ..
+1	Mina	Mina	_	n	_	3	nsubj	_	_
+2	tumilgal	*tumilgal	_	_	_	3	obj	_	_
+3	eyebili	*eyebili	_	_	_	0	root	_	_
+4	..	..	_	sent	_	3	punct	_	_
+
+

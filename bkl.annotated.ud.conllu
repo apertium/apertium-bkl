@@ -1,0 +1,323 @@
+# sent_id = bkl:1:0
+# text = Petrus je onap sofwa ..
+1	Petrus	Petrus	_	n	_	4	nsubj	_	_
+2	je	je	_	prn	subj	1	appos	_	_
+3	onap	onap	_	n	_	4	iobj	_	_
+4	sofwa	sofwa	_	v	tv|m|sg|prs|light	0	root	_	_
+5	..	..	_	sent	_	4	punct	_	_
+
+# sent_id = bkl:2:10
+# text = Gwirmir wini as damtafa ..
+1	Gwirmir	gwirmir	_	adv	_	4	advcl	_	_
+2	wini	wini	_	n	_	4	nsubj	_	_
+3	as	ai	_	prn	acc	4	obj	_	_
+4	damtafa	damtafa	_	v	tv|f|sg|fut|light	0	root	_	_
+5	..	..	_	sent	_	4	punct	_	_
+
+# sent_id = bkl:3:21
+# text = Niko am saftena ..
+1	Niko	Niko	_	n	_	3	nsubj	_	_
+2	am	ai	_	prn	acc	3	obj	_	_
+3	saftena	saftena	_	v	tv|m|pst|light	0	root	_	_
+4	..	..	_	sent	_	3	punct	_	_
+
+# sent_id = bkl:4:30
+# text = Fi ap golbili ..
+1	Fi	fi	_	n	_	3	nsubj	_	_
+2	ap	ai	_	prn	dat	3	iobj	_	_
+3	golbili	gubana	_	v	tv|sg|lg|m|imp|light	0	root	_	_
+4	..	..	_	sent	_	3	punct	_	_
+
+# sent_id = bkl:5:39
+# text = Ai taneyan ..
+1	Ai	ai	_	prn	subj	2	nsubj	_	_
+2-3	taneyan	_	_	_	_	_	_	_	_
+2	taneyan	tane	_	n	_	0	root	_	_
+3	yan	yan	_	neg	_	2	amod	_	_
+4	..	..	_	sent	_	2	punct	_	_
+
+# sent_id = bkl:6:47
+# text = Je namwer bwernabaryan ..
+1	Je	je	_	prn	subj	3	nsubj	_	_
+2	namwer	namwer	_	adv	_	3	advcl	_	_
+3-4	bwernabaryan	_	_	_	_	_	_	_	_
+3	bwernabaryan	bwernabar	_	n	_	0	root	_	_
+4	yan	yan	_	neg	_	3	nmod	_	_
+5	..	..	_	sent	_	3	punct	_	_
+
+# sent_id = bkl:7:57
+# text = Ai, Daud, Sekati, Piterfar twensar ..
+1	Ai	ai	_	prn	subj	8	nsubj	_	_
+2	,	,	_	cm	_	3	cc	_	_
+3	Daud	Daud	_	n	_	1	conj	_	_
+4	,	,	_	cm	_	5	cc	_	_
+5	Sekati	Sekati	_	n	_	1	conj	_	_
+6	,	,	_	cm	_	7	cc	_	_
+7	Piterfar	Piter	_	n	com	1	conj	_	_
+8	twensar	twensar	_	v	iv|prs|light	0	root	_	_
+9	..	..	_	sent	_	8	punct	_	_
+
+# sent_id = bkl:11:113
+# text = Wa fona jam orotona ..
+1	Wa	wa	_	ij	_	4	discourse	_	_
+2	fona	fo	_	n	subj	4	nsubj	_	_
+3	jam	je	_	prn	subj	2	appos	_	_
+4	orotona	orotona	_	v	iv|sg|lg|m|pres|light	0	root	_	_
+5	..	..	_	sent	_	4	punct	_	_
+
+# sent_id = bkl:12:124
+# text = Niko uwafar fonap ge tini ..
+1	Niko	Niko	_	n	_	6	nsubj	_	_
+2	uwafar	uwa	_	n	com	6	obl	_	_
+3-4	fonap	_	_	_	_	_	_	_	_
+3	fonap	fo	_	n	_	6	iobj	_	_
+4	nap	ap	_	post	_	3	case	_	_
+5	ge	ge	_	part	pl	6	compound	_	_
+6	tini	tini	_	v	tv|m|sg|prs|light	0	root	_	_
+7	..	..	_	sent	_	6	punct	_	_
+
+# sent_id = bkl:13:138
+# text = Twena jeserem je unggwandusa.
+1	Twena	twin	_	n	_	3	appos	_	_
+2	jeserem	je	_	prn	dem|part	1	det	_	_
+3	je	je	_	prn	subj	4	nsubj	_	_
+4	unggwandusa	unggwandusa	_	adj	_	0	root	_	_
+5	.	.	_	sent	_	4	punct	_	_
+
+# sent_id = bkl:14:149
+# text = Korano gwolafar aare.
+1	Korano	Korano	_	n	_	3	nsubj	_	_
+2	gwolafar	*gwolafar	_	_	_	1	conj	_	_
+3	aare	*aare	_	_	_	0	root	_	_
+4	.	.	_	sent	_	3	punct	_	_
+
+# sent_id = bkl:15:158
+# text = Gwili jam bosoka.
+1	Gwili	*Gwili	_	_	_	2	appos	_	_
+2	jam	je	_	prn	subj	3	nsubj	_	_
+3	bosoka	*bosoka	_	_	_	0	root	_	_
+4	.	.	_	sent	_	3	punct	_	_
+
+# sent_id = bkl:16:167
+# text = Je ke gwola imna.
+1	Je	je	_	prn	subj	3	nsubj	_	_
+2	ke	*ke	_	_	_	3	aux	_	_
+3	gwola	*gwola	_	_	_	0	root	_	_
+4	imna	i	_	prn	pos	3	det	_	_
+5	.	.	_	sent	_	3	punct	_	_
+
+# sent_id = bkl:17:178
+# text = Je ke imna.
+1	Je	je	_	prn	subj	3	nsubj	_	_
+2	ke	*ke	_	_	_	3	aux	_	_
+3	imna	i	_	prn	pos	0	root	_	_
+4	.	.	_	sent	_	3	punct	_	_
+
+# sent_id = bkl:18:187
+# text = Ai buku jep gubanant ..
+1	Ai	ai	_	prn	subj	4	nsubj	_	_
+2	buku	buku	_	n	_	4	obj	_	_
+3	jep	je	_	prn	dat	4	iobj	_	_
+4	gubanant	gubanant	_	v	tv|sg|sm|m|pst|light	0	root	_	_
+5	..	..	_	sent	_	4	punct	_	_
+
+# sent_id = bkl:19:198
+# text =  Ir ai buku jep gubanant jinap ..
+1	Ir	ir	_	adv	_	5	advmod	_	_
+2	ai	ai	_	prn	subj	5	nsubj	_	_
+3	buku	buku	_	n	_	5	obj	_	_
+4	jep	je	_	prn	dat	5	iobj	_	_
+5	gubanant	gubanant	_	v	tv|sg|sm|m|pst|light	0	root	_	_
+6-7	jinap	_	_	_	_	_	_	_	_
+6	jinap	ap	_	post	_	7	case	_	_
+7	_	jina	_	n	_	5	obl	_	_
+8	..	..	_	sent	_	5	punct	_	_
+
+# sent_id = bkl:20:214
+# text =  Paulus aame mamkaya ..
+1	Paulus	Paulus	_	n	_	3	vocative	_	_
+2	aame	i	_	prn	subj	3	nsubj	_	_
+3	mamkaya	mamkaya	_	adj	_	0	root	_	_
+4	..	..	_	sent	_	3	punct	_	_
+
+# sent_id = bkl:21:223
+# text =  Je bwernabar namwer ..
+1	Je	je	_	prn	subj	2	nsubj	_	_
+2	bwernabar	bwernabar	_	n	_	0	root	_	_
+3	namwer	namwer	_	adv	_	2	advmod	_	_
+4	..	..	_	sent	_	2	punct	_	_
+
+# sent_id = bkl:22:232
+# text =  Sandal amna tikar fensawer ..
+1	Sandal	sandal	_	n	_	3	nsubj	_	_
+2	amna	ai	_	prn	pos	1	nmod	_	_
+3	tikar	tikar	_	n	_	0	root	_	_
+4	fensawer	fensawer	_	post	_	3	case	_	_
+5	..	..	_	sent	_	3	punct	_	_
+
+# sent_id = bkl:23:243
+# text = Ngga.
+1	Ngga	ngga	_	resp	_	0	root	_	_
+2	.	.	_	sent	_	1	punct	_	_
+
+# sent_id = bkl:24:248
+# text = Titiki aiserem je oltunabora ..
+1	Titiki	titiki	_	n	_	4	nsubj	_	_
+2	aiserem	ai	_	prn	dem|part	1	nmod	_	_
+3	je	je	_	prn	subj	1	conj	_	_
+4	oltunabora	oltunabora	_	adj	_	0	root	_	_
+5	..	..	_	sent	_	4	punct	_	_
+
+# sent_id = bkl:25:259
+# text =  Banggena aiserem je tawefa tinibe ..
+1	Banggena	bangge	_	n	subj	4	nsubj	_	_
+2	aiserem	ai	_	prn	dem|part	1	nmod	_	_
+3	je	je	_	prn	subj	1	conj	_	_
+4	tawefa	tawefa	_	v	iv|m|fut|light	0	root	_	_
+5	tinibe	tinibe	_	n	_	4	obj	_	_
+6	..	..	_	sent	_	4	punct	_	_
+
+# sent_id = bkl:26:272
+# text =  Ai fos telbili ..
+1	Ai	ai	_	prn	subj	3	nsubj	_	_
+2	fos	fo	_	n	acc	3	obj	_	_
+3	telbili	telbili	_	v	tv|m|prs|light	0	root	_	_
+4	..	..	_	sent	_	3	punct	_	_
+
+# sent_id = bkl:27:281
+# text =  Je jinap ila ..
+1	Je	je	_	prn	subj	4	nsubj	_	_
+2-3	jinap	_	_	_	_	_	_	_	_
+2	jinap	ap	_	post	_	3	case	_	_
+3	_	jina	_	n	_	4	obl	_	_
+4	ila	ila	_	v	iv|m|prs|light	0	root	_	_
+5	..	..	_	sent	_	4	punct	_	_
+
+# sent_id = bkl:28:291
+# text =  Je jinawer sofwena ..
+1	Je	je	_	prn	subj	4	nsubj	_	_
+2-3	jinawer	_	_	_	_	_	_	_	_
+2	jinawer	wer	_	post	_	3	case	_	_
+3	_	jina	_	n	_	4	obl	_	_
+4	sofwena	sofwena	_	v	iv|m|prs|light	0	root	_	_
+5	..	..	_	sent	_	4	punct	_	_
+
+# sent_id = bkl:29:301
+# text =  Jina mena aure ..
+1	Jina	jina	_	n	_	3	nsubj	_	_
+2	mena	mena	_	prn	pos	1	nmod	_	_
+3	aure	aure	_	adv	_	0	root	_	_
+4	..	..	_	sent	_	3	punct	_	_
+
+# sent_id = bkl:30:310
+# text = Jina mena aure.
+1	Jina	jina	_	n	_	3	nsubj	_	_
+2	mena	*mena	_	_	_	1	det	_	_
+3	aure	*aure	_	_	_	0	root	_	_
+4	.	.	_	sent	_	3	punct	_	_
+
+# sent_id = bkl:31:319
+# text = Jina aiserem Gijonmana.
+1	Jina	jina	_	n	_	3	nsubj	_	_
+2	aiserem	ai	_	prn	dem|part	1	det	_	_
+3	Gijonmana	*Gijonmana	_	_	_	0	root	_	_
+4	.	.	_	sent	_	3	punct	_	_
+
+# sent_id = bkl:32:328
+# text = Ai mirunus tonola.
+1	Ai	ai	_	prn	subj	3	nsubj	_	_
+2	mirunus	*mirunus	_	_	_	3	obj	_	_
+3	tonola	*tonola	_	_	_	0	root	_	_
+4	.	.	_	sent	_	3	punct	_	_
+
+# sent_id = bkl:33:337
+# text = Ajam mirunus tonola.
+1	Ajam	a	_	prn	subj	3	nsubj	_	_
+2	mirunus	*mirunus	_	_	_	3	obj	_	_
+3	tonola	*tonola	_	_	_	0	root	_	_
+4	.	.	_	sent	_	3	punct	_	_
+
+# sent_id = bkl:34:346
+# text = Ai ajam mirunu tonola.
+1	Ai	ai	_	prn	subj	4	nsubj	_	_
+2	ajam	a	_	prn	subj	1	appos	_	_
+3	mirunu	*mirunu	_	_	_	4	obj	_	_
+4	tonola	*tonola	_	_	_	0	root	_	_
+5	.	.	_	sent	_	4	punct	_	_
+
+# sent_id = bkl:35:357
+# text = Ai mirunu ajam tonola.
+1	Ai	ai	_	prn	subj	4	nsubj	_	_
+2	mirunu	*mirunu	_	_	_	4	obj	_	_
+3	ajam	a	_	prn	subj	1	appos	_	_
+4	tonola	*tonola	_	_	_	0	root	_	_
+5	.	.	_	sent	_	4	punct	_	_
+
+# sent_id = bkl:36:368
+# text = Ai ajam tonola.
+1	Ai	ai	_	prn	subj	3	nsubj	_	_
+2	ajam	a	_	prn	subj	1	appos	_	_
+3	tonola	*tonola	_	_	_	0	root	_	_
+4	.	.	_	sent	_	3	punct	_	_
+
+# sent_id = bkl:37:377
+# text = Ai mirunu ajam tonolyan.
+1	Ai	ai	_	prn	subj	4	nsubj	_	_
+2	mirunu	*mirunu	_	_	_	4	obj	_	_
+3	ajam	a	_	prn	subj	1	appos	_	_
+4	tonolyan	*tonolyan	_	_	_	0	root	_	_
+5	.	.	_	sent	_	4	punct	_	_
+
+# sent_id = bkl:38:388
+# text = Korano je onap sofwa.
+1	Korano	Korano	_	n	_	2	appos	_	_
+2	je	je	_	prn	subj	4	nsubj	_	_
+3	onap	onap	_	n	_	4	iobj	_	_
+4	sofwa	sofwa	_	v	tv|m|sg|prs|light	0	root	_	_
+5	.	.	_	sent	_	4	punct	_	_
+
+# sent_id = bkl:39:399
+# text = Ai anan safsafulu.
+1	Ai	ai	_	prn	subj	3	nsubj	_	_
+2	anan	ai	_	prn	acc|ref	3	obj	_	_
+3	safsafulu	*safsafulu	_	_	_	0	root	_	_
+4	.	.	_	sent	_	3	punct	_	_
+
+# sent_id = bkl:40:408
+# text = Bular jebar fonap tini.
+1	Bular	*Bular	_	_	_	2	appos	_	_
+2	jebar	je	_	prn	com	5	nsubj	_	_
+3-4	fonap	_	_	_	_	_	_	_	_
+3	fonap	fo	_	n	_	5	iobj	_	_
+4	nap	ap	_	post	_	3	dep	_	_
+5	tini	tini	_	v	tv|m|sg|prs|light	0	root	_	_
+6	.	.	_	sent	_	5	punct	_	_
+
+# sent_id = bkl:41:420
+# text = Susi lampunu waakenfer gworansona.
+1	Susi	*Susi	_	_	_	4	nsubj	_	_
+2	lampunu	*lampunu	_	_	_	4	obj	_	_
+3	waakenfer	waakena	_	adj	advl	4	advmod	_	_
+4	gworansona	*gworansona	_	_	_	0	root	_	_
+5	.	.	_	sent	_	4	punct	_	_
+
+# sent_id = bkl:42:431
+# text = Aame tumilgal eyebabiyafefa.
+1	Aame	i	_	prn	subj	3	nsubj	_	_
+2	tumilgal	*tumilgal	_	_	_	3	obj	_	_
+3	eyebabiyafefa	*eyebabiyafefa	_	_	_	0	root	_	_
+4	.	.	_	sent	_	3	punct	_	_
+
+# sent_id = bkl:43:440
+# text = Ai tane bastantantena gam sarbabili Tenwermana ..
+1	Ai	ai	_	prn	subj	5	nsubj	_	_
+2	tane	tane	_	n	_	5	obj	_	_
+3	bastantantena	*bastantantena	_	_	_	2	amod	_	_
+4	gam	gam	_	part	_	3	dep	_	_
+5	sarbabili	*sarbabili	_	_	_	0	root	_	_
+6	Tenwermana	*Tenwermana	_	_	_	3	conj	_	_
+7-8	..	_	_	_	_	_	_	_	_
+7	..	..	_	sent	_	5	punct	_	_
+8	_	..	_	sent	_	5	punct	_	_
+
+
