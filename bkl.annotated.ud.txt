@@ -137,6 +137,55 @@
 "<..>"
 	".." sent @punct #7->6
 
+"<Twena>"
+	"twin" n @appos #1->3
+"<jeserem>"
+	"je" prn dem part @det #2->1
+"<je>"
+	"je" prn subj @nsubj #3->4
+"<unggwandusa>"
+	"unggwandusa" adj @root #4->0
+"<.>"
+	"." sent @punct #5->4
+
+"<Korano>"
+	"Korano" n @nsubj #1->3
+"<gwolafar>"
+	"*gwolafar" _ @conj #2->1
+"<aare>"
+	"*aare" _ @root #3->0
+"<.>"
+	"." sent @punct #4->3
+
+"<Gwili>"
+	"*Gwili" _ @appos #1->2
+"<jam>"
+	"je" prn subj SELECT:37 @nsubj #2->3
+"<bosoka>"
+	"*bosoka" _ @root #3->0
+"<.>"
+	"." sent @punct #4->3
+
+"<Je>"
+	"je" prn subj @nsubj #1->3
+"<ke>"
+	"*ke" _ @aux #2->3
+"<gwola>"
+	"*gwola" _ @root #3->0
+"<imna>"
+	"i" prn pos @det #4->3
+"<.>"
+	"." sent @punct #5->3
+
+"<Je>"
+	"je" prn subj @nsubj #1->3
+"<ke>"
+	"*ke" _ @aux #2->3
+"<imna>"
+	"i" prn pos @root #3->0
+"<.>"
+	"." sent @punct #4->3
+
 "<Ai>"
 	"ai" prn subj @nsubj #1->4
 "<buku>"
@@ -192,7 +241,12 @@
 	"fensawer" post @case #4->3
 "<..>"
 	".." sent @punct #5->3
-	
+
+"<Ngga>"
+	"ngga" resp @root #1->0
+"<.>"
+	"." sent @punct #2->1
+
 "<Titiki>"
 	"titiki" n @nsubj #1->4
 "<aiserem>"
@@ -254,3 +308,148 @@
 	"aure" adv @root #3->0
 "<..>"
 	".." sent @punct #4->3
+
+"<Jina>"
+	"jina" n @nsubj #1->3
+"<mena>"
+	"*mena" _ @det #2->1
+"<aure>"
+	"*aure" _ @root #3->0
+"<.>"
+	"." sent @punct #4->3
+
+"<Jina>"
+	"jina" n @nsubj #1->3
+"<aiserem>"
+	"ai" prn dem part @det #2->1
+"<Gijonmana>"
+	"*Gijonmana" _ @root #3->0
+"<.>"
+	"." sent @punct #4->3
+
+"<Ai>"
+	"ai" prn subj @nsubj #1->3
+"<mirunus>"
+	"*mirunus" _ @obj #2->3
+"<tonola>"
+	"*tonola" _ @root #3->0
+"<.>"
+	"." sent @punct #4->3
+
+"<Ajam>"
+	"a" prn subj SELECT:37 @nsubj #1->3
+"<mirunus>"
+	"*mirunus" _ @obj #2->3
+"<tonola>"
+	"*tonola" _ @root #3->0
+"<.>"
+	"." sent @punct #4->3
+
+"<Ai>"
+	"ai" prn subj @nsubj #1->4
+"<ajam>"
+	"a" prn subj SELECT:37 @appos #2->1
+"<mirunu>"
+	"*mirunu" _ @obj #3->4
+"<tonola>"
+	"*tonola" _ @root #4->0
+"<.>"
+	"." sent @punct #5->4
+
+"<Ai>"
+	"ai" prn subj @nsubj #1->4
+"<mirunu>"
+	"*mirunu" _ @obj #2->4
+"<ajam>"
+	"a" prn subj SELECT:37 @appos #3->1
+"<tonola>"
+	"*tonola" _ @root #4->0
+"<.>"
+	"." sent @punct #5->4
+
+"<Ai>"
+	"ai" prn subj @nsubj #1->3
+"<ajam>"
+	"a" prn subj SELECT:37 @appos #2->1
+"<tonola>"
+	"*tonola" _ @root #3->0
+"<.>"
+	"." sent @punct #4->3
+
+"<Ai>"
+	"ai" prn subj @nsubj #1->4
+"<mirunu>"
+	"*mirunu" _ @obj #2->4
+"<ajam>"
+	"a" prn subj SELECT:37 @appos #3->1
+"<tonolyan>"
+	"*tonolyan" _ @root #4->0
+"<.>"
+	"." sent @punct #5->4
+
+"<Korano>"
+	"Korano" n @appos #1->2
+"<je>"
+	"je" prn subj @nsubj #2->4
+"<onap>"
+	"onap" n @iobj #3->4
+"<sofwa>"
+	"sofwa" v tv m sg prs light @root #4->0
+"<.>"
+	"." sent @punct #5->4
+
+"<Ai>"
+	"ai" prn subj @nsubj #1->3
+"<anan>"
+	"ai" prn acc ref @obj #2->3
+"<safsafulu>"
+	"*safsafulu" _ @root #3->0
+"<.>"
+	"." sent @punct #4->3
+
+"<Bular>"
+	"*Bular" _ @appos #1->2
+"<jebar>"
+	"je" prn com @nsubj #2->5
+"<fonap>"
+	"fo" n @iobj #3->5
+		"ap" post @dep #4->3
+"<tini>"
+	"tini" v tv m sg prs light @root #5->0
+"<.>"
+	"." sent @punct #6->5
+
+"<Susi>"
+	"*Susi" _ @nsubj #1->4
+"<lampunu>"
+	"*lampunu" _ @obj #2->4
+"<waakenfer>"
+	"waakena" adj advl @advmod #3->4
+"<gworansona>"
+	"*gworansona" _ @root #4->0
+"<.>"
+	"." sent @punct #5->4
+
+"<Aame>"
+	"i" prn subj @nsubj #1->3
+"<tumilgal>"
+	"*tumilgal" _ @obj #2->3
+"<eyebabiyafefa>"
+	"*eyebabiyafefa" _ @root #3->0
+"<.>"
+	"." sent @punct #4->3
+
+"<Ai>"
+	"ai" prn subj @nsubj #1->5
+"<tane>"
+	"tane" n @obj #2->5
+"<bastantantena>"
+	"*bastantantena" _ @amod #3->2
+"<gam>"
+	"gam" part @dep #4->3
+"<sarbabili>"
+	"*sarbabili" _ @root #5->0
+"<Tenwermana>"
+	"*Tenwermana" _ @conj #6->3
+"<..>"
+	".." sent @punct #7->5
