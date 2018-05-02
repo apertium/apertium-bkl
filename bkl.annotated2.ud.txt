@@ -1,473 +1,250 @@
-"<Jina>"
-	"jina" n
-"<Koranomana>"
-	"Korano" n pos
-"<unggwandusa>"
-	"unggwandusa" adj
+"<Oso>"
+	"oso" n @nsubj #1->5
+"<imna>"
+	"i" prn pos @det #2->1
+"<sitap>"
+	"sita" n @obl #3->5
+		"ap" post @dep #4->3
+"<fitna>"
+	"*fitna" _ @root #5->0
 "<.>"
-	"." sent
+	"." sent @punct #6->5
 
-"<Petrus>"
-	"Petrus" n
-"<je>"
-	"je" prn subj
-"<onap>"
-	"onap" n
-"<sofwa>"
-	"sofwa" v tv m sg prs light
-"<.>"
-	"." sent
 
-"<Gwirmir>"
-	"gwirmir" adv
-"<wini>"
-	"wini" n
-"<as>"
-	"ai" prn acc
-"<damtafa>"
-	"damtafa" v tv f sg fut light
+
+"<Tuna>"
+	"*Tuna" _ @nsubj #1->4
+"<sitawer>"
+	"sita" n @obl #2->4
+		"wer" post @dep #3->2
+"<fara>"
+	"*fara" _ @root #4->0
 "<.>"
-	"." sent
+	"." sent @punct #5->4
+
+
 
 "<Niko>"
-	"Niko" n
-"<am>"
-	"ai" prn acc
-"<saftena>"
-	"saftena" v tv m pst light
-"<.>"
-	"." sent
-
-"<Fi>"
-	"fi" n
-"<ap>"
-	"ai" prn dat
-"<golbili>"
-	"gubana" v tv sg lg m imp light
-"<.>"
-	"." sent
-
-"<Ai>"
-	"ai" prn subj
-"<taneyan>"
-	"yan" neg
-		"tane" n
-"<.>"
-	"." sent
-
-"<Je>"
-	"je" prn subj
-"<namwer>"
-	"namwer" adv
-"<bwernabaryan>"
-	"yan" neg
-		"bwernabar" n
-"<.>"
-	"." sent
-
-"<Ai>"
-	"ai" prn subj
-"<,>"
-	"," cm
-"<Daud>"
-	"Daud" n
-"<,>"
-	"," cm
-"<Sekati>"
-	"Sekati" n
-"<,>"
-	"," cm
-"<Piterfar>"
-	"Piter" n com
-"<twensar>"
-	"twensar" v iv prs light
-"<.>"
-	"." sent
-
-"<Korano>"
-	"Korano" n
-"<atem>"
-	"at" n pos
-	"at" n ins
-"<difnant>"
-	"difna" v iv m pst light
-"<.>"
-	"." sent
-
-"<Je>"
-	"je" prn subj
-"<twena>"
-	"twin" n
-"<ginem>"
-	"gin" n pos
-	"gin" n ins
-"<tana>"
-	"tana" v tv m light pst
-"<.>"
-	"." sent
-
-"<Ai>"
-	"ai" prn subj
-"<twena>"
-	"twin" n
-"<anesus>"
-	"ane" adj int
-"<ai>"
-	"ai" prn subj
-"<damtabili>"
-	"damtabili" v tv f prs light
-"<unggunfena>"
-	"unggunfena" adj
-"<setetina>"
-	"setetina" adj
-"<.>"
-	"." sent
-
-"<Wa>"
-	"wa" ij
-"<fona>"
-	"fo" n subj
-"<jam>"
-	"ja" n ins
-	"jam" n
-	"je" prn subj
-"<orotona>"
-	"orotona" v iv sg lg m pres light
-"<.>"
-	"." sent
-
-"<Niko>"
-	"Niko" n
-"<uwafar>"
-	"uwa" n com
-"<fonap>"
-	"ap" post
-		"fon" n
-	"ap" post
-		"fo" n
-"<ge>"
-	"ge" part pl
-"<tini>"
-	"tini" v tv m sg prs light
-"<.>"
-	"." sent
-
-"<Twena>"
-	"twin" n
-"<jeserem>"
-	"je" prn dem part
-"<je>"
-	"je" prn subj
-"<unggwandusa>"
-	"unggwandusa" adj
-"<.>"
-	"." sent
-
-"<Korano>"
-	"Korano" n
-"<gwolafar>"
-	"gwola" n com
-"<aare>"
-	"aare" adv
-"<.>"
-	"." sent
-
-"<Gwili>"
-	"gwili" n
-"<jam>"
-	"ja" n ins
-	"jam" n
-	"je" prn subj
-"<bosoka>"
-	"bosoka" adj
-"<.>"
-	"." sent
-
-"<Je>"
-	"je" prn subj
-"<ke>"
-	"ke" qst
-"<gwola>"
-	"gwola" n
-"<imna>"
-	"i" prn pos
-"<.>"
-	"." sent
-
-"<Je>"
-	"je" prn subj
-"<ke>"
-	"ke" qst
-"<imna>"
-	"i" prn pos
-"<.>"
-	"." sent
-
-"<Ai>"
-	"ai" prn subj
-"<buku>"
-	"buku" n
-"<jep>"
-	"je" prn dat
-	"ap" post
-		"je" prn
-"<gubanant>"
-	"gubanant" v tv sg sm m pst light
-"<.>"
-	"." sent
-
-"<Ir>"
-	"ir" n
-	"ir" adv
-"<ai>"
-	"ai" prn subj
-"<buku>"
-	"buku" n
-"<jep>"
-	"je" prn dat
-	"ap" post
-		"je" prn
-"<gubanant>"
-	"gubanant" v tv sg sm m pst light
-"<jinap>"
-	"ap" post
-		"jina" n
-"<.>"
-	"." sent
-
-"<Paulus>"
-	"Paulus" n
-"<aame>"
-	"i" prn subj
-"<mamkaya>"
-	"mamkaya" adj
-"<.>"
-	"." sent
-
-"<Je>"
-	"je" prn subj
-"<bwernabar>"
-	"bwernabar" n
-"<namwer>"
-	"namwer" adv
-"<.>"
-	"." sent
-
-"<Sandal>"
-	"sandal" n
-"<amna>"
-	"ai" prn pos
-"<tikar>"
-	"tikar" n
-"<fensawer>"
-	"fensawer" post
-"<.>"
-	"." sent
-
-"<Ngga>"
-	"ngga" resp
-"<.>"
-	"." sent
-
-"<Titiki>"
-	"titiki" n
-"<aiserem>"
-	"ai" prn dem part
-"<je>"
-	"je" prn subj
-"<oltunabora>"
-	"oltunabora" adj
-"<.>"
-	"." sent
-
-"<Banggena>"
-	"bangge" n subj
-"<aiserem>"
-	"ai" prn dem part
-"<je>"
-	"je" prn subj
-"<tawefa>"
-	"tawefa" v iv m fut light
-"<tinibe>"
-	"tinibe" n
-"<.>"
-	"." sent
-
-"<Ai>"
-	"ai" prn subj
-"<fos>"
-	"fo" n acc
-"<telbili>"
-	"telbili" v tv m prs light
-"<.>"
-	"." sent
-
-"<Je>"
-	"je" prn subj
-"<jinap>"
-	"ap" post
-		"jina" n
-"<ila>"
-	"ila" v iv m prs light
-"<.>"
-	"." sent
-
-"<Je>"
-	"je" prn subj
-"<jinawer>"
-	"wer" post
-		"jina" n
-"<sofwena>"
-	"sofwena" v iv m prs light
-"<.>"
-	"." sent
-
-"<Jina>"
-	"jina" n
-"<mena>"
-	"mena" prn pos
-"<aure>"
-	"aure" adv
-"<.>"
-	"." sent
-
-"<Jina>"
-	"jina" n
-"<aiserem>"
-	"ai" prn dem part
-"<Gijonmana>"
-	"Gijon" n pos
-"<.>"
-	"." sent
-
-"<Ai>"
-	"ai" prn subj
-"<mirunus>"
-	"mirunu" n acc
-"<tonola>"
-	"tonola" v tv m prs light
-"<.>"
-	"." sent
-
-"<Ajam>"
-	"a" prn subj
-"<mirunus>"
-	"mirunu" n acc
-"<tonola>"
-	"tonola" v tv m prs light
-"<.>"
-	"." sent
-
-"<Ai>"
-	"ai" prn subj
-"<ajam>"
-	"a" prn subj
-"<mirunu>"
-	"mirunu" n
-"<tonola>"
-	"tonola" v tv m prs light
-"<.>"
-	"." sent
-
-"<Ai>"
-	"ai" prn subj
-"<mirunu>"
-	"mirunu" n
-"<ajam>"
-	"a" prn subj
-"<tonola>"
-	"tonola" v tv m prs light
-"<.>"
-	"." sent
-
-"<Ai>"
-	"ai" prn subj
-"<ajam>"
-	"a" prn subj
-"<tonola>"
-	"tonola" v tv m prs light
-"<.>"
-	"." sent
-
-"<Ai>"
-	"ai" prn subj
-"<mirunu>"
-	"mirunu" n
-"<ajam>"
-	"a" prn subj
-"<tonolyan>"
-  "yan" neg
-    "tonola" v tv m prs light
-"<.>"
-	"." sent
-
-"<Korano>"
-	"Korano" n
-"<je>"
-	"je" prn subj
-"<onap>"
-	"onap" n
-"<sofwa>"
-	"sofwa" v tv m sg prs light
-"<.>"
-	"." sent
-
-"<Ai>"
-	"ai" prn subj
-"<anan>"
-	"ai" prn acc ref
-"<safsafulu>"
-	"safsafulu" v tv m sg prs light
-"<.>"
-	"." sent
-
-"<Bular>"
-	"Bular" n
+	"Niko" n @nsubj #1->4
 "<jebar>"
-	"je" prn com
-"<fonap>"
-	"ap" post
-		"fon" n
-	"ap" post
-		"fo" n
-"<tini>"
-	"tini" v tv m sg prs light
+	"je" prn com @iobj #2->4
+"<ge>"
+	"ge" part pl @dep #3->2
+"<sofwa>"
+	"sofwa" v tv m sg prs light @root #4->0
 "<.>"
-	"." sent
+	"." sent @punct #5->4
 
-"<Susi>"
-	"Susi" n
-"<lampunu>"
-	"lampunu" n
-"<waakenfer>"
-	"waakena" adj advl
-"<gworansona>"
-	"gworansona" v tv f sg prs light
+
+"<Je>"
+	"je" prn subj @nsubj #1->4
+"<Koranofar>"
+	"Korano" n com @iobj #2->4
+"<ge>"
+	"ge" part pl @dep #3->2
+"<nasona>"
+	"*nasona" _ @root #4->0
 "<.>"
-	"." sent
+	"." sent @punct #5->4
+
+
 
 "<Aame>"
-	"i" prn subj
-"<tumilgal>"
-	"tumilgal" n
-"<eyebabiyafefa>"
-	"eyebabi" v tv m sg prs light cont
+	"i" prn subj @nsubj #1->3
+"<ke>"
+	"*ke" _ @aux #2->3
+"<yafontoibara>"
+	"yafontoi" n relational @root #3->0
+"<?>"
+	"?" sent @punct #4->3
+
+
+"<Gworabara>"
+	"gwora" n relational @obl #1->4
+"<fo>"
+	"fo" n @nsubj #2->4
+"<tartarier>"
+	"*tartarier" _ @advmod #3->4
+"<orotona>"
+	"orotona" v iv sg lg m pres light @root #4->0
 "<.>"
-	"." sent
+	"." sent @punct #5->4
+
+
+
+"<Tane>"
+	"tane" n @nsubj #1->4
+"<uwamana>"
+	"uwa" n pos @nmod #2->1
+"<maa>"
+	"maa" adv man @advmod #3->4
+"<sofwa>"
+	"sofwa" v tv m sg prs light @root #4->0
+"<.>"
+	"." sent @punct #5->4
+
+
+
+"<Musa>"
+	"*Musa" _ @nsubj #1->4
+"<fenbit>"
+	"*fenbit" _ @obj #2->4
+"<Minai>"
+	"*Minai" _ @iobj #3->4
+"<golbitent>"
+	"*golbitent" _ @root #4->0
+"<.>"
+	"." sent @punct #5->4
+
+
+"<Je>"
+	"je" prn subj @nsubj #1->3
+"<bastantoifer>"
+	"bastantoiya" adj advl @advmod #2->3
+"<sarbana>"
+	"*sarbana" _ @root #3->0
+"<.>"
+	"." sent @punct #4->3
+
+
 
 "<Ai>"
-	"ai" prn subj
-"<tane>"
-	"tane" n
-"<bastantantena>"
-	"bastantantena" adj
-"<gam>"
-	"gam" part
-"<sarbabili>"
-	"sarbabili" v tv m pl prs light
-"<Tenwermana>"
-	"Tenwer" n pos
-"<..>"
-	".." sent
+	"ai" prn subj @nsubj #1->3
+"<fos>"
+	"fo" n acc @obj #2->3
+"<distultena>"
+	"*distultena" _ @root #3->0
+"<.>"
+	"." sent @punct #4->3
 
+
+
+"<Je>"
+	"je" prn subj @nsubj #1->3
+"<fos>"
+	"fo" n acc @obj #2->3
+"<distultetna>"
+	"*distultetna" _ @root #3->0
+"<aure>"
+	"*aure" _ @advmod #4->3
+"<.>"
+	"." sent @punct #5->3
+
+
+
+"<Ai>"
+	"ai" prn subj @nsubj #1->4
+"<twena>"
+	"twin" n @obj #2->4
+"<ane>"
+	"ane" adj SELECT:27 @advmod #3->4
+"<damtabilint>"
+	"*damtabilint" _ @root #4->0
+"<.>"
+	"." sent @punct #5->4
+
+
+
+"<Twena>"
+	"twin" n @appos #1->3
+"<jeserem>"
+	"je" prn dem part @det #2->1
+"<je>"
+	"je" prn subj @nsubj #3->4
+"<unggwandusa>"
+	"unggwandusa" adj @root #4->0
+"<.>"
+	"." sent @punct #5->4
+
+
+
+"<Musa>"
+	"*Musa" _ @nsubj #1->4
+"<gwolarfar>"
+	"*gwolarfar" _ @obl #2->4
+"<onap>"
+	"onap" n @iobj #3->4
+"<sofwa>"
+	"sofwa" v tv m sg prs light @root #4->0
+"<.>"
+	"." sent @punct #5->4
+
+
+"<Ai>"
+	"ai" prn subj @nsubj #1->2
+"<simaltwola>"
+	"*simaltwola" _ @root #2->0
+"<.>"
+	"." sent @punct #3->2
+
+
+
+"<Je>"
+	"je" prn subj @nsubj #1->3
+"<jam>"
+	"je" prn subj SELECT:37 @appos #2->1
+"<aulyam>"
+	"*aulyam" _ @root #3->0
+"<Somanentewer>"
+	"*Somanentewer" _ @iobj #4->3
+"<.>"
+	"." sent @punct #5->3
+
+
+
+"<Je>"
+	"je" prn subj @amod #1->2
+"<tafna>"
+	"*tafna" _ @obj #2->4
+"<jam>"
+	"je" prn subj SELECT:37 @nsubj #3->4
+"<wirsoyan>"
+	"*wirsoyan" _ @root #4->0
+"<.>"
+	"." sent @punct #5->4
+
+
+"<Matius>"
+	"*Matius" _ @vocative #1->4
+"<je>"
+	"je" prn subj @nsubj #2->4
+"<jam>"
+	"je" prn subj SELECT:37 @appos #3->2
+"<tainena>"
+	"*tainena" _ @root #4->0
+"<.>"
+	"." sent @punct #5->4
+
+
+
+"<Je>"
+	"je" prn subj @nsubj #1->2
+"<werem>"
+	"*werem" _ @root #2->0
+"<gwebili>"
+	"*gwebili" _ @advmod #3->2
+"<.>"
+	"." sent @punct #4->2
+
+
+
+"<Ai>"
+	"ai" prn subj @nsubj #1->2
+"<naaremem>"
+	"naarem" n ins SELECT:44 @root #2->0
+"<gwebili>"
+	"*gwebili" _ @advmod #3->2
+"<.>"
+	"." sent @punct #4->2
+
+
+
+"<Mina>"
+	"Mina" n @nsubj #1->3
+"<tumilgal>"
+	"*tumilgal" _ @obj #2->3
+"<eyebili>"
+	"*eyebili" _ @root #3->0
+"<..>"
+	".." sent @punct #4->3
 
