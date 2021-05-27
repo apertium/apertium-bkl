@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium bkl], [0.1.0], [jspring1@swarthmore.edu], [apertium-bkl], [http://wiki.apertium.org/wiki/Apertium-bkl])
+AC_INIT([Apertium bkl], [0.1.0], [jspring1@swarthmore.edu], [apertium-bkl], [https://wiki.apertium.org/wiki/Apertium-bkl])
 AM_INIT_AUTOMAKE
 
 AC_PROG_LN_S
