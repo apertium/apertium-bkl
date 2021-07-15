@@ -1,0 +1,66 @@
+[-mt-QGmO-p9N#0] ^taterisi/*taterisi$
+[/-mt-QGmO-p9N]
+[1g3lvfBK9nbg#0] ^aaiserem/*aaiserem$
+[/1g3lvfBK9nbg]
+[3S7R2FBgzYtk#0] ^Yusuf/Yusuf<n>$
+[/3S7R2FBgzYtk]
+[6Qd7eu2v_eMT#0] ^jebe/*jebe$
+[/6Qd7eu2v_eMT]
+[8T5rZ3Uj6zmo#0] ^jemna/jem<n><subj>/je<prn><pos>$
+[/8T5rZ3Uj6zmo]
+[9bdBRfsC7x9m#0] ^anes/*anes$
+[/9bdBRfsC7x9m]
+[ErLQljuDDMbe#0] ^taman/taman<n>$
+[/ErLQljuDDMbe]
+[GDvSkZLD7E1o#0] ^asal/*asal$
+[/GDvSkZLD7E1o]
+[Ike1cj__DAMz#0] ^Jei/je<prn><subj>$
+[/Ike1cj__DAMz]
+[JeTrbqxC0AHM#0] ^jeiserem/je<prn><dem><part>$
+[/JeTrbqxC0AHM]
+[Jx9i2mcnXErh#0] ^Jepga/*Jepga$
+[/Jx9i2mcnXErh]
+[MJ0ghk8nSwl_#0] ^ge/ge<part><pl>$
+[/MJ0ghk8nSwl_]
+[MRqbyGpMRN7-#0] ^temawer/*temawer$
+[/MRqbyGpMRN7-]
+[P8nRjS2j8jQQ#0] ^enggame/*enggame$
+[/P8nRjS2j8jQQ]
+[PsXrhY9JYny4#0] ^Daud/Daud<n>$
+[/PsXrhY9JYny4]
+[UdSNaebyOLCZ#0] ^jeta/*jeta$
+[/UdSNaebyOLCZ]
+[V-kUN_Pn_IPv#0] ^asala/*asala$
+[/V-kUN_Pn_IPv]
+[VeP9fmCEqP65#0] ^Aamei/*Aamei$
+[/VeP9fmCEqP65]
+[VmDid1AbObTA#0] ^kapka/kapka<adj>$
+[/VmDid1AbObTA]
+[cVLm7ASOJPrb#0] ^jam/ja<n><ins>/jam<n>/je<prn><subj>$
+[/cVLm7ASOJPrb]
+[d0H7TYGlKuXo#0] ^jewer/je<prn>+wer<post>$
+[/d0H7TYGlKuXo]
+[d6NHr-yGB4ko#0] ^aane/*aane$
+[/d6NHr-yGB4ko]
+[dEwuuNOuOEc6#0] ^raja/raja<n>$
+[/dEwuuNOuOEc6]
+[h1xqjOygEyxG#0] ^angtane/angtane<n>$
+[/h1xqjOygEyxG]
+[hApos4ZirqEE#0] ^bosna/*bosna$
+[/hApos4ZirqEE]
+[kTG-aBkN77y5#0] ^Yesus/Yesus<n>$
+[/kTG-aBkN77y5]
+[lhtt0-3jy47L#0] ^aa/*aa$
+[/lhtt0-3jy47L]
+[mB9OYg8BSCYx#0] ^gam/gam<part>$
+[/mB9OYg8BSCYx]
+[n_GOvnRJNJ81#0] ^Maria/Maria<n>$
+[/n_GOvnRJNJ81]
+[rZpn_vqEfeh3#0] ^se/se<imp>$
+[/rZpn_vqEfeh3]
+[s3j9Xcq9ZJLW#0] ^Taterisi/*Taterisi$
+[/s3j9Xcq9ZJLW]
+[trc580NMGDeZ#0] ^jamere/jamere<locl>$
+[/trc580NMGDeZ]
+[v3EPEO1lPaJV#0] ^jei/je<prn><subj>$
+[/v3EPEO1lPaJV]

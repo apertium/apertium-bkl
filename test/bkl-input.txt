@@ -1,0 +1,127 @@
+# Distance
+disultetna
+gwerantetna
+# Gender
+domola
+eyebili
+golbili
+gwebili
+sofola
+sarbili
+# Modifiers
+anesus
+baabetasus
+bastantoifer
+berberesus
+bijuaber
+bijuasus
+bukonasus
+kekelnasus
+samemyan
+unggwandusayan
+waakenfer
+# Nouns
+Koranofar
+Koranoem
+atem
+banggena
+bwernabaryan
+ginem
+gworabara
+jinap
+jinawer
+sitap
+sitawer
+taneyan
+uwafar
+uwamana
+yafontoibara
+# Number
+domsona
+damtabili
+ge fina
+ge fibili
+ge jila
+ge jalbili
+nasona
+nasbabili
+ge nasona
+ge nasbawena
+sofsona
+saftabana
+ge sofwa
+ge sofwabili
+telmisi
+telbebesi
+wirsosa
+wirtababisi
+# Pronouns
+aiyan
+am
+anan
+ap
+aiserem
+jebar
+# To Give
+terbifi
+terbese
+terbili
+terbefint
+terbilint
+terbefe
+terbese
+terbene
+terbefent
+terbenent
+kitulbifi
+kitobisi
+kitobili
+kitulbifint
+kitulbilint
+kitobafo
+kitobasa
+kitobana
+kitulbafant
+kitulbanant
+golbifi
+gobisi
+gobili
+golbifint
+golbilint
+gulbafa
+gulbasa
+gulbana
+gulbafant
+gulbanant
+# To Place
+tosonswetna
+tosontetfa
+tosonsona
+tosontona
+bununswetna
+bununtetfa
+bununsona
+bununtona
+gweranswetna
+gwerantetfa
+gweransona
+gwerantena
+# To Tie
+faaresa
+faarefa
+faaresa
+faarena
+faarenant
+faarefant
+taferebisi
+taferebifi
+taferebisi
+taferebili
+taferebifint
+taferebilint
+fwiresa
+fwirena
+fwiresa
+fwirena
+fwirenant
+fwirenant

@@ -1,0 +1,224 @@
+[-5luFgaqueCQ#0] ^waakenfer/waakena<adj><advl>$
+[/-5luFgaqueCQ]
+[-Mfk20Gi7HPm#0] ^gworabara/gwora<n><relational>$
+[/-Mfk20Gi7HPm]
+[-jXTKOD4mAF5#0] ^ge/ge<part><pl>$ ^sofwabili/*sofwabili$
+[/-jXTKOD4mAF5]
+[0GGUAKq8eSsg#0] ^anesus/ane<adj><int>$
+[/0GGUAKq8eSsg]
+[0UdGMH7LHuFl#0] ^terbifi/gubana<v><tv><du><lg><f><fut>$
+[/0UdGMH7LHuFl]
+[0ZC13qcrouNk#0] ^gwerantetfa/gwarantena<v><tv><sg><prs><dst><low>$
+[/0ZC13qcrouNk]
+[0mTCtXv6Nf_D#0] ^unggwandusayan/unggwandusa<adj>+yan<neg>$
+[/0mTCtXv6Nf_D]
+[0tqRPjA4U1C8#0] ^kitulbilint/gubana<v><tv><pl><lg><f><pst><light>$
+[/0tqRPjA4U1C8]
+[1gqYS-Xqlqos#0] ^gwebili/*gwebili$
+[/1gqYS-Xqlqos]
+[2T1XgbF0wIM1#0] ^anan/ai<prn><acc><ref>$
+[/2T1XgbF0wIM1]
+[3p7nNhFUkp41#0] ^kitobana/gubana<v><tv><pl><lg><m><prs><light>$
+[/3p7nNhFUkp41]
+[49bvZAl40Ibr#0] ^damtabili/damtabili<v><tv><f><prs><light>$
+[/49bvZAl40Ibr]
+[4MeH5WI-FZ9u#0] ^wirtababisi/*wirtababisi$
+[/4MeH5WI-FZ9u]
+[5JjXqENvVwBr#0] ^bununtetfa/gwarantena<v><tv><pl><prs><dst><low>$
+[/5JjXqENvVwBr]
+[5Qt0_HKxPL7m#0] ^baabetasus/baabeta<adj><int>$
+[/5Qt0_HKxPL7m]
+[5wDS01ATH4UY#0] ^bijuasus/bijua<adj><int>$
+[/5wDS01ATH4UY]
+[5xjlIgQN0j6D#0] ^bastantoifer/bastantoiya<adj><advl>$
+[/5xjlIgQN0j6D]
+[5zn7pnYYOMML#0] ^jinap/jina<n>+ap<post>$
+[/5zn7pnYYOMML]
+[7lTKn4P1VL9z#0] ^terbili/gubana<v><tv><du><lg><f><prs><light>$
+[/7lTKn4P1VL9z]
+[9CgUb4CVmlOf#0] ^sarbili/*sarbili$
+[/9CgUb4CVmlOf]
+[A8BlbhVgLls8#0] ^terbene/gubana<v><tv><du><lg><m><prs><light>$
+[/A8BlbhVgLls8]
+[AS2eRrBDYXbj#0] ^kitobasa/gubana<v><tv><pl><lg><m><prs><dark>$
+[/AS2eRrBDYXbj]
+[AjQkQg9BtB2O#0] ^saftabana/*saftabana$
+[/AjQkQg9BtB2O]
+[BRlG3KEhsf_4#0] ^terbese/gubana<v><tv><du><lg><m><prs><dark>/gubana<v><tv><du><lg><f><prs><dark>$
+[/BRlG3KEhsf_4]
+[B_vd271Fh4Id#0] ^ge/ge<part><pl>$ ^fina/fi<n><subj>$
+[/B_vd271Fh4Id]
+[BdDYZ2d5Muip#0] ^gulbanant/gubana<v><tv><sg><lg><m><pst><light>$
+[/BdDYZ2d5Muip]
+[CFAxvN1bq7iE#0] ^eyebili/*eyebili$
+[/CFAxvN1bq7iE]
+[CTW3kgYkmo8Z#0] ^gulbafant/gubana<v><tv><sg><lg><m><pst><dark>$
+[/CTW3kgYkmo8Z]
+[E8vDG8I8RhLS#0] ^ge/ge<part><pl>$ ^fibili/*fibili$
+[/E8vDG8I8RhLS]
+[ETnna-Tx_-Dr#0] ^taferebisi/fwirna<v><tv><pl><prs><dark>/fwirna<v><tv><pl><fut><dark>$
+[/ETnna-Tx_-Dr]
+[FBWwQBx3M7VZ#0] ^gwerantetna/*gwerantetna$
+[/FBWwQBx3M7VZ]
+[FFYPWfcxbAO0#0] ^sitawer/sita<n>+wer<post>$
+[/FFYPWfcxbAO0]
+[FG4qR8_upxb1#0] ^gulbasa/gubana<v><tv><sg><lg><m><prs><dark>$
+[/FG4qR8_upxb1]
+[FcW_759TKe-o#0] ^tosontetfa/gwarantena<v><tv><du><prs><dst><low>$
+[/FcW_759TKe-o]
+[Ft7KGwH6KX9y#0] ^terbefe/gubana<v><tv><du><lg><m><fut>$
+[/Ft7KGwH6KX9y]
+[G_Xf-FkXJqmr#0] ^fwiresa/fwirna<v><tv><sg><prs><dark>/fwirna<v><tv><sg><fut><dark>$
+[/G_Xf-FkXJqmr]
+[H4IDv4LtqZgU#0] ^bununtona/gwarantena<v><tv><pl><prs><prx><low>$
+[/H4IDv4LtqZgU]
+[HHwFy5GACR-O#0] ^taferebili/fwirna<v><tv><pl><prs><light>$
+[/HHwFy5GACR-O]
+[HT6bGIXeCUV9#0] ^ge/ge<part><pl>$ ^nasbawena/*nasbawena$
+[/HT6bGIXeCUV9]
+[HitYQh9QU2fJ#0] ^gulbana/gubana<v><tv><sg><lg><m><prs><light>$
+[/HitYQh9QU2fJ]
+[IQl6gXu52Irw#0] ^taneyan/tane<n>+yan<neg>$
+[/IQl6gXu52Irw]
+[Ig589tZrlF6a#0] ^bijuaber/bijua<adj><advl>$
+[/Ig589tZrlF6a]
+[LuYogHpYK8Pq#0] ^uwafar/uwa<n><com>$
+[/LuYogHpYK8Pq]
+[NuhSO0ayi3pm#0] ^gwerantena/gwarantena<v><tv><sg><prs><prx><low>$
+[/NuhSO0ayi3pm]
+[P8-y-8X4w_zH#0] ^taferebifint/fwirna<v><tv><pl><pst><dark>$
+[/P8-y-8X4w_zH]
+[PxYq_HPfW6tZ#0] ^gweransona/gwarantena<v><tv><sg><prs><prx><high>$
+[/PxYq_HPfW6tZ]
+[QFRNuNimCNDv#0] ^jinawer/jina<n>+wer<post>$
+[/QFRNuNimCNDv]
+[QLV4zsbsXZZr#0] ^taferebilint/fwirna<v><tv><pl><pst><light>$
+[/QLV4zsbsXZZr]
+[Sxw-V9WU9vRX#0] ^berberesus/berbere<adj><int>$
+[/Sxw-V9WU9vRX]
+[SxxQ-z_H0yUS#0] ^telmisi/*telmisi$
+[/SxxQ-z_H0yUS]
+[TdXMq_8C0ylJ#0] ^faaresa/fwirna<v><tv><du><prs><dark>/fwirna<v><tv><du><fut><dark>$
+[/TdXMq_8C0ylJ]
+[Tj3emxHIdtkv#0] ^terbenent/gubana<v><tv><du><lg><m><pst><light>$
+[/Tj3emxHIdtkv]
+[Tpv5kqrjiH5-#0] ^ge/ge<part><pl>$ ^sofwa/sofwa<v><tv><m><sg><prs><light>$
+[/Tpv5kqrjiH5-]
+[VByYyK7uoBJY#0] ^Koranofar/Korano<n><com>$
+[/VByYyK7uoBJY]
+[VcYaF374mh60#0] ^ginem/gin<n><pos>/gin<n><ins>$
+[/VcYaF374mh60]
+[VrGuCPQnSeiI#0] ^sitap/sita<n>+ap<post>$
+[/VrGuCPQnSeiI]
+[WwSGWQkQyDxj#0] ^faarefant/fwirna<v><tv><du><pst><light>/fwirna<v><tv><du><pst><dark>$
+[/WwSGWQkQyDxj]
+[XLSlMkPUYXqV#0] ^golbilint/gubana<v><tv><sg><lg><f><pst><light>$
+[/XLSlMkPUYXqV]
+[XT4-XxNGPMpT#0] ^fwirena/fwirna<v><tv><sg><prs><light>/fwirna<v><tv><sg><fut><light>$
+[/XT4-XxNGPMpT]
+[Y0NbMy9hh0_O#0] ^sofola/*sofola$
+[/Y0NbMy9hh0_O]
+[YBUJta0AwCU3#0] ^tosonswetna/gwarantena<v><tv><du><prs><dst><high>$
+[/YBUJta0AwCU3]
+[ZBjxVkLSqqaZ#0] ^golbifint/gubana<v><tv><sg><lg><f><pst><dark>$
+[/ZBjxVkLSqqaZ]
+[_F9EW3PDQRM9#0] ^nasona/*nasona$
+[/_F9EW3PDQRM9]
+[aDj9_77eUMFL#0] ^domola/*domola$
+[/aDj9_77eUMFL]
+[b89NVW9PqsKU#0] ^gobili/gubana<v><tv><sg><lg><f><prs><light>$
+[/b89NVW9PqsKU]
+[bTZHwq5LI3ok#0] ^yafontoibara/yafontoi<n><relational>$
+[/bTZHwq5LI3ok]
+[bru58L2TBx4f#0] ^kekelnasus/kekelna<adj><int>$
+[/bru58L2TBx4f]
+[bsUusiSn419m#0] ^golbifi/gubana<v><tv><sg><lg><f><fut>$
+[/bsUusiSn419m]
+[cP5UVV_RWcRp#0] ^golbili/gubana<v><tv><sg><lg><m><imp><light>$
+[/cP5UVV_RWcRp]
+[dBqZ9olAURZu#0] ^kitobafo/gubana<v><tv><pl><lg><m><fut>$
+[/dBqZ9olAURZu]
+[dMHqhfwXXsJT#0] ^terbilint/gubana<v><tv><du><lg><f><pst><light>$
+[/dMHqhfwXXsJT]
+[dQea6yEpvAXp#0] ^ge/ge<part><pl>$ ^nasona/*nasona$
+[/dQea6yEpvAXp]
+[dT1HSE4iiWCu#0] ^nasbabili/*nasbabili$
+[/dT1HSE4iiWCu]
+[di4jPjLM-xsd#0] ^samemyan/samem<adj>+yan<neg>$
+[/di4jPjLM-xsd]
+[dmPl9XvO3a7k#0] ^gobisi/gubana<v><tv><sg><lg><f><prs><dark>$
+[/dmPl9XvO3a7k]
+[dvnVHSfn91nL#0] ^kitulbafant/gubana<v><tv><pl><lg><m><pst><dark>$
+[/dvnVHSfn91nL]
+[e4RcvNaE0J14#0] ^gulbafa/gubana<v><tv><sg><lg><m><fut>$
+[/e4RcvNaE0J14]
+[eBWhyqVLAd7Z#0] ^kitobisi/gubana<v><tv><pl><lg><f><prs><dark>$
+[/eBWhyqVLAd7Z]
+[eXj1BrqhYoX0#0] ^ap/ai<prn><dat>$
+[/eXj1BrqhYoX0]
+[fNXZ23tvhDpy#0] ^taferebifi/fwirna<v><tv><pl><fut><light>$
+[/fNXZ23tvhDpy]
+[fqiQTLrS696X#0] ^gweranswetna/gwarantena<v><tv><sg><prs><dst><high>$
+[/fqiQTLrS696X]
+[g84EfMlM8b_d#0] ^ge/ge<part><pl>$ ^jalbili/*jalbili$
+[/g84EfMlM8b_d]
+[gG9aNDyARBlx#0] ^jebar/je<prn><com>$
+[/gG9aNDyARBlx]
+[ghIMvQGpqUIC#0] ^bwernabaryan/bwernabar<n>+yan<neg>$
+[/ghIMvQGpqUIC]
+[i1DuiTyy_wfH#0] ^kitobili/gubana<v><tv><pl><lg><f><prs><light>$
+[/i1DuiTyy_wfH]
+[jrA1ujfazbuW#0] ^bununswetna/gwarantena<v><tv><pl><prs><dst><high>$
+[/jrA1ujfazbuW]
+[kFgSFw7w6NOq#0] ^disultetna/*disultetna$
+[/kFgSFw7w6NOq]
+[kXAoZXL0Cp_z#0] ^aiyan/ai<prn>+yan<neg>$
+[/kXAoZXL0Cp_z]
+[kZBpuHgrrXk6#0] ^terbefint/gubana<v><tv><du><lg><f><pst><dark>$
+[/kZBpuHgrrXk6]
+[mh055VoL-2ta#0] ^tosonsona/gwarantena<v><tv><du><prs><prx><high>$
+[/mh055VoL-2ta]
+[mm42LwvpjitR#0] ^banggena/bangge<n><subj>$
+[/mm42LwvpjitR]
+[mxUEeGv3Cfxc#0] ^wirsosa/*wirsosa$
+[/mxUEeGv3Cfxc]
+[n-_2ffNM3w_v#0] ^aiserem/ai<prn><dem><part>$
+[/n-_2ffNM3w_v]
+[nHIHevM0GWcC#0] ^uwamana/uwa<n><pos>$
+[/nHIHevM0GWcC]
+[nYbkUl1EwyeC#0] ^tosontona/gwarantena<v><tv><du><prs><prx><low>$
+[/nYbkUl1EwyeC]
+[oHIgArEgSZ2q#0] ^bununsona/gwarantena<v><tv><pl><prs><prx><high>$
+[/oHIgArEgSZ2q]
+[oKKfE4WtPogn#0] ^kitulbifint/gubana<v><tv><pl><lg><f><pst><dark>$
+[/oKKfE4WtPogn]
+[pQgIFxdbJ1pE#0] ^terbefent/gubana<v><tv><du><lg><m><pst><dark>$
+[/pQgIFxdbJ1pE]
+[q221mSNNJjZl#0] ^am/ai<prn><acc>$
+[/q221mSNNJjZl]
+[qDffmdQV-mE9#0] ^kitulbifi/gubana<v><tv><pl><lg><f><fut>$
+[/qDffmdQV-mE9]
+[qdUmEv_eM-aI#0] ^ge/ge<part><pl>$ ^jila/*jila$
+[/qdUmEv_eM-aI]
+[r-GUve4JGFmE#0] ^fwirenant/fwirna<v><tv><sg><pst><light>/fwirna<v><tv><sg><pst><dark>/fwirna<v><tv><sg><pst><light>$
+[/r-GUve4JGFmE]
+[u34UxNtUMiK1#0] ^faarefa/fwirna<v><tv><du><fut><light>$
+[/u34UxNtUMiK1]
+[vSSd53-QFMGB#0] ^bukonasus/bukona<adj><int>$
+[/vSSd53-QFMGB]
+[vn7fbgSh19P4#0] ^telbebesi/*telbebesi$
+[/vn7fbgSh19P4]
+[wfHVdqBg_sm6#0] ^atem/at<n><pos>/at<n><ins>$
+[/wfHVdqBg_sm6]
+[wr2Dl_0k2sd4#0] ^domsona/*domsona$
+[/wr2Dl_0k2sd4]
+[xITbpZRupzRu#0] ^faarena/fwirna<v><tv><du><prs><light>/fwirna<v><tv><du><fut><light>$
+[/xITbpZRupzRu]
+[xZ7aMG7eKzAE#0] ^sofsona/*sofsona$
+[/xZ7aMG7eKzAE]
+[y35tRAQ2rPoI#0] ^faarenant/fwirna<v><tv><du><pst><light>/fwirna<v><tv><du><pst><dark>/fwirna<v><tv><du><pst><light>$
+[/y35tRAQ2rPoI]
+[zVEzWLxc9XDs#0] ^kitulbanant/gubana<v><tv><pl><lg><m><pst><light>$
+[/zVEzWLxc9XDs]
+[zgygwqh2UEIG#0] ^Koranoem/Korano<n><pos>$
+[/zgygwqh2UEIG]

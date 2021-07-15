@@ -1,0 +1,35 @@
+# Done
+^jamere<locl>$
+^Yesus<n>$
+^Yusuf<n>$
+^Maria<n>$
+^Daud<n>$
+^angtane<n>$
+^raja<n>$
+^taman<n>$
+^kapka<adj>$
+^se<imp>$
+^je<prn><pos>$
+# Not-Done
+^je<prn>$
+^aa<unk>$
+^jeta<unk>$
+^je<prn><dem><part>$
+^Je<prn>$
+^ge<unk>$
+^je<prn><subj>$
+^taterisi<unk>$
+^aane<unk>$
+^je<prn>+wer<post>$
+^jebe<unk>$
+^anes<unk>$
+^bosna<unk>$
+^asal<unk>$
+^asala<unk>$
+^Aamei<unk>$
+^Jepga<unk>$
+^temawer<unk>$
+^aaiserem<unk>$
+^Taterisi<unk>$
+^gam<part>$
+^enggame<unk>$

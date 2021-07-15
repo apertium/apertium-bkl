@@ -1,0 +1,1 @@
+{"bkl": {"input": "bkl-input.txt", "mode": "bkl-morph"}, "bkl-gen": {"input": "bkl-gen-input.txt", "mode": "bkl-gener"}, "commonwords": {"input": "commonwords-input.txt", "mode": "bkl-morph"}, "commonwords-gen": {"input": "commonwords-gen-input.txt", "mode": "bkl-gener"}}
